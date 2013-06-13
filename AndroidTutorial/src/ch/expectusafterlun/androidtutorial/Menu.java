@@ -24,7 +24,7 @@ public class Menu extends ListActivity {
 		super.onListItemClick(l, v, position, id);
 		String activity = activities[position];
 		try {
-			Class<?> myClass = Class.forName("expectusafterlun.ch.androidtutorial." + activity);
+			Class<?> myClass = Class.forName("ch.expectusafterlun.androidtutorial." + activity);
 			/* Different way to start an activity using a class variable */
 			Intent myIntent = new Intent(Menu.this, myClass);
 			startActivity(myIntent);
