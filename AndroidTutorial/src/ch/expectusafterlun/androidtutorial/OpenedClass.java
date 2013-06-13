@@ -10,7 +10,8 @@ import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 
-public class OpenedClass extends Activity implements OnClickListener, OnCheckedChangeListener {
+public class OpenedClass extends Activity implements OnClickListener,
+		OnCheckedChangeListener {
 
 	private TextView tvQuestion, tvText;
 	private RadioGroup rgAnswers;
@@ -32,7 +33,7 @@ public class OpenedClass extends Activity implements OnClickListener, OnCheckedC
 		rBoth = (RadioButton) findViewById(R.id.r_both);
 		bReturn = (Button) findViewById(R.id.b_return);
 		tvText = (TextView) findViewById(R.id.tv_text);
-		
+
 		bReturn.setOnClickListener(this);
 		rgAnswers.setOnCheckedChangeListener(this);
 	}
@@ -43,5 +44,16 @@ public class OpenedClass extends Activity implements OnClickListener, OnCheckedC
 
 	@Override
 	public void onCheckedChanged(RadioGroup group, int checkedId) {
+		switch (checkedId) {
+		case R.id.r_crazy:
+
+			break;
+		case R.id.r_annoying:
+
+			break;
+		case R.id.r_both:
+			
+			break;
+		}
 	}
 }
