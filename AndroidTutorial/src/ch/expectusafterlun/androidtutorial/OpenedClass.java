@@ -17,8 +17,8 @@ public class OpenedClass extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-//		setContentView(R.layout.send);
-//		initialize();
+		setContentView(R.layout.send);
+		initialize();
 	}
 
 	private void initialize() {
