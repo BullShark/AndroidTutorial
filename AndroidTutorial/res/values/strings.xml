@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Tutorial</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello Android! ! ! ! ! ! ! ! ! ! ! ! ! !</string>
+    <string name="total_display">Your total is 0</string>
+    <string name="add_bt_text">Add one</string>
+    <string name="sub_bt_text">Subtract one</string>
+    <string name="edit_text_hint">Type a Command</string>
+    <string name="tv_results_text">invalid</string>
+    <string name="b_results_text">Button</string>
+    <string name="tb_pass_text">Try Command</string>
+
+</resources>
