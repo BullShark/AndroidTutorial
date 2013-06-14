@@ -1,6 +1,7 @@
 package ch.expectusafterlun.androidtutorial;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -24,9 +25,9 @@ public class OpenedClass extends Activity implements OnClickListener,
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.send);
 		initialize();
-		Bundle gotBasket = getIntent().getExtras();
-		String gotBread = gotBasket.getString("key");
-		tvQuestion.setText(gotBread);
+//		Bundle gotBasket = getIntent().getExtras();
+//		String gotBread = gotBasket.getString("key");
+//		tvQuestion.setText(gotBread);
 	}
 
 	private void initialize() {
@@ -44,6 +45,14 @@ public class OpenedClass extends Activity implements OnClickListener,
 
 	@Override
 	public void onClick(View v) {
+		// person means a person can carry stuff between two activities
+		Intent person = new Intent();
+		Bundle backpack = new Bundle();
+		backpack.putString("answer", setData);
+		person.putExtras(backpack);
+		// Gives result back sense this Activity was started for result
+		setResult(RESULT_OK, person);
+		finish();
 	}
 
 	@Override
