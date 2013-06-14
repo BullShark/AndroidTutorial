@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/about_us"
+        android:id="@+id/i_about_us"
         android:title="About Us"/>
     
         <item
-        android:id="@+id/preferences"
+        android:id="@+id/i_preferences"
         android:title="Preferences"/>
 
 </menu>
