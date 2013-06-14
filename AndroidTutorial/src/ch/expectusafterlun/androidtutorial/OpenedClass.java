@@ -46,7 +46,7 @@ public class OpenedClass extends Activity implements OnClickListener,
 	public void onCheckedChanged(RadioGroup group, int checkedId) {
 		switch (checkedId) {
 		case R.id.r_crazy:
-
+			
 			break;
 		case R.id.r_annoying:
 
