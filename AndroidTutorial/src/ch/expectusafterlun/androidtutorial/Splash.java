@@ -38,8 +38,9 @@ public class Splash extends Activity {
 					 */
 					ourSong.release(); 
 					Intent openStartingPoint = new Intent(
-							"expectusafterlun.ch.androidtutorial.MENU");
+							"ch.expectusafterlun.androidtutorial.MENU");
 					startActivity(openStartingPoint);
+					finish();
 					
 					/*
 					 * Reset calledOnce to false
