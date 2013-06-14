@@ -17,7 +17,7 @@ public class OpenedClass extends Activity implements OnClickListener,
 	private RadioGroup rgAnswers;
 	private RadioButton rCrazy, rAnnoying, rBoth;
 	private Button bReturn;
-	private String gotBread;
+	private String gotBread, setData;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -50,14 +50,15 @@ public class OpenedClass extends Activity implements OnClickListener,
 	public void onCheckedChanged(RadioGroup group, int checkedId) {
 		switch (checkedId) {
 		case R.id.r_crazy:
-			
+			setData = "Probably right!";
 			break;
 		case R.id.r_annoying:
-
+			setData = "Definitely right!";
 			break;
 		case R.id.r_both:
-			
+			setData = "Spot on!";
 			break;
 		}
+		tvText.setText(setData);
 	}
 }
