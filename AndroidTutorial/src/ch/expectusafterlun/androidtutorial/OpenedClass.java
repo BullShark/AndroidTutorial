@@ -17,12 +17,16 @@ public class OpenedClass extends Activity implements OnClickListener,
 	private RadioGroup rgAnswers;
 	private RadioButton rCrazy, rAnnoying, rBoth;
 	private Button bReturn;
+	private String gotBread;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.send);
 		initialize();
+		Bundle gotBasket = getIntent().getExtras();
+		String gotBread = gotBasket.getString("key");
+		tvQuestion.setText(gotBread);
 	}
 
 	private void initialize() {
