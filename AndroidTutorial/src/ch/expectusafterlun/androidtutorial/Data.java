@@ -1,6 +1,7 @@
 package ch.expectusafterlun.androidtutorial;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -33,5 +34,18 @@ public class Data extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
+		switch(v.getId()) {
+		case R.id.b_sa:
+			String bread = etSend.getText().toString();
+			Bundle basket =  new Bundle();
+			// Putting the bread in the basket
+			basket.putString("key", bread);
+			Intent a = new Intent(Data.this, OpenedClass.class);
+			a.putExtras(basket);
+			startActivity(a);
+			break;
+		case R.id.b_safr:
+			break;
+		}
 	}
 }
