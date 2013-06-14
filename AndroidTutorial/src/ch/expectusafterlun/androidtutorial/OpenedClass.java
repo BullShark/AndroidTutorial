@@ -25,9 +25,19 @@ public class OpenedClass extends Activity implements OnClickListener,
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.send);
 		initialize();
-//		Bundle gotBasket = getIntent().getExtras();
-//		String gotBread = gotBasket.getString("key");
-//		tvQuestion.setText(gotBread);
+		/*
+		 * Prevents the app from crashing
+		 * If a bundle with extras was not created
+		 * When calling this activity through intent
+		 * startActivityForResult button
+		 */
+		try {
+			Bundle gotBasket = getIntent().getExtras();
+			String gotBread = gotBasket.getString("key");
+			tvQuestion.setText(gotBread);
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
 	}
 
 	private void initialize() {
