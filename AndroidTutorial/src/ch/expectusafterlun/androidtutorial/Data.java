@@ -45,7 +45,14 @@ public class Data extends Activity implements OnClickListener {
 			startActivity(a);
 			break;
 		case R.id.b_safr:
+			Intent i = new Intent(Data.this, OpenedClass.class);
+			startActivityForResult(i, 0); // 0 is the default
 			break;
 		}
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
 	}
 }
