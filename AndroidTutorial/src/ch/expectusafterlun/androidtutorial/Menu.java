@@ -49,6 +49,8 @@ public class Menu extends ListActivity {
 //		return super.onOptionsItemSelected(item);
 		switch(item.getItemId()) {
 		case R.id.i_about_us:
+			Intent i = new Intent("ch.expectusafterlun.androidtutorial.ABOUT");
+			startActivity(i);
 			break;
 		case R.id.i_preferences:
 			break;
