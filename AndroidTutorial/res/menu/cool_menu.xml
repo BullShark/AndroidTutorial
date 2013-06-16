@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
+    <!-- the mi prefix is an abbreviation for menu item -->
     <item
-        android:id="@+id/i_about_us"
+        android:id="@+id/mi_about_us"
         android:title="About Us"/>
-    
-        <item
-        android:id="@+id/i_preferences"
+    <item
+        android:id="@+id/mi_preferences"
         android:title="Preferences"/>
+    <item
+        android:id="@+id/mi_exit"
+        android:title="Exit"/>
 
 </menu>
