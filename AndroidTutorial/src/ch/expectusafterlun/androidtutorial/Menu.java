@@ -46,8 +46,8 @@ public class Menu extends ListActivity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-//		return super.onOptionsItemSelected(item);
-		switch(item.getItemId()) {
+		// return super.onOptionsItemSelected(item);
+		switch (item.getItemId()) {
 		case R.id.mi_about_us:
 			Intent i = new Intent("ch.expectusafterlun.androidtutorial.ABOUT");
 			startActivity(i);
