@@ -40,12 +40,12 @@ public class Data extends Activity implements OnClickListener {
 			Bundle basket =  new Bundle();
 			// Putting the bread in the basket
 			basket.putString("key", bread);
-			Intent a = new Intent(Data.this, OpenedClass.class);
+			Intent a = new Intent(Data.this, Opens.class);
 			a.putExtras(basket);
 			startActivity(a);
 			break;
 		case R.id.b_safr:
-			Intent i = new Intent(Data.this, OpenedClass.class);
+			Intent i = new Intent(Data.this, Opens.class);
 			startActivityForResult(i, 0); // 0 is the default
 			break;
 		}

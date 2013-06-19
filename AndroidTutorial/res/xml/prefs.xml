@@ -14,9 +14,11 @@
         android:title="CheckBox" />
 
     <ListPreference
-        android:entries="array/list"
+        android:entries="@array/list"
         android:key="list"
         android:summary="This is a list to choose from"
-        android:title="list" />
+        android:title="list"
+        android:entryValues="@array/l_values"
+        />
 
 </PreferenceScreen>

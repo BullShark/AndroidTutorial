@@ -11,7 +11,7 @@ import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 
-public class OpenedClass extends Activity implements OnClickListener,
+public class Opens extends Activity implements OnClickListener,
 		OnCheckedChangeListener {
 
 	private TextView tvQuestion, tvText;

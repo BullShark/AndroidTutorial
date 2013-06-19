@@ -80,7 +80,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.OpenedClass"
+            android:name="ch.expectusafterlun.androidtutorial.Opens"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.OPENEDCLASS" />
