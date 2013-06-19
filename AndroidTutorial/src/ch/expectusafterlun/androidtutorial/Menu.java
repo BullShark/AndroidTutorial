@@ -53,6 +53,11 @@ public class Menu extends ListActivity {
 			startActivity(i);
 			break;
 		case R.id.mi_preferences:
+			Intent p = new Intent("ch.expectusafterlun.androidtutorial.PREFS");
+			startActivity(p);
+			break;
+		case R.id.mi_exit:
+			finish();
 			break;
 		}
 		return false;
