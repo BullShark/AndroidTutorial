@@ -2,8 +2,10 @@ package ch.expectusafterlun.androidtutorial;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 
 public class Splash extends Activity {
 
@@ -21,8 +23,15 @@ public class Splash extends Activity {
 			return;
 		}
 		
+		SharedPreferences getPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+		
+		// The second parameter is a default value that will be used if no value exists
+		boolean music = getPrefs.getBoolean("checkbox", true);
 		ourSong = MediaPlayer.create(Splash.this, R.raw.dubstep);
-		ourSong.start();
+		
+		if(music) {
+			ourSong.start();
+		}
 		
 		Thread timer = new Thread() {
 			public void run() {
