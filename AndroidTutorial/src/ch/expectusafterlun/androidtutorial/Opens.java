@@ -2,7 +2,9 @@ package ch.expectusafterlun.androidtutorial;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -25,6 +27,16 @@ public class Opens extends Activity implements OnClickListener,
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.send);
 		initialize();
+		
+		SharedPreferences getData = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+		String etPrefs = getData.getString("name", "Chris is...");
+		String values = getData.getString("list", "4");
+		
+		if(values.contentEquals("1")) {
+			tvQuestion.setText(etPrefs);
+			return;
+		}
+
 		/*
 		 * Prevents the app from crashing
 		 * If a bundle with extras was not created
