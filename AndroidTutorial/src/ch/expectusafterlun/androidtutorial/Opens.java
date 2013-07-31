@@ -46,7 +46,10 @@ public class Opens extends Activity implements OnClickListener,
 		try {
 			Bundle gotBasket = getIntent().getExtras();
 			String gotBread = gotBasket.getString("key");
-			tvQuestion.setText(gotBread);
+			// Allow etPrefs default if nothing was entered
+			if(gotBread.length() > 0) {
+				tvQuestion.setText(gotBread);
+			}
 		} catch (NullPointerException e) {
 			e.printStackTrace();
 		}
