@@ -9,7 +9,7 @@
 
     <CheckBoxPreference
         android:defaultValue="true"
-        android:key="checkbox"
+        android:key="checkbox_music"
         android:summary="For the splash screen"
         android:title="Music" />
 
@@ -19,5 +19,11 @@
         android:key="list"
         android:summary="This is a list to choose from"
         android:title="list" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkbox_skipsplash"
+        android:summary="Skip the splash screen"
+        android:title="Skip Splash" />
 
 </PreferenceScreen>

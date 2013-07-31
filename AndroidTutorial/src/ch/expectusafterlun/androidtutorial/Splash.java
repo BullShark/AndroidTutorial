@@ -26,7 +26,8 @@ public class Splash extends Activity {
 		SharedPreferences getPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 		
 		// The second parameter is a default value that will be used if no value exists
-		boolean music = getPrefs.getBoolean("checkbox", true);
+		boolean music = getPrefs.getBoolean("checkbox_music", true);
+		final boolean skipSplash = getPrefs.getBoolean("checkbox_skipsplash", false);
 		ourSong = MediaPlayer.create(Splash.this, R.raw.dubstep);
 		
 		if(music) {
@@ -36,6 +37,9 @@ public class Splash extends Activity {
 		Thread timer = new Thread() {
 			public void run() {
 				try {
+					if(skipSplash) {
+						throw new InterruptedException();
+					}
 					sleep(8000);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
