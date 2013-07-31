@@ -22,13 +22,15 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:weightSum="100" >
 
         <Button
             android:id="@+id/b_add"
             android:layout_width="250sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_weight="50"
             android:text="@string/add_bt_text"
             android:textSize="20sp" />
 
@@ -37,14 +39,15 @@
             android:layout_width="250sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_weight="50"
             android:text="@string/sub_bt_text"
             android:textSize="20sp" />
     </LinearLayout>
+
     <TextView
-    android:text="Hello Landscape!"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textSize="15sp"
-    />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Landscape!"
+        android:textSize="15sp" />
 
 </LinearLayout>
