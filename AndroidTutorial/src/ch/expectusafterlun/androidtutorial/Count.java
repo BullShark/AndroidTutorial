@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class Count extends Activity {
 
-	private int counter;
+	private static int counter = 0;
 	private Button add, sub;
 	private TextView display;
 	private String total;
@@ -17,11 +17,11 @@ public class Count extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.count);
-        counter = 0;
         add = (Button) findViewById(R.id.b_add);
         sub = (Button) findViewById(R.id.b_sub);
         display = (TextView) findViewById(R.id.tv_display);
         total = "Your total is ";
+        display.setText(total + counter);
         add.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
