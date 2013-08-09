@@ -20,11 +20,13 @@ public class Menu extends ListActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
+		/*
 		// Making a request for this activity to be in fullscreen
 		// Always do before setListAdapter() or setContentView()
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		*/
 
 		setListAdapter(new ArrayAdapter<String>(Menu.this,
 				android.R.layout.simple_expandable_list_item_1, activities));
