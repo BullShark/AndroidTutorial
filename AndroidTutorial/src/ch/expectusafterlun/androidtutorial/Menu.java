@@ -12,7 +12,7 @@ import android.widget.ListView;
 public class Menu extends ListActivity {
 
 	String activities[] = { "Count", "TextPlay", "Email", "Camera", "Data",
-			"FullScreen", "example6", "" };
+			"FullScreen", "GFX" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
