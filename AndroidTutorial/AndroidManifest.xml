@@ -107,6 +107,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.FullScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="ch.expectusafterlun.androidtutorial.FULLSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

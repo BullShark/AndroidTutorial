@@ -20,13 +20,6 @@ public class Email extends Activity implements View.OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-
-		// Making a request for this activity to be in fullscreen
-		// Always do before setListAdapter() or setContentView()
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-				WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
 		setContentView(R.layout.email);
 		initializeVars();
 		sendEmail.setOnClickListener(this);
