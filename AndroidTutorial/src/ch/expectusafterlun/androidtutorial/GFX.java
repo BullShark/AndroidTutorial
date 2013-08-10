@@ -5,13 +5,13 @@ import android.os.Bundle;
 
 public class GFX extends Activity {
 
-	MyBringBack ourView;
+	private AnimationView view;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		ourView = new MyBringBack(this);
-		setContentView(ourView);
+		view = new AnimationView(this);
+		setContentView(view);
 	}
 
 }
