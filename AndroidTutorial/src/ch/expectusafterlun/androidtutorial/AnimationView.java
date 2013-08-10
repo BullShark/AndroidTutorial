@@ -5,6 +5,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Rect;
 import android.view.View;
 
 public class AnimationView extends View {
@@ -29,6 +31,13 @@ public class AnimationView extends View {
 		} else {
 			changingY = 10;
 		}
+		Rect midRect = new Rect();
+		midRect.set(0, canvas.getHeight()/5, canvas.getWidth(), canvas.getHeight()/4);
+		Paint customBlue = new Paint();
+		customBlue.setColor(Color.BLUE);
+		// ball goes behind the rectangle because it was drawn first on the canvas
+		canvas.drawRect(midRect, customBlue);
+		
 		invalidate();
 	}
 	
