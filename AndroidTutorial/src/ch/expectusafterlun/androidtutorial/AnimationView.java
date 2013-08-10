@@ -12,7 +12,7 @@ import android.view.View;
 public class AnimationView extends View {
 
 	private Bitmap gBall;
-	private float changingY;
+	private int changingY;
 	
 	public AnimationView(Context context) {
 		super(context);
