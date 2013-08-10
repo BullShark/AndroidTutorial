@@ -13,5 +13,4 @@ public class AnimationView extends View {
 		super(context);
 		gBall = BitmapFactory.decodeResource(getResources(), R.drawable.greenball);
 	}
-
 }
