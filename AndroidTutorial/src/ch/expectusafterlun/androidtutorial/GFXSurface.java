@@ -14,8 +14,10 @@ import android.view.View.OnTouchListener;
 
 public class GFXSurface extends Activity implements OnTouchListener {
 
-	AnimationViewSurface surfaceView;
-	float x, y;
+	private AnimationViewSurface surfaceView;
+	// s means starting point, f means finishing point
+	private float x, y, sX, sY, fX, fY;
+	private Bitmap ball, plus;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,14 @@ public class GFXSurface extends Activity implements OnTouchListener {
 		surfaceView.setOnTouchListener(this);
 		x = 0;
 		y = 0;
+		sX = 0;
+		sY = 0;
+		fX = 0;
+		fY = 0;
+		ball = BitmapFactory.decodeResource(getResources(),
+				R.drawable.greenball);
+		plus = BitmapFactory.decodeResource(getResources(),
+				R.drawable.greenplus);
 		setContentView(surfaceView);
 	}
 
@@ -43,6 +53,18 @@ public class GFXSurface extends Activity implements OnTouchListener {
 	public boolean onTouch(View v, MotionEvent event) {
 		x = event.getX();
 		y = event.getY();
+		
+		switch(event.getAction()) {
+		case MotionEvent.ACTION_DOWN:
+			sX = event.getX();
+			sY = event.getY();
+			break;
+		case MotionEvent.ACTION_UP:
+			fX = event.getX();
+			fY = event.getY();
+			break;
+		}
+		
 		return true;
 	}
 
@@ -83,9 +105,17 @@ public class GFXSurface extends Activity implements OnTouchListener {
 
 				Canvas canvas = holder.lockCanvas();
 				canvas.drawRGB(2, 2, 150);
-				if(x != 0 && y != 0) {
-					Bitmap test = BitmapFactory.decodeResource(getResources(), R.drawable.greenball);
-					canvas.drawBitmap(test, x - (test.getWidth()/2), y - (test.getHeight()/2), null);
+				if (x != 0 && y != 0) {
+					canvas.drawBitmap(ball, x - (ball.getWidth() / 2), y
+							- (ball.getHeight() / 2), null);
+				}
+				if (sX != 0 && sY != 0) {
+					canvas.drawBitmap(plus, sX - (plus.getWidth() / 2), sY 
+							- (plus.getHeight() / 2), null);
+				}
+				if (fX != 0 && fY != 0) {
+					canvas.drawBitmap(plus, fX - (plus.getWidth() / 2), fY
+							- (plus.getHeight() / 2), null);
 				}
 				holder.unlockCanvasAndPost(canvas);
 			}
