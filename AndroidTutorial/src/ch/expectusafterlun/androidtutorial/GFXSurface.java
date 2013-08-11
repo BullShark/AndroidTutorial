@@ -43,7 +43,7 @@ public class GFXSurface extends Activity implements OnTouchListener {
 	public boolean onTouch(View v, MotionEvent event) {
 		x = event.getX();
 		y = event.getY();
-		return false;
+		return true;
 	}
 
 	public class AnimationViewSurface extends SurfaceView implements Runnable {
