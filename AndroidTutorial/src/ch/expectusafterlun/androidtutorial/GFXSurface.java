@@ -66,6 +66,7 @@ public class GFXSurface extends Activity implements OnTouchListener {
 			// reset to 0
 			dX = dY = 0;
 			aniX = aniY = 0;
+			scaledX = scaledY = 0;
 			break;
 		case MotionEvent.ACTION_UP:
 			fX = event.getX();
@@ -134,9 +135,10 @@ public class GFXSurface extends Activity implements OnTouchListener {
 					canvas.drawBitmap(plus, fX - (plus.getWidth() / 2), fY
 							- (plus.getHeight() / 2), null);
 				}
+
 				aniX = aniX + scaledX;
 				aniY = aniY + scaledY;
-				
+
 				holder.unlockCanvasAndPost(canvas);
 			}
 		}
