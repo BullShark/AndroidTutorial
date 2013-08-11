@@ -71,7 +71,7 @@ public class GFXSurface extends Activity implements OnTouchListener {
 			fX = event.getX();
 			fY = event.getY();
 			dX = fX - sX;
-			dY = sY - sX;
+			dY = fY - sY;
 			scaledX = dX/30;
 			scaledY = dY/30;
 			// prevents the ball from being drawn on the plus
