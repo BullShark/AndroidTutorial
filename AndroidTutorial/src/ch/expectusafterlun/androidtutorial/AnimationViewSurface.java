@@ -14,9 +14,7 @@ public class AnimationViewSurface extends SurfaceView implements Runnable {
 	public AnimationViewSurface(Context context) {
 		super(context);
 		holder = getHolder();
-		isRunning = true;
-		thread = new Thread(this);
-		thread.start();
+		isRunning = false;
 	}
 
 	public void pause() {
