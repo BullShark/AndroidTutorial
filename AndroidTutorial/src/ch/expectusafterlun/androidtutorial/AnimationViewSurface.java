@@ -1,9 +1,14 @@
 package ch.expectusafterlun.androidtutorial;
 
-public class AnimationViewSurface {
+import android.view.SurfaceView;
 
-	public AnimationViewSurface(GFXSurface gfxSurface) {
-		// TODO Auto-generated constructor stub
+public class AnimationViewSurface extends SurfaceView implements Runnable {
+
+	public AnimationViewSurface(Context context) {
+	}
+
+	@Override
+	public void run() {
 	}
 
 }

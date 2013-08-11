@@ -11,6 +11,7 @@ public class GFXSurface extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		surfaceView = new AnimationViewSurface(this);
+		setContentView(surfaceView);
 	}
 
 }
