@@ -63,6 +63,9 @@ public class GFXSurface extends Activity implements OnTouchListener {
 		case MotionEvent.ACTION_DOWN:
 			sX = event.getX();
 			sY = event.getY();
+			// reset to 0
+			dX = dY = 0;
+			aniX = aniY = 0;
 			break;
 		case MotionEvent.ACTION_UP:
 			fX = event.getX();
@@ -71,6 +74,9 @@ public class GFXSurface extends Activity implements OnTouchListener {
 			dY = sY - sX;
 			scaledX = dX/30;
 			scaledY = dY/30;
+			// prevents the ball from being drawn on the plus
+			x = 0;
+			y = 0;
 			break;
 		}
 
