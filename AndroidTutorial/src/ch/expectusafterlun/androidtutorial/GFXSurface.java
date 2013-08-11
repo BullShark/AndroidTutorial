@@ -129,7 +129,7 @@ public class GFXSurface extends Activity implements OnTouchListener {
 							- (plus.getHeight() / 2), null);
 				}
 				if (fX != 0 && fY != 0) {
-					canvas.drawBitmap(ball, x - (ball.getWidth() / 2) - aniX, y
+					canvas.drawBitmap(ball, fX - (ball.getWidth() / 2) - aniX, fY
 							- (ball.getHeight() / 2) - aniY, null);
 					canvas.drawBitmap(plus, fX - (plus.getWidth() / 2), fY
 							- (plus.getHeight() / 2), null);
