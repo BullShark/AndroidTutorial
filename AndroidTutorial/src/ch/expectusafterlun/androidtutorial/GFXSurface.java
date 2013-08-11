@@ -85,7 +85,7 @@ public class GFXSurface extends Activity implements OnTouchListener {
 				canvas.drawRGB(2, 2, 150);
 				if(x != 0 && y != 0) {
 					Bitmap test = BitmapFactory.decodeResource(getResources(), R.drawable.greenball);
-					canvas.drawBitmap(test, x, y, null);
+					canvas.drawBitmap(test, x - (test.getWidth()/2), y - (test.getHeight()/2), null);
 				}
 				holder.unlockCanvasAndPost(canvas);
 			}
