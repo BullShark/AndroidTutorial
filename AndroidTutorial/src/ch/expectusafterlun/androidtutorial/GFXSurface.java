@@ -15,8 +15,13 @@ import android.view.View.OnTouchListener;
 public class GFXSurface extends Activity implements OnTouchListener {
 
 	private AnimationViewSurface surfaceView;
-	// s means starting point, f means finishing point
-	private float x, y, sX, sY, fX, fY;
+	/*
+	 * s means starting point
+	 * f means finishing point
+	 * d means change in
+	 * ani means animate
+	 */
+	private float x, y, sX, sY, fX, fY, dX, dY, aniX, aniY, scaledX, scaledY;
 	private Bitmap ball, plus;
 
 	@Override
@@ -24,12 +29,12 @@ public class GFXSurface extends Activity implements OnTouchListener {
 		super.onCreate(savedInstanceState);
 		surfaceView = new AnimationViewSurface(this);
 		surfaceView.setOnTouchListener(this);
-		x = 0;
-		y = 0;
-		sX = 0;
-		sY = 0;
-		fX = 0;
-		fY = 0;
+		x = y = 0;
+		sX = sY = 0;
+		fX = fY = 0;
+		dX = dY = 0;
+		aniX = aniY = 0;
+
 		ball = BitmapFactory.decodeResource(getResources(),
 				R.drawable.greenball);
 		plus = BitmapFactory.decodeResource(getResources(),
@@ -53,8 +58,8 @@ public class GFXSurface extends Activity implements OnTouchListener {
 	public boolean onTouch(View v, MotionEvent event) {
 		x = event.getX();
 		y = event.getY();
-		
-		switch(event.getAction()) {
+
+		switch (event.getAction()) {
 		case MotionEvent.ACTION_DOWN:
 			sX = event.getX();
 			sY = event.getY();
@@ -62,9 +67,13 @@ public class GFXSurface extends Activity implements OnTouchListener {
 		case MotionEvent.ACTION_UP:
 			fX = event.getX();
 			fY = event.getY();
+			dX = fX - sX;
+			dY = sY - sX;
+			scaledX = dX/30;
+			scaledY = dY/30;
 			break;
 		}
-		
+
 		return true;
 	}
 
@@ -110,13 +119,18 @@ public class GFXSurface extends Activity implements OnTouchListener {
 							- (ball.getHeight() / 2), null);
 				}
 				if (sX != 0 && sY != 0) {
-					canvas.drawBitmap(plus, sX - (plus.getWidth() / 2), sY 
+					canvas.drawBitmap(plus, sX - (plus.getWidth() / 2), sY
 							- (plus.getHeight() / 2), null);
 				}
 				if (fX != 0 && fY != 0) {
+					canvas.drawBitmap(ball, x - (ball.getWidth() / 2) - aniX, y
+							- (ball.getHeight() / 2) - aniY, null);
 					canvas.drawBitmap(plus, fX - (plus.getWidth() / 2), fY
 							- (plus.getHeight() / 2), null);
 				}
+				aniX = aniX + scaledX;
+				aniY = aniY + scaledY;
+				
 				holder.unlockCanvasAndPost(canvas);
 			}
 		}
