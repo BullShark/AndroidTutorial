@@ -14,4 +14,18 @@ public class GFXSurface extends Activity {
 		setContentView(surfaceView);
 	}
 
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		surfaceView.pause();
+	}
+
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		surfaceView.resume();
+	}
+
 }
