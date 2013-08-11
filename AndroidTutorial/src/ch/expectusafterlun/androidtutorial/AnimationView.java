@@ -14,7 +14,7 @@ import android.view.View;
 public class AnimationView extends View {
 
 	private Bitmap gBall;
-	private int changingY;
+	private float changingY;
 	private Typeface font;
 	
 	public AnimationView(Context context) {
