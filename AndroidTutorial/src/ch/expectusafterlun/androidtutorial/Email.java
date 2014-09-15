@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -18,7 +16,6 @@ public class Email extends Activity implements View.OnClickListener {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.email);
 		initializeVars();
@@ -26,7 +23,6 @@ public class Email extends Activity implements View.OnClickListener {
 	}
 
 	private void initializeVars() {
-		// TODO Auto-generated method stub
 		personsEmail = (EditText) findViewById(R.id.etEmails);
 		intro = (EditText) findViewById(R.id.etIntro);
 		personsName = (EditText) findViewById(R.id.etName);
