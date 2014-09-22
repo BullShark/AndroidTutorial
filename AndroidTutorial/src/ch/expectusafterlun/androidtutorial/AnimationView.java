@@ -52,5 +52,5 @@ public class AnimationView extends View {
 		
 		invalidate();
 	}
-	
+
 }

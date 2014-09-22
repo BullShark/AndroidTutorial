@@ -56,7 +56,14 @@ public class GFXSurface extends Activity implements OnTouchListener {
 
 	@Override
 	public boolean onTouch(View v, MotionEvent event) {
-		x = event.getX();
+
+    try {
+      Thread.sleep(17);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
+
+    x = event.getX();
 		y = event.getY();
 
 		switch (event.getAction()) {
