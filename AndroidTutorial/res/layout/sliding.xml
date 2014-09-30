@@ -12,6 +12,11 @@
         android:handle="@+id/handle"
         android:id="@+id/d_sliding"
         android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handle"/>
         <LinearLayout
             android:id="@+id/content"
             android:layout_width="fill_parent"
@@ -22,10 +27,6 @@
                 android:text="New CheckBox"
                 android:id="@+id/checkBox"/>
         </LinearLayout>
-        <Button
-            android:id="@+id/handle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Handle"/>
+
     </SlidingDrawer>
 </LinearLayout>
