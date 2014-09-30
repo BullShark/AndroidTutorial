@@ -9,6 +9,8 @@ import android.preference.PreferenceManager;
 
 public class Splash extends Activity {
 
+  // MediaPlayer is better for longer sounds
+  // Otherwise use SoundPool
 	public MediaPlayer ourSong;
 	private static boolean calledOnce = false;
 
