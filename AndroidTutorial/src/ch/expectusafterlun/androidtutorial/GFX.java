@@ -17,7 +17,7 @@ public class GFX extends Activity {
     // Prevent the display from timing out/turning off
     // Why does video 78 show super.onCreate(Bundle) being called directly after PowerManager?
     PowerManager pm = (PowerManager)getSystemService(Context.POWER_SERVICE);
-    wl = pm.newWakeLock(PowerManager.FULL_WAKE_LOCK, "FULL_WAKE_LOCK Demo: Preventing the display from turning off" +
+    wl = pm.newWakeLock(PowerManager.FULL_WAKE_LOCK, "FULL_WAKE_LOCK Demo: Preventing the display from turning off " +
         "while this Activity is active");
     wl.acquire();
 
