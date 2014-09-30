@@ -5,4 +5,26 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New CheckBox"
+        android:id="@+id/checkBox"/>
+    <SlidingDrawer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:content="@+id/content"
+        android:handle="@+id/handle" android:id="@+id/slidingDrawer"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </LinearLayout>
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handle"/>
+    </SlidingDrawer>
 </LinearLayout>
