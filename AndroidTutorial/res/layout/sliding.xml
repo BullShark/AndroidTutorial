@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-
+    </LinearLayout>
     <SlidingDrawer
+        android:id="@+id/d_sliding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:content="@+id/content"
-        android:handle="@+id/handle"
-        android:id="@+id/d_sliding"
-        android:layout_gravity="center_horizontal">
+        android:handle="@+id/handle">
         <Button
             android:id="@+id/handle"
             android:layout_width="wrap_content"
@@ -22,11 +26,11 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
             <CheckBox
+                android:id="@+id/cb_slidable"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New CheckBox"
-                android:id="@+id/cb_slidable"/>
+                android:text="New CheckBox"/>
         </LinearLayout>
 
     </SlidingDrawer>
-</LinearLayout>
+</FrameLayout>
