@@ -9,25 +9,25 @@
                   android:orientation="vertical">
 
         <Button
-            android:id="@+id/handle1"
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button1"/>
         <Button
-            android:id="@+id/handle2"
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Handle2"/>
+            android:text="Button2"/>
         <Button
-            android:id="@+id/handle3"
+            android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Handle3"/>
+            android:text="Button3"/>
         <Button
-            android:id="@+id/handle4"
+            android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Handle4"/>
+            android:text="Button4"/>
     </LinearLayout>
     <SlidingDrawer
         android:id="@+id/d_sliding"
@@ -49,7 +49,7 @@
                 android:id="@+id/cb_slidable"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New CheckBox"/>
+                android:text="My Slidable Checkbox"/>
         </LinearLayout>
 
     </SlidingDrawer>
