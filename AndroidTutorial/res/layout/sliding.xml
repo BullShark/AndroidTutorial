@@ -35,9 +35,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:content="@+id/content"
-        android:handle="@+id/handle">
+        android:handle="@+id/handle0">
         <Button
-            android:id="@+id/handle"
+            android:id="@+id/handle0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Handle"/>
