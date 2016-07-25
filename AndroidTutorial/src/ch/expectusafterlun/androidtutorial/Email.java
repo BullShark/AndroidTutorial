@@ -58,7 +58,6 @@ public class Email extends Activity implements View.OnClickListener {
 	}
 
 	private void convertEditTextVarsIntoStringsAndYesThisIsAMethodWeCreated() {
-		// TODO Auto-generated method stub
 		emailAdd = personsEmail.getText().toString();
 		beginning = intro.getText().toString();
 		name = personsName.getText().toString();
@@ -69,7 +68,6 @@ public class Email extends Activity implements View.OnClickListener {
 
 	@Override
 	protected void onPause() {
-		// TODO Auto-generated method stub
 		super.onPause();
 		finish();
 	}
