@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_email.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/email.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_photo.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/photo.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher.webp.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_about.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_custom.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/custom.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_sliding.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/sliding.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout-land_count.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout-land/count.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable_standard.png.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable/standard.png"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/raw_dubstep.mp3.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/raw/dubstep.mp3"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_send.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/send.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_greenball.png.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/greenball.png"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_receive.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/receive.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_text.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/text.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/menu_cool_menu.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/menu/cool_menu.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/raw_grenade.mp3.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/raw/grenade.mp3"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_splash.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_count.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/count.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_highlighted.png.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/highlighted.png"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_greenplus.png.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/greenplus.png"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable_jspeak.png.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable/jspeak.png"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/xml_prefs.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/xml/prefs.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_selected.png.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/selected.png"
+    }
+]

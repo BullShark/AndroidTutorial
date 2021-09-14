@@ -1,0 +1,450 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-172:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-172:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-172:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-172:12
+MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/bullshark/.gradle/caches/transforms-3/4ecd700c773cf5624732e3577602f1ea/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:17:1-53:12
+MERGED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bullshark/.gradle/caches/transforms-3/d8e35720d387af23b8661e2c3d29cdaa/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/bullshark/.gradle/caches/transforms-3/ee0550e8848c5279ef1306690d07508f/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/bullshark/.gradle/caches/transforms-3/a2fec87436ed4b48e2cd27f2bec00bd8/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/bullshark/.gradle/caches/transforms-3/1a721783f33f0b0f141ece40123d930b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bullshark/.gradle/caches/transforms-3/9e5bac1f89003abf622e3422923228db/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/bullshark/.gradle/caches/transforms-3/daf60890667c2c1f4f7951bda1ccd740/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/bullshark/.gradle/caches/transforms-3/d09ea9aedca029a896589844b66e8851/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/bullshark/.gradle/caches/transforms-3/48c63f3106ffaa61ce348f6ba5cb615c/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bullshark/.gradle/caches/transforms-3/f0fe3706260b3bce929f3dd639e33b7e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bullshark/.gradle/caches/transforms-3/de5a7dc1c81a89f7e31dc782229122df/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bullshark/.gradle/caches/transforms-3/780765cea0c567bec6ca8db99cd43cba/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bullshark/.gradle/caches/transforms-3/22a51f44cdda660ee1b80324ead41660/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/bullshark/.gradle/caches/transforms-3/cc799678192709bceae81fa20a37187c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/bullshark/.gradle/caches/transforms-3/b4790aa1caca6e7d9bde0bf1adfc442a/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/bullshark/.gradle/caches/transforms-3/c737135e2039c6aa4422151570c825bf/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /home/bullshark/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bullshark/.gradle/caches/transforms-3/6b80c278120ff42ff6ece3f9d926c639/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/bullshark/.gradle/caches/transforms-3/c2a2b216c41ef64c23b5a2261da3c566/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/bullshark/.gradle/caches/transforms-3/467a835b52a179222c9cd595c4b15361/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/bullshark/.gradle/caches/transforms-3/f25280aa28dd02b1b0fe5958898387a3/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/bullshark/.gradle/caches/transforms-3/9f2676b1c0969ec8c1ba6828bf396548/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/bullshark/.gradle/caches/transforms-3/5a89849bfd38ecbffaf5b00436d2e3bd/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test.services:storage:1.4.0] /home/bullshark/.gradle/caches/transforms-3/d5e9bb9072a2d0586734beacbcd43b52/transformed/jetified-storage-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ca7a7de16b2505fe395c4817e5fa80ba/transformed/monitor-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullshark/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bullshark/.gradle/caches/transforms-3/80c89437fc250e842b2f71e0d613c9ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bullshark/.gradle/caches/transforms-3/bc210aa728a4eeea33d4ed954c0cfcd1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/bullshark/.gradle/caches/transforms-3/b4df7864670f88d5668dedcb24fe690f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/bullshark/.gradle/caches/transforms-3/a1b15eaaf08fb20dd8d722ca164b4b9c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bullshark/.gradle/caches/transforms-3/140757696eca7ec1efbdf7371a4acde0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bullshark/.gradle/caches/transforms-3/989dfec6fc7a4daefb140f0c011fcef1/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bullshark/.gradle/caches/transforms-3/8ca7186ef83368b8549809152ed428ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/bullshark/.gradle/caches/transforms-3/485578c608519582fc751ff2f7c88476/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/bullshark/.gradle/caches/transforms-3/18e5cb54f886f7aa7e26ad4e22b3ac23/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-172:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-172:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-172:12
+	package
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/bullshark/.gradle/caches/transforms-3/4ecd700c773cf5624732e3577602f1ea/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/bullshark/.gradle/caches/transforms-3/4ecd700c773cf5624732e3577602f1ea/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bullshark/.gradle/caches/transforms-3/d8e35720d387af23b8661e2c3d29cdaa/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bullshark/.gradle/caches/transforms-3/d8e35720d387af23b8661e2c3d29cdaa/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/bullshark/.gradle/caches/transforms-3/ee0550e8848c5279ef1306690d07508f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/bullshark/.gradle/caches/transforms-3/ee0550e8848c5279ef1306690d07508f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/bullshark/.gradle/caches/transforms-3/a2fec87436ed4b48e2cd27f2bec00bd8/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/bullshark/.gradle/caches/transforms-3/a2fec87436ed4b48e2cd27f2bec00bd8/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/bullshark/.gradle/caches/transforms-3/1a721783f33f0b0f141ece40123d930b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/bullshark/.gradle/caches/transforms-3/1a721783f33f0b0f141ece40123d930b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bullshark/.gradle/caches/transforms-3/9e5bac1f89003abf622e3422923228db/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bullshark/.gradle/caches/transforms-3/9e5bac1f89003abf622e3422923228db/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/bullshark/.gradle/caches/transforms-3/daf60890667c2c1f4f7951bda1ccd740/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/bullshark/.gradle/caches/transforms-3/daf60890667c2c1f4f7951bda1ccd740/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/bullshark/.gradle/caches/transforms-3/d09ea9aedca029a896589844b66e8851/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/bullshark/.gradle/caches/transforms-3/d09ea9aedca029a896589844b66e8851/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/bullshark/.gradle/caches/transforms-3/48c63f3106ffaa61ce348f6ba5cb615c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/bullshark/.gradle/caches/transforms-3/48c63f3106ffaa61ce348f6ba5cb615c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bullshark/.gradle/caches/transforms-3/f0fe3706260b3bce929f3dd639e33b7e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bullshark/.gradle/caches/transforms-3/f0fe3706260b3bce929f3dd639e33b7e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bullshark/.gradle/caches/transforms-3/de5a7dc1c81a89f7e31dc782229122df/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bullshark/.gradle/caches/transforms-3/de5a7dc1c81a89f7e31dc782229122df/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bullshark/.gradle/caches/transforms-3/780765cea0c567bec6ca8db99cd43cba/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bullshark/.gradle/caches/transforms-3/780765cea0c567bec6ca8db99cd43cba/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bullshark/.gradle/caches/transforms-3/22a51f44cdda660ee1b80324ead41660/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bullshark/.gradle/caches/transforms-3/22a51f44cdda660ee1b80324ead41660/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/bullshark/.gradle/caches/transforms-3/cc799678192709bceae81fa20a37187c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/bullshark/.gradle/caches/transforms-3/cc799678192709bceae81fa20a37187c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/bullshark/.gradle/caches/transforms-3/b4790aa1caca6e7d9bde0bf1adfc442a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/bullshark/.gradle/caches/transforms-3/b4790aa1caca6e7d9bde0bf1adfc442a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/bullshark/.gradle/caches/transforms-3/c737135e2039c6aa4422151570c825bf/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/bullshark/.gradle/caches/transforms-3/c737135e2039c6aa4422151570c825bf/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /home/bullshark/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/bullshark/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bullshark/.gradle/caches/transforms-3/6b80c278120ff42ff6ece3f9d926c639/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bullshark/.gradle/caches/transforms-3/6b80c278120ff42ff6ece3f9d926c639/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/bullshark/.gradle/caches/transforms-3/c2a2b216c41ef64c23b5a2261da3c566/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/bullshark/.gradle/caches/transforms-3/c2a2b216c41ef64c23b5a2261da3c566/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/bullshark/.gradle/caches/transforms-3/467a835b52a179222c9cd595c4b15361/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/bullshark/.gradle/caches/transforms-3/467a835b52a179222c9cd595c4b15361/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/bullshark/.gradle/caches/transforms-3/f25280aa28dd02b1b0fe5958898387a3/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/bullshark/.gradle/caches/transforms-3/f25280aa28dd02b1b0fe5958898387a3/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/bullshark/.gradle/caches/transforms-3/9f2676b1c0969ec8c1ba6828bf396548/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/bullshark/.gradle/caches/transforms-3/9f2676b1c0969ec8c1ba6828bf396548/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/bullshark/.gradle/caches/transforms-3/5a89849bfd38ecbffaf5b00436d2e3bd/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/bullshark/.gradle/caches/transforms-3/5a89849bfd38ecbffaf5b00436d2e3bd/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.test.services:storage:1.4.0] /home/bullshark/.gradle/caches/transforms-3/d5e9bb9072a2d0586734beacbcd43b52/transformed/jetified-storage-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.4.0] /home/bullshark/.gradle/caches/transforms-3/d5e9bb9072a2d0586734beacbcd43b52/transformed/jetified-storage-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ca7a7de16b2505fe395c4817e5fa80ba/transformed/monitor-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ca7a7de16b2505fe395c4817e5fa80ba/transformed/monitor-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullshark/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullshark/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bullshark/.gradle/caches/transforms-3/80c89437fc250e842b2f71e0d613c9ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bullshark/.gradle/caches/transforms-3/80c89437fc250e842b2f71e0d613c9ff/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bullshark/.gradle/caches/transforms-3/bc210aa728a4eeea33d4ed954c0cfcd1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bullshark/.gradle/caches/transforms-3/bc210aa728a4eeea33d4ed954c0cfcd1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/bullshark/.gradle/caches/transforms-3/b4df7864670f88d5668dedcb24fe690f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/bullshark/.gradle/caches/transforms-3/b4df7864670f88d5668dedcb24fe690f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/bullshark/.gradle/caches/transforms-3/a1b15eaaf08fb20dd8d722ca164b4b9c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/bullshark/.gradle/caches/transforms-3/a1b15eaaf08fb20dd8d722ca164b4b9c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bullshark/.gradle/caches/transforms-3/140757696eca7ec1efbdf7371a4acde0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bullshark/.gradle/caches/transforms-3/140757696eca7ec1efbdf7371a4acde0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bullshark/.gradle/caches/transforms-3/989dfec6fc7a4daefb140f0c011fcef1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bullshark/.gradle/caches/transforms-3/989dfec6fc7a4daefb140f0c011fcef1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bullshark/.gradle/caches/transforms-3/8ca7186ef83368b8549809152ed428ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bullshark/.gradle/caches/transforms-3/8ca7186ef83368b8549809152ed428ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/bullshark/.gradle/caches/transforms-3/485578c608519582fc751ff2f7c88476/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/bullshark/.gradle/caches/transforms-3/485578c608519582fc751ff2f7c88476/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/bullshark/.gradle/caches/transforms-3/18e5cb54f886f7aa7e26ad4e22b3ac23/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/bullshark/.gradle/caches/transforms-3/18e5cb54f886f7aa7e26ad4e22b3ac23/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:11:22-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:12:22-65
+application
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:14:5-170:19
+MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/603d5b366cec0e2b4f7a40320b7dc059/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:30:5-20
+MERGED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:30:5-20
+MERGED from [androidx.core:core:1.5.0] /home/bullshark/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /home/bullshark/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullshark/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullshark/.gradle/caches/transforms-3/4f632648e53e556eed5f40f2824d9ac5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /home/bullshark/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:16:9-45
+	android:allowBackup
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:15:9-36
+	android:theme
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:18:9-40
+activity#ch.expectusafterlun.androidtutorial.Splash
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:19:9-28:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:22:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:20:13-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:26:27-74
+activity#ch.expectusafterlun.androidtutorial.Menu
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:29:9-38:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:32:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:30:13-68
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.MENU+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:33:13-37:29
+action#ch.expectusafterlun.androidtutorial.MENU
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:34:17-83
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:34:25-80
+category#android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
+activity#ch.expectusafterlun.androidtutorial.Count
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:39:9-48:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:42:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:40:13-69
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.COUNT+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:13-47:29
+action#ch.expectusafterlun.androidtutorial.COUNT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:44:17-84
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:44:25-81
+activity#ch.expectusafterlun.androidtutorial.TextPlay
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:49:9-58:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:52:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:50:13-72
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.TEXTPLAY+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:53:13-57:29
+action#ch.expectusafterlun.androidtutorial.TEXTPLAY
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:54:17-87
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:54:25-84
+activity#ch.expectusafterlun.androidtutorial.Email
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:59:9-68:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:60:13-69
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.EMAIL+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:63:13-67:29
+action#ch.expectusafterlun.androidtutorial.EMAIL
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:64:17-84
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:64:25-81
+activity#ch.expectusafterlun.androidtutorial.Camera
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:9-79:20
+	android:screenOrientation
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:72:13-47
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:71:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:70:13-70
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.CAMERA+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:74:13-78:29
+action#ch.expectusafterlun.androidtutorial.CAMERA
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:75:17-85
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:75:25-82
+activity#ch.expectusafterlun.androidtutorial.Data
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:80:9-89:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:83:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:82:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:81:13-68
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.DATA+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:84:13-88:29
+action#ch.expectusafterlun.androidtutorial.DATA
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:85:17-83
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:85:25-80
+activity#ch.expectusafterlun.androidtutorial.Opens
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:90:9-99:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:93:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:91:13-69
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.OPENEDCLASS+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:94:13-98:29
+action#ch.expectusafterlun.androidtutorial.OPENEDCLASS
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:95:17-90
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:95:25-87
+activity#ch.expectusafterlun.androidtutorial.AboutUs
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:100:9-109:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:102:13-45
+	android:theme
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:103:13-56
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:101:13-71
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.ABOUT+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:104:13-108:29
+action#ch.expectusafterlun.androidtutorial.ABOUT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:105:17-84
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:105:25-81
+activity#ch.expectusafterlun.androidtutorial.Prefs
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:110:9-119:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:113:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:112:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:111:13-69
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.PREFS+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:114:13-118:29
+action#ch.expectusafterlun.androidtutorial.PREFS
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:115:17-84
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:115:25-81
+activity#ch.expectusafterlun.androidtutorial.FullScreen
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:120:9-129:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:123:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:122:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:121:13-74
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.FULLSCREEN+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:124:13-128:29
+action#ch.expectusafterlun.androidtutorial.FULLSCREEN
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:125:17-89
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:125:25-86
+activity#ch.expectusafterlun.androidtutorial.GFX
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:130:9-139:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:133:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:132:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:131:13-67
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.GFX+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:134:13-138:29
+action#ch.expectusafterlun.androidtutorial.GFX
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:135:17-82
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:135:25-79
+activity#ch.expectusafterlun.androidtutorial.GFXSurface
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:140:9-149:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:143:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:142:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:141:13-74
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.GFXSURFACE+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:144:13-148:29
+action#ch.expectusafterlun.androidtutorial.GFXSURFACE
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:145:17-89
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:145:25-86
+activity#ch.expectusafterlun.androidtutorial.SoundStuff
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:150:9-159:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:153:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:152:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:151:13-74
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.SOUNDSTUFF+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:154:13-158:29
+action#ch.expectusafterlun.androidtutorial.SOUNDSTUFF
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:155:17-89
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:155:25-86
+activity#ch.expectusafterlun.androidtutorial.Slider
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:160:9-169:20
+	android:label
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:163:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:162:13-36
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:161:13-70
+intent-filter#action:name:ch.expectusafterlun.androidtutorial.SLIDE+category:name:android.intent.category.DEFAULT
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:164:13-168:29
+action#ch.expectusafterlun.androidtutorial.SLIDE
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:165:17-84
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:165:25-81
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+	android:exported
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+	android:exported
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+	android:exported
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/28fece74d7507c299cac43b7a7a19bed/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+queries
+ADDED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
+package#androidx.test.orchestrator
+ADDED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+	android:name
+		ADDED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+package#androidx.test.services
+ADDED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+package#com.google.android.apps.common.testing.services
+ADDED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+	android:name
+		ADDED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/ba17b35c1e6f583212071bc46b24f214/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
