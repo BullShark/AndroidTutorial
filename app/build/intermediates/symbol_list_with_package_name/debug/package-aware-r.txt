@@ -1922,6 +1922,7 @@ id b_return
 id b_sa
 id b_safr
 id b_set_wallpaper
+id b_stop_watch
 id b_sub
 id barrier
 id baseline
@@ -1934,6 +1935,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_start_watch
 id button1
 id button2
 id button3
@@ -2081,6 +2083,7 @@ id legacy
 id line1
 id line3
 id linear
+id linear_layout1
 id listMode
 id list_item
 id masked
@@ -2254,7 +2257,11 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id tab1
+id tab2
+id tab3
 id tabMode
+id tabhost
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2305,6 +2312,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv1
+id tv2
+id tv3
 id tv_display
 id tv_question
 id tv_received
@@ -2476,6 +2486,7 @@ layout send
 layout sliding
 layout splash
 layout support_simple_spinner_dropdown_item
+layout tabs
 layout test_action_chip
 layout test_chip_zero_corner_radius
 layout test_design_checkbox
