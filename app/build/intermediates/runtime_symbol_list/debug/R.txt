@@ -1934,6 +1934,7 @@ int id bounce 0x7f090068
 int id bounceBoth 0x7f090069
 int id bounceEnd 0x7f09006a
 int id bounceStart 0x7f09006b
+int id btn_add_tab 0x7f090203
 int id btn_start_watch 0x7f09006c
 int id button1 0x7f09006d
 int id button2 0x7f09006e

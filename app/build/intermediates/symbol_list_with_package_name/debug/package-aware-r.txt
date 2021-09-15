@@ -1935,6 +1935,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_add_tab
 id btn_start_watch
 id button1
 id button2
