@@ -71,12 +71,6 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/tv3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="TextView 3" />
-
                     <Button
                         android:id="@+id/btn_add_tab"
                         android:layout_width="wrap_content"
