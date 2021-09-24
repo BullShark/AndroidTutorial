@@ -1,15 +1,13 @@
-ch/expectusafterlun/androidtutorial/GFX.java
- ch.expectusafterlun.androidtutorial.GFX
-ch/expectusafterlun/androidtutorial/BuildConfig.java
- ch.expectusafterlun.androidtutorial.BuildConfig
 ch/expectusafterlun/androidtutorial/SoundStuff.java
  ch.expectusafterlun.androidtutorial.SoundStuff
 ch/expectusafterlun/androidtutorial/Menu.java
  ch.expectusafterlun.androidtutorial.Menu
 ch/expectusafterlun/androidtutorial/AnimationView.java
  ch.expectusafterlun.androidtutorial.AnimationView
-ch/expectusafterlun/androidtutorial/Tabs.java
- ch.expectusafterlun.androidtutorial.Tabs
+ch/expectusafterlun/androidtutorial/Data.java
+ ch.expectusafterlun.androidtutorial.Data
+ch/expectusafterlun/androidtutorial/BuildConfig.java
+ ch.expectusafterlun.androidtutorial.BuildConfig
 ch/expectusafterlun/androidtutorial/Slider.java
  ch.expectusafterlun.androidtutorial.Slider
 ch/expectusafterlun/androidtutorial/GFXSurface.java
@@ -23,6 +21,8 @@ ch/expectusafterlun/androidtutorial/Count.java
  ch.expectusafterlun.androidtutorial.Count$2
 ch/expectusafterlun/androidtutorial/Email.java
  ch.expectusafterlun.androidtutorial.Email
+ch/expectusafterlun/androidtutorial/GFX.java
+ ch.expectusafterlun.androidtutorial.GFX
 ch/expectusafterlun/androidtutorial/TextPlay.java
  ch.expectusafterlun.androidtutorial.TextPlay
 ch/expectusafterlun/androidtutorial/Prefs.java
@@ -36,5 +36,6 @@ ch/expectusafterlun/androidtutorial/Splash.java
  ch.expectusafterlun.androidtutorial.Splash$1
 ch/expectusafterlun/androidtutorial/Opens.java
  ch.expectusafterlun.androidtutorial.Opens
-ch/expectusafterlun/androidtutorial/Data.java
- ch.expectusafterlun.androidtutorial.Data
+ch/expectusafterlun/androidtutorial/Tabs.java
+ ch.expectusafterlun.androidtutorial.Tabs
+ ch.expectusafterlun.androidtutorial.Tabs$1

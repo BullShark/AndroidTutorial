@@ -1921,7 +1921,6 @@ int id b_return 0x7f09005b
 int id b_sa 0x7f09005c
 int id b_safr 0x7f09005d
 int id b_set_wallpaper 0x7f09005e
-int id b_stop_watch 0x7f09005f
 int id b_sub 0x7f090060
 int id barrier 0x7f090061
 int id baseline 0x7f090062
@@ -1936,6 +1935,7 @@ int id bounceEnd 0x7f09006a
 int id bounceStart 0x7f09006b
 int id btn_add_tab 0x7f090203
 int id btn_start_watch 0x7f09006c
+int id btn_stop_watch 0x7f090204
 int id button1 0x7f09006d
 int id button2 0x7f09006e
 int id button3 0x7f09006f
@@ -2314,7 +2314,6 @@ int id transition_transform 0x7f0901e3
 int id triangle 0x7f0901e4
 int id tv1 0x7f0901e5
 int id tv2 0x7f0901e6
-int id tv3 0x7f0901e7
 int id tv_display 0x7f0901e8
 int id tv_question 0x7f0901e9
 int id tv_received 0x7f0901ea

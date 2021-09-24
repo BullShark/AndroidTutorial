@@ -1922,7 +1922,6 @@ id b_return
 id b_sa
 id b_safr
 id b_set_wallpaper
-id b_stop_watch
 id b_sub
 id barrier
 id baseline
@@ -1937,6 +1936,7 @@ id bounceEnd
 id bounceStart
 id btn_add_tab
 id btn_start_watch
+id btn_stop_watch
 id button1
 id button2
 id button3
@@ -2315,7 +2315,6 @@ id transition_transform
 id triangle
 id tv1
 id tv2
-id tv3
 id tv_display
 id tv_question
 id tv_received

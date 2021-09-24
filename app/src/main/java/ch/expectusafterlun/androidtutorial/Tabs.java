@@ -14,6 +14,9 @@ import android.widget.TextView;
 public class Tabs extends Activity implements View.OnClickListener {
 
     TabHost th;
+    TextView showResults;
+    long start, stop;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,8 +27,11 @@ public class Tabs extends Activity implements View.OnClickListener {
         Button newTab = (Button) findViewById(R.id.btn_add_tab);
         Button btnStart = (Button) findViewById(R.id.btn_start_watch);
         Button btnStop = (Button) findViewById(R.id.btn_stop_watch);
+        showResults = (TextView) findViewById(R.id.tv1);
 
         newTab.setOnClickListener(this);
+        btnStart.setOnClickListener(this);
+        btnStop.setOnClickListener(this);
 
         TabSpec tabSpec = th.newTabSpec("tag1");
         tabSpec.setContent(R.id.tab1);
@@ -41,6 +47,8 @@ public class Tabs extends Activity implements View.OnClickListener {
         tabSpec.setContent(R.id.tab3);
         tabSpec.setIndicator("Add a Tab");
         th.addTab(tabSpec);
+
+        start = 0;
     }
 
     @Override
@@ -64,9 +72,16 @@ public class Tabs extends Activity implements View.OnClickListener {
                 break;
 
             case R.id.btn_start_watch:
+                start = System.currentTimeMillis();
                 break;
 
             case R.id.btn_stop_watch:
+                stop = System.currentTimeMillis();
+
+                if(start != 0) {
+                    long result = stop - start;
+                    showResults.setText(Long.toString(result));
+                }
                 break;
         }
     }
