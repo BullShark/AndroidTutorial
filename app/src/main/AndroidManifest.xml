@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ch.expectusafterlun.androidtutorial"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="10"
@@ -10,16 +10,20 @@
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Splash"
+            android:name=".SimpleBrowser"
+            android:exported="true" />
+        <activity
+            android:name=".Splash"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,9 +31,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Menu"
+            android:name=".Menu"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.MENU" />
 
@@ -37,9 +41,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Count"
+            android:name=".Count"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.COUNT" />
 
@@ -47,9 +51,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.TextPlay"
+            android:name=".TextPlay"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.TEXTPLAY" />
 
@@ -57,9 +61,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Email"
+            android:name=".Email"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.EMAIL" />
 
@@ -67,10 +71,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Camera"
+            android:name=".Camera"
             android:exported="true"
             android:label="Camera Application"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.CAMERA" />
 
@@ -78,9 +82,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Data"
+            android:name=".Data"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.DATA" />
 
@@ -88,9 +92,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Opens"
+            android:name=".Opens"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.OPENEDCLASS" />
 
@@ -98,9 +102,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.AboutUs"
+            android:name=".AboutUs"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Dialog" >
+            android:theme="@android:style/Theme.Dialog">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.ABOUT" />
 
@@ -108,9 +112,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Prefs"
+            android:name=".Prefs"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.PREFS" />
 
@@ -118,9 +122,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.FullScreen"
+            android:name=".FullScreen"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.FULLSCREEN" />
 
@@ -128,9 +132,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.GFX"
+            android:name=".GFX"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.GFX" />
 
@@ -138,9 +142,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.GFXSurface"
+            android:name=".GFXSurface"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.GFXSURFACE" />
 
@@ -148,9 +152,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.SoundStuff"
+            android:name=".SoundStuff"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.SOUNDSTUFF" />
 
@@ -158,9 +162,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Slider"
+            android:name=".Slider"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.SLIDE" />
 
@@ -168,9 +172,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.expectusafterlun.androidtutorial.Tabs"
+            android:name=".Tabs"
             android:exported="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.TABS" />
 
