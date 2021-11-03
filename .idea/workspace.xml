@@ -12,7 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Uses permission INTERNET for the web browser">
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 89">
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/simplebrowser.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -267,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635909827301</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Completed Video Tutorial 89">
+      <created>1635910553748</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635910553748</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +298,7 @@
     <MESSAGE value="Completed Android Tutorial Video 87" />
     <MESSAGE value="Got a lot of the XML written" />
     <MESSAGE value="Uses permission INTERNET for the web browser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uses permission INTERNET for the web browser" />
+    <MESSAGE value="Completed Video Tutorial 89" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 89" />
   </component>
 </project>
