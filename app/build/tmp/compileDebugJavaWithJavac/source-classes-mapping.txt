@@ -4,12 +4,15 @@ ch/expectusafterlun/androidtutorial/Menu.java
  ch.expectusafterlun.androidtutorial.Menu
 ch/expectusafterlun/androidtutorial/AnimationView.java
  ch.expectusafterlun.androidtutorial.AnimationView
-ch/expectusafterlun/androidtutorial/Data.java
- ch.expectusafterlun.androidtutorial.Data
+ch/expectusafterlun/androidtutorial/Tabs.java
+ ch.expectusafterlun.androidtutorial.Tabs
+ ch.expectusafterlun.androidtutorial.Tabs$1
 ch/expectusafterlun/androidtutorial/BuildConfig.java
  ch.expectusafterlun.androidtutorial.BuildConfig
 ch/expectusafterlun/androidtutorial/Slider.java
  ch.expectusafterlun.androidtutorial.Slider
+ch/expectusafterlun/androidtutorial/SimpleBrowser.java
+ ch.expectusafterlun.androidtutorial.SimpleBrowser
 ch/expectusafterlun/androidtutorial/GFXSurface.java
  ch.expectusafterlun.androidtutorial.GFXSurface
  ch.expectusafterlun.androidtutorial.GFXSurface$AnimationViewSurface
@@ -36,6 +39,5 @@ ch/expectusafterlun/androidtutorial/Splash.java
  ch.expectusafterlun.androidtutorial.Splash$1
 ch/expectusafterlun/androidtutorial/Opens.java
  ch.expectusafterlun.androidtutorial.Opens
-ch/expectusafterlun/androidtutorial/Tabs.java
- ch.expectusafterlun.androidtutorial.Tabs
- ch.expectusafterlun.androidtutorial.Tabs$1
+ch/expectusafterlun/androidtutorial/Data.java
+ ch.expectusafterlun.androidtutorial.Data

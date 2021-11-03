@@ -1917,6 +1917,11 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id bSentEmail
 id b_add
+id b_back
+id b_forward
+id b_go
+id b_history
+id b_refresh
 id b_results
 id b_return
 id b_sa
@@ -2028,6 +2033,7 @@ id etOutro
 id etThings
 id et_commands
 id et_send
+id et_url
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2339,6 +2345,7 @@ id withinBounds
 id wrap
 id wrap_content
 id wrap_content_constrained
+id wv_browser
 id x_left
 id x_right
 id zero_corner_chip
@@ -2483,6 +2490,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout send
+layout simplebrowser
 layout sliding
 layout splash
 layout support_simple_spinner_dropdown_item
