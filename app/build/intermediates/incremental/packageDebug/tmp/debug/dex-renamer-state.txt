@@ -1,4 +1,4 @@
-#Tue Nov 02 22:59:34 CDT 2021
+#Wed Nov 03 00:10:00 CDT 2021
 base.2=/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
 path.2=8/classes.dex
 base.1=/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
