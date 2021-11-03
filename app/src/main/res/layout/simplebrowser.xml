@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SimpleBrowser">
@@ -14,14 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:id="@id/et_url">
+            android:id="@+id/et_url">
         </EditText>
         <Button
             android:text="Go"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="8"
-            android:id="@id/b_go">
+            android:id="@+id/b_go">
         </Button>
     </LinearLayout>
     <LinearLayout
@@ -35,7 +36,7 @@
             android:id="@+id/b_back"
             android:layout_weight="2"
             android:layout_width="fill_parent"
-            androidrs:layout_height="wrap_content"
+            android:layout_height="wrap_content"
         ></Button>
         <Button
             android:text="Go Forward"
