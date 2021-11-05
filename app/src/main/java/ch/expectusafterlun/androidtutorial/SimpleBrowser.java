@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -19,6 +20,7 @@ public class SimpleBrowser extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.simplebrowser);
 
         browser = (WebView) findViewById(R.id.wv_browser);
+        browser.setWebViewClient(new ViewClient());
         browser.loadUrl("https://expectusafterlun.ch");
 
         Button go = (Button) findViewById(R.id.b_go);
