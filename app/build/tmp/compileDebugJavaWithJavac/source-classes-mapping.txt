@@ -39,7 +39,7 @@ ch/expectusafterlun/androidtutorial/Splash.java
  ch.expectusafterlun.androidtutorial.Splash$1
 ch/expectusafterlun/androidtutorial/Opens.java
  ch.expectusafterlun.androidtutorial.Opens
-ch/expectusafterlun/androidtutorial/SimpleBrowser.java
- ch.expectusafterlun.androidtutorial.SimpleBrowser
 ch/expectusafterlun/androidtutorial/ViewClient.java
  ch.expectusafterlun.androidtutorial.ViewClient
+ch/expectusafterlun/androidtutorial/SimpleBrowser.java
+ ch.expectusafterlun.androidtutorial.SimpleBrowser
