@@ -12,9 +12,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="New class for loading urls in our web view">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 91">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SimpleBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SimpleBrowser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,7 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636115144856</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Completed Video Tutorial 91">
+      <created>1636116107873</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1636116107873</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Completed Video Tutorial 91">
+      <created>1636116114916</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1636116114916</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,6 +381,7 @@
     <MESSAGE value="Fixed Crashing&#10;Completed Video Tutorial 89" />
     <MESSAGE value="Completed Video Tutorial 90" />
     <MESSAGE value="New class for loading urls in our web view" />
-    <option name="LAST_COMMIT_MESSAGE" value="New class for loading urls in our web view" />
+    <MESSAGE value="Completed Video Tutorial 91" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 91" />
   </component>
 </project>

@@ -20,8 +20,17 @@ public class SimpleBrowser extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.simplebrowser);
 
         browser = (WebView) findViewById(R.id.wv_browser);
+        browser.getSettings().setJavaScriptEnabled(true);
+        /* Load the page in overview (Zoomed out) mode */
+        browser.getSettings().setLoadWithOverviewMode(true);
+        /* Do not be confined to the browser's dimensions */
+        browser.getSettings().setUseWideViewPort(true);
         browser.setWebViewClient(new ViewClient());
-        browser.loadUrl("https://expectusafterlun.ch");
+        try {
+            browser.loadUrl("https://expectusafterlun.ch");
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
 
         Button go = (Button) findViewById(R.id.b_go);
         Button back = (Button) findViewById(R.id.b_back);
