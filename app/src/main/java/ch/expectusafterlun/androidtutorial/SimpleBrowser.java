@@ -2,8 +2,10 @@ package ch.expectusafterlun.androidtutorial;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
@@ -54,6 +56,9 @@ public class SimpleBrowser extends AppCompatActivity implements View.OnClickList
             case R.id.b_go:
                 String website = url.getText().toString();
                 browser.loadUrl(website);
+                /* Hide keyboard after using EditText */
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(url.getWindowToken(), 0);
                 break;
             case R.id.b_back:
                 if(browser.canGoBack()) {

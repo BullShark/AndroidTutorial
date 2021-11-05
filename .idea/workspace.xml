@@ -12,7 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 91">
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 92">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SimpleBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SimpleBrowser.java" afterDir="false" />
     </list>
@@ -352,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636116114916</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Completed Video Tutorial 92">
+      <created>1636116537233</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1636116537233</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Completed Video Tutorial 92">
+      <created>1636116669611</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1636116669611</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,6 +396,7 @@
     <MESSAGE value="Completed Video Tutorial 90" />
     <MESSAGE value="New class for loading urls in our web view" />
     <MESSAGE value="Completed Video Tutorial 91" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 91" />
+    <MESSAGE value="Completed Video Tutorial 92" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 92" />
   </component>
 </project>
