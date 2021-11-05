@@ -41,3 +41,5 @@ ch/expectusafterlun/androidtutorial/Opens.java
  ch.expectusafterlun.androidtutorial.Opens
 ch/expectusafterlun/androidtutorial/SimpleBrowser.java
  ch.expectusafterlun.androidtutorial.SimpleBrowser
+ch/expectusafterlun/androidtutorial/ViewClient.java
+ ch.expectusafterlun.androidtutorial.ViewClient
