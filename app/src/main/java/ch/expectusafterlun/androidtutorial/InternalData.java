@@ -2,6 +2,8 @@ package ch.expectusafterlun.androidtutorial;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -10,6 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.io.FileInputStream;
@@ -77,15 +80,32 @@ public class InternalData extends AppCompatActivity implements View.OnClickListe
     }
     public class LoadData extends AsyncTask<String, Integer, String> {
 
+        ProgressDialog dialog;
+
+        /* Gets called first */
         protected void onPreExecute(String f) {
             // Example of setting up something
-            f = "whatever";
+            dialog = new ProgressDialog(InternalData.this);
+            dialog.setProgress(ProgressDialog.STYLE_HORIZONTAL);
+            dialog.setMax(100);
+            dialog.show();
         }
 
         @Override
         protected String doInBackground(String... strings) {
             StringBuilder collected = new StringBuilder();
             FileInputStream fis = null;
+
+            for(int i=0; i<20; i++) {
+                publishProgress(5);
+                try {
+                    Thread.sleep(88);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            dialog.dismiss();
+
             try {
                 fis = openFileInput(FILENAME);
                 byte[] databytes = new byte[fis.available()];
@@ -109,7 +129,7 @@ public class InternalData extends AppCompatActivity implements View.OnClickListe
         }
 
         protected void onProgressUpdate(Integer... progress) {
-
+            dialog.incrementProgressBy(progress[0]);
         }
 
         protected void onPostExecute(String result) {
