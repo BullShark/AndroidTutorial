@@ -77,6 +77,11 @@ public class InternalData extends AppCompatActivity implements View.OnClickListe
     }
     public class LoadData extends AsyncTask<String, Integer, String> {
 
+        protected void onPreExecute(String f) {
+            // Example of setting up something
+            f = "whatever";
+        }
+
         @Override
         protected String doInBackground(String... strings) {
             StringBuilder collected = new StringBuilder();
@@ -101,6 +106,14 @@ public class InternalData extends AppCompatActivity implements View.OnClickListe
                     return collected.toString();
                 }
             }
+        }
+
+        protected void onProgressUpdate(Integer... progress) {
+
+        }
+
+        protected void onPostExecute(String result) {
+            dataResult.setText(result);
         }
     }
 }
