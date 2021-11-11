@@ -36,10 +36,15 @@ public class SharedPrefs extends AppCompatActivity {
         switch(v.getId()) {
             case R.id.bSave:
                 String data = sharedData.getText().toString();
+                SharedPreferences.Editor editor = prefs.edit();
+                editor.putString("shared", data);
+                editor.apply();
                 break;
             case R.id.bLoad:
 
                 break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + v.getId());
         }
     }
 }
