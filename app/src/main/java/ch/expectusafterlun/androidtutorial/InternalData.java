@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -66,7 +68,26 @@ public class InternalData extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.bLoad:
-
+                StringBuilder collected = new StringBuilder();
+                FileInputStream fis = null;
+                try {
+                    fis = openFileInput(FILENAME);
+                    byte[] databytes = new byte[fis.available()];
+                    while(fis.read(databytes) != -1) {
+                        collected.append(new String(databytes));
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } finally {
+                    try {
+                        if (fis != null) {
+                            fis.close();
+                        }
+                        dataResult.setText(collected);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + v.getId());
