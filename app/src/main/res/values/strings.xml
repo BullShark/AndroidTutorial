@@ -11,5 +11,8 @@
     <string name="tb_pass_text">Try Command</string>
     <string name="flipper_4">Flipper 3</string>
     <string name="flipper_3">Flipper 3</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="load_your_data">Load your data</string>
 
 </resources>

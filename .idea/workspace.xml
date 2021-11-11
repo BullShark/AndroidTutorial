@@ -12,9 +12,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 95">
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 96&#10;&#10;SharedPreferences saving data with key/value">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SharedPrefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SharedPrefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sharedpreferences.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sharedpreferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +414,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636648675159</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Completed Video Tutorial 96&#10;&#10;SharedPreferences saving data with key/value">
+      <created>1636650511327</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1636650511327</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Completed Video Tutorial 96&#10;&#10;SharedPreferences saving data with key/value">
+      <created>1636650522055</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1636650522055</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -447,6 +464,7 @@
     <MESSAGE value="Add an orientation to our LinearLayout and Format the code for readability" />
     <MESSAGE value="Completed Video Tutorial 94" />
     <MESSAGE value="Completed Video Tutorial 95" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 95" />
+    <MESSAGE value="Completed Video Tutorial 96&#10;&#10;SharedPreferences saving data with key/value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 96&#10;&#10;SharedPreferences saving data with key/value" />
   </component>
 </project>

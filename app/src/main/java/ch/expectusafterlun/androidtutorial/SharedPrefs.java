@@ -41,7 +41,9 @@ public class SharedPrefs extends AppCompatActivity {
                 editor.apply();
                 break;
             case R.id.bLoad:
-
+                prefs = getSharedPreferences(FILENAME, 0);
+                String results = prefs.getString("shared", "Couldn't load data!");
+                dataResult.setText(results);
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + v.getId());
