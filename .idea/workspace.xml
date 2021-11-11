@@ -12,16 +12,22 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 92">
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Add an orientation to our LinearLayout and Format the code for readability">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Flipper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AndroidTutorial.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/AndroidTutorial.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SimpleBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SimpleBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/flipper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/flipper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[17291JECB17482]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/bullshark/.android/avd/Pixel_5_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -68,6 +74,9 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+    </key>
+    <key name="android.template.-728786672">
+      <recent name="ch.expectusafterlun.androidtutorial" />
     </key>
     <key name="android.template.86727165">
       <recent name="ch.expectusafterlun.androidtutorial" />
@@ -366,7 +375,28 @@
       <option name="project" value="LOCAL" />
       <updated>1636116669611</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Completed Video Tutorial 93">
+      <created>1636117228892</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1636117228892</updated>
+    </task>
+    <task id="LOCAL-00025" summary="LinearLayout with a ViewFlipper, Button, and 2 TextViews">
+      <created>1636643445331</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1636643445331</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add an orientation to our LinearLayout and Format the code for readability">
+      <created>1636643836628</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1636643836628</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,6 +427,9 @@
     <MESSAGE value="New class for loading urls in our web view" />
     <MESSAGE value="Completed Video Tutorial 91" />
     <MESSAGE value="Completed Video Tutorial 92" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 92" />
+    <MESSAGE value="Completed Video Tutorial 93" />
+    <MESSAGE value="LinearLayout with a ViewFlipper, Button, and 2 TextViews" />
+    <MESSAGE value="Add an orientation to our LinearLayout and Format the code for readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add an orientation to our LinearLayout and Format the code for readability" />
   </component>
 </project>

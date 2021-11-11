@@ -16,8 +16,10 @@
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.AppCompat.Light"
-        >
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity
+            android:name=".Flipper"
+            android:exported="false" />
         <activity
             android:name=".SimpleBrowser"
             android:exported="true" />

@@ -9,6 +9,7 @@
     <string name="tv_results_text">invalid</string>
     <string name="b_results_text">Button</string>
     <string name="tb_pass_text">Try Command</string>
+    <string name="flipper_4">Flipper 3</string>
     <string name="flipper_3">Flipper 3</string>
 
 </resources>
