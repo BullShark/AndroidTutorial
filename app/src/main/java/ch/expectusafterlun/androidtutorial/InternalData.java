@@ -4,6 +4,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -68,29 +69,38 @@ public class InternalData extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.bLoad:
-                StringBuilder collected = new StringBuilder();
-                FileInputStream fis = null;
-                try {
-                    fis = openFileInput(FILENAME);
-                    byte[] databytes = new byte[fis.available()];
-                    while(fis.read(databytes) != -1) {
-                        collected.append(new String(databytes));
-                    }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } finally {
-                    try {
-                        if (fis != null) {
-                            fis.close();
-                        }
-                        dataResult.setText(collected);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
+                new LoadData().execute(FILENAME);
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + v.getId());
+        }
+    }
+    public class LoadData extends AsyncTask<String, Integer, String> {
+
+        @Override
+        protected String doInBackground(String... strings) {
+            StringBuilder collected = new StringBuilder();
+            FileInputStream fis = null;
+            try {
+                fis = openFileInput(FILENAME);
+                byte[] databytes = new byte[fis.available()];
+                while(fis.read(databytes) != -1) {
+                    collected.append(new String(databytes));
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                try {
+                    if (fis != null) {
+                        fis.close();
+                    }
+                    dataResult.setText(collected);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } finally {
+                    return collected.toString();
+                }
+            }
         }
     }
 }
