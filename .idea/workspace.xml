@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 97&#10;&#10;Storing data internally">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/InternalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/InternalData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +20,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/bullshark/.android/avd/Pixel_5_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[17291JECB17482]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -474,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636657629893</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Completed Video Tutorial 102&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird">
+      <created>1636658391799</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1636658391799</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,7 +496,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Got a lot of the XML written" />
     <MESSAGE value="Uses permission INTERNET for the web browser" />
     <MESSAGE value="Completed Video Tutorial 89" />
     <MESSAGE value="Upgraded Gradle to 7.0.3" />
@@ -515,6 +520,7 @@
     <MESSAGE value="Completed Video Tutorial 100&#10;&#10;Different ways of reading internal data with streams and bytes etc" />
     <MESSAGE value="Completed Video Tutorial 100&#10;&#10;Move are code that reads in internal data to an AsyncTask because it could take some time and we don't want to lock up the gui, so we use multithreading." />
     <MESSAGE value="Completed Video Tutorial 102&#10;&#10;Implemented all 4 methods of a class that extends AsyncTask&lt;...&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 102&#10;&#10;Implemented all 4 methods of a class that extends AsyncTask&lt;...&gt;" />
+    <MESSAGE value="Completed Video Tutorial 102&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 102&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird" />
   </component>
 </project>
