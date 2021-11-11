@@ -12,11 +12,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 94">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SharedPrefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sharedpreferences.xml" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 95">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SharedPrefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SharedPrefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636644643758</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Completed Video Tutorial 95">
+      <created>1636648675159</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1636648675159</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,6 +446,7 @@
     <MESSAGE value="LinearLayout with a ViewFlipper, Button, and 2 TextViews" />
     <MESSAGE value="Add an orientation to our LinearLayout and Format the code for readability" />
     <MESSAGE value="Completed Video Tutorial 94" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 94" />
+    <MESSAGE value="Completed Video Tutorial 95" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 95" />
   </component>
 </project>
