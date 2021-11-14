@@ -4,17 +4,22 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.os.Environment;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class ExternalData extends AppCompatActivity {
+import java.io.File;
+
+public class ExternalData extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private TextView canWrite, canRead;
     private String state;
     private boolean canW, canR;
     private Spinner spinner;
-    private String[] paths = { "Music", "Pictures", "Download" };
+    private final String[] PATHS = { "Music", "Pictures", "Download" };
+    private File path = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,9 +46,32 @@ public class ExternalData extends AppCompatActivity {
         }
 
         ArrayAdapter<String> adapter =
-                new ArrayAdapter<String>(ExternalData.this, android.R.layout.simple_spinner_item, paths);
+                new ArrayAdapter<String>(ExternalData.this, android.R.layout.simple_spinner_item, PATHS);
 
         spinner = (Spinner) findViewById(R.id.spinner);
         spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        // position
+        int pos = spinner.getSelectedItemPosition();
+        switch(pos) {
+            case 0:
+                path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_MUSIC);
+                break;
+            case 1:
+                path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+                break;
+            case 2:
+                path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+                break;
+        }
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
     }
 }

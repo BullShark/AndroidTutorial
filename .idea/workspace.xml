@@ -12,12 +12,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 104">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 105">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/ExternalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/ExternalData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/externaldata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/externaldata.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -515,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636891010219</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Completed Video Tutorial 105">
+      <created>1636892406207</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1636892406207</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,7 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Video Tutorial 90" />
     <MESSAGE value="New class for loading urls in our web view" />
     <MESSAGE value="Completed Video Tutorial 91" />
     <MESSAGE value="Completed Video Tutorial 92" />
@@ -556,6 +559,7 @@
     <MESSAGE value="Min sdk = 16" />
     <MESSAGE value="Started the code for reading/writing to external storage" />
     <MESSAGE value="Completed Video Tutorial 104" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 104" />
+    <MESSAGE value="Completed Video Tutorial 105" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 105" />
   </component>
 </project>
