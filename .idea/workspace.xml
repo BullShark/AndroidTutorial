@@ -12,15 +12,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 97&#10;&#10;Storing data internally">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/InternalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/InternalData.java" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 104">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/ExternalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/ExternalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/externaldata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/externaldata.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[17291JECB17482]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/bullshark/.android/avd/Pixel_5_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -61,6 +65,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.expectusafterlun.androidtutorial" />
+    </key>
+    <key name="android.template.100562700">
       <recent name="ch.expectusafterlun.androidtutorial" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -480,7 +487,35 @@
       <option name="project" value="LOCAL" />
       <updated>1636658391799</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Completed Video Tutorial 103&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird">
+      <created>1636658417948</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1636658417948</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Min sdk = 16">
+      <created>1636806473201</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1636806473201</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Started the code for reading/writing to external storage">
+      <created>1636854737041</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1636854737041</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Completed Video Tutorial 104">
+      <created>1636891010219</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1636891010219</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,10 +531,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Uses permission INTERNET for the web browser" />
-    <MESSAGE value="Completed Video Tutorial 89" />
-    <MESSAGE value="Upgraded Gradle to 7.0.3" />
-    <MESSAGE value="Fixed Crashing&#10;Completed Video Tutorial 89" />
     <MESSAGE value="Completed Video Tutorial 90" />
     <MESSAGE value="New class for loading urls in our web view" />
     <MESSAGE value="Completed Video Tutorial 91" />
@@ -521,6 +552,10 @@
     <MESSAGE value="Completed Video Tutorial 100&#10;&#10;Move are code that reads in internal data to an AsyncTask because it could take some time and we don't want to lock up the gui, so we use multithreading." />
     <MESSAGE value="Completed Video Tutorial 102&#10;&#10;Implemented all 4 methods of a class that extends AsyncTask&lt;...&gt;" />
     <MESSAGE value="Completed Video Tutorial 102&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 102&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird" />
+    <MESSAGE value="Completed Video Tutorial 103&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird" />
+    <MESSAGE value="Min sdk = 16" />
+    <MESSAGE value="Started the code for reading/writing to external storage" />
+    <MESSAGE value="Completed Video Tutorial 104" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 104" />
   </component>
 </project>
