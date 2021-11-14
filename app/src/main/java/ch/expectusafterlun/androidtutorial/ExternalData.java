@@ -7,12 +7,14 @@ import android.os.Environment;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.io.File;
 
-public class ExternalData extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class ExternalData extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
 
     private TextView canWrite, canRead;
     private String state;
@@ -20,6 +22,8 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
     private Spinner spinner;
     private final String[] PATHS = { "Music", "Pictures", "Download" };
     private File path = null;
+    private EditText saveFile;
+    private Button confirm, save;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,11 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
         canWrite = (TextView)  findViewById(R.id.tvCanWrite);
         canRead = (TextView)  findViewById(R.id.tvCanRead);
         state = Environment.getExternalStorageState();
+        confirm = (Button) findViewById(R.id.bConfirmSaveAs);
+        save = (Button) findViewById(R.id.bSaveFile);
+        confirm.setOnClickListener((View.OnClickListener) this);
+        save.setOnClickListener((View.OnClickListener) this);
+
         if(state.equals(Environment.MEDIA_MOUNTED)) {
             // Read and write
             canWrite.setText("Can write: true");
@@ -73,5 +82,17 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()) {
+            case R.id.bSaveFile:
+
+                break;
+            case R.id.bConfirmSaveAs:
+                save.setVisibility(View.VISIBLE);
+                break;
+        }
     }
 }
