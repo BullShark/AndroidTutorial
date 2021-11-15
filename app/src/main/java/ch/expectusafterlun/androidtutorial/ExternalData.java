@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -41,6 +42,7 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
         state = Environment.getExternalStorageState();
         confirm = (Button) findViewById(R.id.bConfirmSaveAs);
         save = (Button) findViewById(R.id.bSaveFile);
+        saveFile = (EditText) findViewById(R.id.etSaveAs);
         confirm.setOnClickListener((View.OnClickListener) this);
         save.setOnClickListener((View.OnClickListener) this);
 
@@ -99,11 +101,13 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.bSaveFile:
-                String f = saveFile.getText().toString();
+                String f = saveFile.getText().toString() + ".png";
                 file = new File(path, f);
 
                 checkState();
                 if(canW && canR) {
+
+                    path.mkdirs();
 
                     try {
                         @SuppressLint("ResourceType")
@@ -114,6 +118,11 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
                         os.write(data);
                         is.close();
                         os.close();
+
+                        Toast t = Toast.makeText(ExternalData.this,
+                                "File has been Saved!",
+                                Toast.LENGTH_SHORT);
+                        t.show();
 
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
