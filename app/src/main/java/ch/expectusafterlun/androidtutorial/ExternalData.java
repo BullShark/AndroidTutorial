@@ -2,6 +2,7 @@ package ch.expectusafterlun.androidtutorial;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
@@ -13,6 +14,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
 public class ExternalData extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
 
@@ -22,6 +28,7 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
     private Spinner spinner;
     private final String[] PATHS = { "Music", "Pictures", "Download" };
     private File path = null;
+    private File file = null;
     private EditText saveFile;
     private Button confirm, save;
 
@@ -37,6 +44,17 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
         confirm.setOnClickListener((View.OnClickListener) this);
         save.setOnClickListener((View.OnClickListener) this);
 
+        checkState();
+
+        ArrayAdapter<String> adapter =
+                new ArrayAdapter<String>(ExternalData.this, android.R.layout.simple_spinner_item, PATHS);
+
+        spinner = (Spinner) findViewById(R.id.spinner);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
+    }
+
+    private void checkState() {
         if(state.equals(Environment.MEDIA_MOUNTED)) {
             // Read and write
             canWrite.setText("Can write: true");
@@ -53,13 +71,6 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
             canRead.setText("Can reads: false");
             canW = canR = false;
         }
-
-        ArrayAdapter<String> adapter =
-                new ArrayAdapter<String>(ExternalData.this, android.R.layout.simple_spinner_item, PATHS);
-
-        spinner = (Spinner) findViewById(R.id.spinner);
-        spinner.setAdapter(adapter);
-        spinner.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
     }
 
     @Override
@@ -88,7 +99,28 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.bSaveFile:
+                String f = saveFile.getText().toString();
+                file = new File(path, f);
 
+                checkState();
+                if(canW && canR) {
+
+                    try {
+                        @SuppressLint("ResourceType")
+                        InputStream is = getResources().openRawResource(R.drawable.greenball);
+                        OutputStream os = new FileOutputStream(file);
+                        byte[] data = new byte[is.available()];
+                        is.read(data);
+                        os.write(data);
+                        is.close();
+                        os.close();
+
+                    } catch (FileNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
                 break;
             case R.id.bConfirmSaveAs:
                 save.setVisibility(View.VISIBLE);
