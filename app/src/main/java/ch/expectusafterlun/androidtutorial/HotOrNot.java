@@ -2,6 +2,7 @@ package ch.expectusafterlun.androidtutorial;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -54,6 +55,24 @@ public class HotOrNot {
 
     public String getData() {
         String[] columns = new String[] { KEY_ROWID, KEY_NAME, KEY_HOTNESS };
+        Cursor cursor = db.query(DATABASE_TABLE, columns, null, null, null, null, null);
+        String result = "";
+        int iRow = cursor.getColumnIndex(KEY_ROWID);
+        int iName = cursor.getColumnIndex(KEY_NAME);
+        int iHotness = cursor.getColumnIndex(KEY_HOTNESS);
+
+        for(cursor.moveToFirst(); !cursor.isAfterLast(); cursor.moveToNext()) {
+            result = result + cursor.getString(iRow) + " " + cursor.getString(iName) + " " + cursor.getString(iHotness) + '\n';
+        }
+
+        return result;
+    }
+
+    public String getName(long l) {
+        return "";
+    }
+
+    public String getHotness(long l) {
         return "";
     }
 

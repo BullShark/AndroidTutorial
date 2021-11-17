@@ -30,10 +30,17 @@
         android:theme="@style/Theme.AppCompat.Light" >
         <activity
             android:name="ch.expectusafterlun.androidtutorial.SQLView"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SQLVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.SQLiteExample"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.ExternalData"
             android:exported="false" />
