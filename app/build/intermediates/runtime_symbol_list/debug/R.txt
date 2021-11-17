@@ -1922,6 +1922,7 @@ int id bSentEmail 0x7f09005c
 int id b_add 0x7f09005d
 int id b_back 0x7f09005e
 int id b_forward 0x7f09005f
+int id b_get_info 0x7f09021f
 int id b_go 0x7f090060
 int id b_history 0x7f090061
 int id b_refresh 0x7f090062
@@ -1930,6 +1931,8 @@ int id b_return 0x7f090064
 int id b_sa 0x7f090065
 int id b_safr 0x7f090066
 int id b_set_wallpaper 0x7f090067
+int id b_sql_delete 0x7f090220
+int id b_sql_modify 0x7f090221
 int id b_sql_open_view 0x7f090068
 int id b_sql_update 0x7f090069
 int id b_sub 0x7f09006a
@@ -2042,6 +2045,7 @@ int id et_commands 0x7f0900d4
 int id et_send 0x7f0900d5
 int id et_sql_hotness 0x7f0900d6
 int id et_sql_name 0x7f0900d7
+int id et_sql_row_info 0x7f090222
 int id et_url 0x7f0900d8
 int id exitUntilCollapsed 0x7f0900d9
 int id expand_activities_button 0x7f0900da
@@ -2338,6 +2342,7 @@ int id tvCanRead 0x7f0901fc
 int id tvCanWrite 0x7f0901fd
 int id tvLoadSharedPreferences 0x7f0901fe
 int id tv_1 0x7f0901ff
+int id tv_2 0x7f090223
 int id tv_3 0x7f090200
 int id tv_display 0x7f090201
 int id tv_question 0x7f090202

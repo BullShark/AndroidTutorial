@@ -28,12 +28,12 @@
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout-land/count.xml"
     },
     {
-        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable_standard.png.flat",
-        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable/standard.png"
-    },
-    {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/raw_dubstep.mp3.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/raw/dubstep.mp3"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable_standard.png.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable/standard.png"
     },
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_simplebrowser.xml.flat",

@@ -31,6 +31,8 @@ public class HotOrNot {
     private final Context context;
     private SQLiteDatabase db;
 
+    String[] columns = new String[] { KEY_ROWID, KEY_NAME, KEY_HOTNESS };
+
     public HotOrNot(Context context) {
         this.context = context;
     }
@@ -54,7 +56,6 @@ public class HotOrNot {
     }
 
     public String getData() {
-        String[] columns = new String[] { KEY_ROWID, KEY_NAME, KEY_HOTNESS };
         Cursor cursor = db.query(DATABASE_TABLE, columns, null, null, null, null, null);
         String result = "";
         int iRow = cursor.getColumnIndex(KEY_ROWID);
@@ -69,11 +70,23 @@ public class HotOrNot {
     }
 
     public String getName(long l) {
-        return "";
+        Cursor cursor = db.query(DATABASE_TABLE, columns, KEY_ROWID + "=" + l, null, null, null, null);
+        if(cursor != null) {
+            cursor.moveToFirst();
+            return cursor.getString(1); // Name column at position 1
+        } else {
+            return null;
+        }
     }
 
     public String getHotness(long l) {
-        return "";
+        Cursor cursor = db.query(DATABASE_TABLE, columns, KEY_ROWID + "=" + l, null, null, null, null);
+        if(cursor != null) {
+            cursor.moveToFirst();
+            return cursor.getString(2); // Hotness column at position 2
+        } else {
+            return null;
+        }
     }
 
     private static class DbHelper extends SQLiteOpenHelper {

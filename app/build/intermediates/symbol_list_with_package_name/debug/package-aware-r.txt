@@ -1923,6 +1923,7 @@ id bSentEmail
 id b_add
 id b_back
 id b_forward
+id b_get_info
 id b_go
 id b_history
 id b_refresh
@@ -1931,6 +1932,8 @@ id b_return
 id b_sa
 id b_safr
 id b_set_wallpaper
+id b_sql_delete
+id b_sql_modify
 id b_sql_open_view
 id b_sql_update
 id b_sub
@@ -2043,6 +2046,7 @@ id et_commands
 id et_send
 id et_sql_hotness
 id et_sql_name
+id et_sql_row_info
 id et_url
 id exitUntilCollapsed
 id expand_activities_button
@@ -2339,6 +2343,7 @@ id tvCanRead
 id tvCanWrite
 id tvLoadSharedPreferences
 id tv_1
+id tv_2
 id tv_3
 id tv_display
 id tv_question
