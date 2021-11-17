@@ -32,6 +32,13 @@ public class HotOrNot {
         this.context = context;
     }
 
+    public HotOrNot open() {
+        helper = new DbHelper(context);
+        db = helper.getWritableDatabase();
+
+        return this;
+    }
+
     private static class DbHelper extends SQLiteOpenHelper {
 
         public DbHelper(Context context) {
@@ -52,9 +59,14 @@ public class HotOrNot {
             );
         }
 
+        /*
+         * If our db has already been created, this will be called instead of onCreate().
+         * What this does is if the table exist, we are going to drop it and call onCreate().
+         */
         @Override
         public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
+            db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE);
+            onCreate(db);
         }
     }
 }
