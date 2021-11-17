@@ -12,7 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 111">
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 112">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" afterDir="false" />
     </list>
@@ -214,13 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Got a lot of the XML written">
-      <created>1635909446248</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1635909446249</updated>
     </task>
     <task id="LOCAL-00009" summary="Uses permission INTERNET for the web browser">
       <created>1635909827301</created>
@@ -558,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637139393299</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Completed Video Tutorial 112">
+      <created>1637139949698</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1637139949698</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -574,7 +574,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mostly gradle files" />
     <MESSAGE value="Solved all the problem errors the IDE was pointing out and took care of many of the warnings&#10;Also gradle files" />
     <MESSAGE value="Also gradle files" />
     <MESSAGE value="Completed Video Tutorial 99&#10;&#10;Different ways of writing data with streams and bytes etc and making it internal" />
@@ -599,6 +598,7 @@
     <MESSAGE value="Created by the IDE" />
     <MESSAGE value="New class that will handle the database" />
     <MESSAGE value="Completed Video Tutorial 111" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 111" />
+    <MESSAGE value="Completed Video Tutorial 112" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 112" />
   </component>
 </project>

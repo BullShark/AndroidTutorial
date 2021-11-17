@@ -1,5 +1,9 @@
 package ch.expectusafterlun.androidtutorial;
 
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
 public class HotOrNot {
 
     /*
@@ -15,9 +19,38 @@ public class HotOrNot {
 
     private static final String DATABASE_NAME = "hotornotdb";
     /*
-     * A table will hold rowid, name, hotness
+     * A table will hold rowid, name, hotness from above
      */
     private static final String DATABASE_TABLE = "people_table";
     private static final int DATABASE_VERSION = 1;
 
+    private DbHelper helper;
+    private final Context context;
+    private SQLiteDatabase db;
+
+    public HotOrNot(Context context) {
+        this.context = context;
+    }
+
+    private static class DbHelper extends SQLiteOpenHelper {
+
+        public DbHelper(Context context) {
+            super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        }
+
+        /*
+         * The first time we ever create a db is the only time
+         * this onCreate() method is going to be called.
+         * After that, it's going to call the onUpgrade() method.
+         */
+        @Override
+        public void onCreate(SQLiteDatabase db) {
+
+        }
+
+        @Override
+        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+        }
+    }
 }
