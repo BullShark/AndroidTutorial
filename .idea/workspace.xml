@@ -12,12 +12,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="New class that will handle the database">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SQLView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SQLiteExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sqliteexample.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sqlview.xml" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,13 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Completed Android Tutorial Video 87">
-      <created>1632487245938</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1632487245938</updated>
     </task>
     <task id="LOCAL-00008" summary="Got a lot of the XML written">
       <created>1635909446248</created>
@@ -561,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637138341903</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Completed Video Tutorial 111">
+      <created>1637139393299</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1637139393299</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +574,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Video Tutorial 98&#10;&#10;Storing data internally" />
     <MESSAGE value="Mostly gradle files" />
     <MESSAGE value="Solved all the problem errors the IDE was pointing out and took care of many of the warnings&#10;Also gradle files" />
     <MESSAGE value="Also gradle files" />
@@ -602,6 +598,7 @@
     <MESSAGE value="Add SQLView to the Menu" />
     <MESSAGE value="Created by the IDE" />
     <MESSAGE value="New class that will handle the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="New class that will handle the database" />
+    <MESSAGE value="Completed Video Tutorial 111" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 111" />
   </component>
 </project>
