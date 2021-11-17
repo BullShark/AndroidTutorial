@@ -12,10 +12,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Add ExternalData to the Menu">
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Add SQLiteExample to the Menu">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SQLView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SQLiteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sqliteexample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sqlview.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/ExternalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/ExternalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -74,6 +81,9 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
     </key>
     <key name="android.template.-728786672">
+      <recent name="ch.expectusafterlun.androidtutorial" />
+    </key>
+    <key name="android.template.-935258680">
       <recent name="ch.expectusafterlun.androidtutorial" />
     </key>
     <key name="android.template.86727165">
@@ -211,20 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Android Studio files">
-      <created>1631694419828</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1631694419828</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Completed Video Tutorial 85">
-      <created>1631695496478</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1631695496478</updated>
     </task>
     <task id="LOCAL-00004" summary="Completed Video Tutorial 85">
       <created>1631695518079</created>
@@ -555,7 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637136009441</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Completed Video Tutorial 110">
+      <created>1637136564921</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1637136564921</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Add SQLiteExample to the Menu">
+      <created>1637136801253</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1637136801253</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,8 +581,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Video Tutorial 94" />
-    <MESSAGE value="Completed Video Tutorial 95" />
     <MESSAGE value="Completed Video Tutorial 96&#10;&#10;SharedPreferences saving data with key/value" />
     <MESSAGE value="Completed Video Tutorial 97&#10;&#10;SharedPreferences loading data from key/value" />
     <MESSAGE value="Completed Video Tutorial 97&#10;&#10;Storing data internally" />
@@ -596,6 +604,8 @@
     <MESSAGE value="New permission: Write external storage" />
     <MESSAGE value="Completed Video Tutorial 109" />
     <MESSAGE value="Add ExternalData to the Menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ExternalData to the Menu" />
+    <MESSAGE value="Completed Video Tutorial 110" />
+    <MESSAGE value="Add SQLiteExample to the Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SQLiteExample to the Menu" />
   </component>
 </project>
