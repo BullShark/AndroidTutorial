@@ -4,15 +4,39 @@ ch/expectusafterlun/androidtutorial/Menu.java
  ch.expectusafterlun.androidtutorial.Menu
 ch/expectusafterlun/androidtutorial/AnimationView.java
  ch.expectusafterlun.androidtutorial.AnimationView
-ch/expectusafterlun/androidtutorial/Tabs.java
- ch.expectusafterlun.androidtutorial.Tabs
- ch.expectusafterlun.androidtutorial.Tabs$1
+ch/expectusafterlun/androidtutorial/ExternalData.java
+ ch.expectusafterlun.androidtutorial.ExternalData
+ ch.expectusafterlun.androidtutorial.ExternalData$1
+ch/expectusafterlun/androidtutorial/SQLView.java
+ ch.expectusafterlun.androidtutorial.SQLView
 ch/expectusafterlun/androidtutorial/BuildConfig.java
  ch.expectusafterlun.androidtutorial.BuildConfig
 ch/expectusafterlun/androidtutorial/Slider.java
  ch.expectusafterlun.androidtutorial.Slider
-ch/expectusafterlun/androidtutorial/Data.java
- ch.expectusafterlun.androidtutorial.Data
+ch/expectusafterlun/androidtutorial/SimpleBrowser.java
+ ch.expectusafterlun.androidtutorial.SimpleBrowser
+ch/expectusafterlun/androidtutorial/ViewClient.java
+ ch.expectusafterlun.androidtutorial.ViewClient
+ch/expectusafterlun/androidtutorial/SharedPrefs.java
+ ch.expectusafterlun.androidtutorial.SharedPrefs
+ch/expectusafterlun/androidtutorial/TextPlay.java
+ ch.expectusafterlun.androidtutorial.TextPlay
+ch/expectusafterlun/androidtutorial/HotOrNot.java
+ ch.expectusafterlun.androidtutorial.HotOrNot
+ ch.expectusafterlun.androidtutorial.HotOrNot$DbHelper
+ch/expectusafterlun/androidtutorial/Splash.java
+ ch.expectusafterlun.androidtutorial.Splash
+ ch.expectusafterlun.androidtutorial.Splash$1
+ch/expectusafterlun/androidtutorial/SQLiteExample.java
+ ch.expectusafterlun.androidtutorial.SQLiteExample
+ch/expectusafterlun/androidtutorial/Tabs.java
+ ch.expectusafterlun.androidtutorial.Tabs
+ ch.expectusafterlun.androidtutorial.Tabs$1
+ch/expectusafterlun/androidtutorial/Flipper.java
+ ch.expectusafterlun.androidtutorial.Flipper
+ch/expectusafterlun/androidtutorial/InternalData.java
+ ch.expectusafterlun.androidtutorial.InternalData
+ ch.expectusafterlun.androidtutorial.InternalData$LoadData
 ch/expectusafterlun/androidtutorial/GFXSurface.java
  ch.expectusafterlun.androidtutorial.GFXSurface
  ch.expectusafterlun.androidtutorial.GFXSurface$AnimationViewSurface
@@ -26,20 +50,13 @@ ch/expectusafterlun/androidtutorial/Email.java
  ch.expectusafterlun.androidtutorial.Email
 ch/expectusafterlun/androidtutorial/GFX.java
  ch.expectusafterlun.androidtutorial.GFX
-ch/expectusafterlun/androidtutorial/TextPlay.java
- ch.expectusafterlun.androidtutorial.TextPlay
 ch/expectusafterlun/androidtutorial/Prefs.java
  ch.expectusafterlun.androidtutorial.Prefs
 ch/expectusafterlun/androidtutorial/AboutUs.java
  ch.expectusafterlun.androidtutorial.AboutUs
 ch/expectusafterlun/androidtutorial/Camera.java
  ch.expectusafterlun.androidtutorial.Camera
-ch/expectusafterlun/androidtutorial/Splash.java
- ch.expectusafterlun.androidtutorial.Splash
- ch.expectusafterlun.androidtutorial.Splash$1
 ch/expectusafterlun/androidtutorial/Opens.java
  ch.expectusafterlun.androidtutorial.Opens
-ch/expectusafterlun/androidtutorial/ViewClient.java
- ch.expectusafterlun.androidtutorial.ViewClient
-ch/expectusafterlun/androidtutorial/SimpleBrowser.java
- ch.expectusafterlun.androidtutorial.SimpleBrowser
+ch/expectusafterlun/androidtutorial/Data.java
+ ch.expectusafterlun.androidtutorial.Data

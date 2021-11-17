@@ -2,6 +2,7 @@ package ch.expectusafterlun.androidtutorial;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -33,7 +34,7 @@ public class HotOrNot {
         this.context = context;
     }
 
-    public HotOrNot open() {
+    public HotOrNot open() throws SQLException {
         helper = new DbHelper(context);
         db = helper.getWritableDatabase();
 

@@ -8,6 +8,10 @@
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/photo.xml"
     },
     {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_sharedpreferences.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/sharedpreferences.xml"
+    },
+    {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_custom.xml.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/custom.xml"
     },
@@ -16,16 +20,20 @@
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/about.xml"
     },
     {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_sqliteexample.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/sqliteexample.xml"
+    },
+    {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout-land_count.xml.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout-land/count.xml"
     },
     {
-        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/raw_dubstep.mp3.flat",
-        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/raw/dubstep.mp3"
-    },
-    {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable_standard.png.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable/standard.png"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/raw_dubstep.mp3.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/raw/dubstep.mp3"
     },
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_simplebrowser.xml.flat",
@@ -94,5 +102,17 @@
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_highlighted.png.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/highlighted.png"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_flipper.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/flipper.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_sqlview.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/sqlview.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_externaldata.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/externaldata.xml"
     }
 ]

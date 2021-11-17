@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-187:12
-INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-187:12
-INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-187:12
-INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-187:12
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-206:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-206:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-206:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-206:12
 MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/f794c157ce27c216c504b2261e60ef5d/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/513c3a06072697aac9fec8d66b2c19d4/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/bullshark/.gradle/caches/transforms-3/763fcd2e0284e5e571bdcc51d674f4ec/transformed/constraintlayout-2.1.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] /home/bullshark/.gradle/caches/transforms-3/43711b72eaf2f529e5b9b1576380fb27/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:17:1-53:12
 MERGED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/22981166ebb7de5e3c35916d6f649a10/transformed/runner-1.4.0/AndroidManifest.xml:17:1-32:12
@@ -43,9 +43,9 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bullshark/.gradle/c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bullshark/.gradle/caches/transforms-3/eb3bd80f829817dc46cef00554f9b4ab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/bullshark/.gradle/caches/transforms-3/998ecad2e598076d0444e5b886cc28b2/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/bullshark/.gradle/caches/transforms-3/dad45be7fb3d40cd3f820bd1d6623c5b/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-187:12
-INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-187:12
-INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-187:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-206:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-206:12
+INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:2:1-206:12
 	package
 		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:3:5-50
 		INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml
@@ -66,8 +66,8 @@ INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main
 INJECTED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/f794c157ce27c216c504b2261e60ef5d/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/f794c157ce27c216c504b2261e60ef5d/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/513c3a06072697aac9fec8d66b2c19d4/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/513c3a06072697aac9fec8d66b2c19d4/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/bullshark/.gradle/caches/transforms-3/763fcd2e0284e5e571bdcc51d674f4ec/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/bullshark/.gradle/caches/transforms-3/763fcd2e0284e5e571bdcc51d674f4ec/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] /home/bullshark/.gradle/caches/transforms-3/43711b72eaf2f529e5b9b1576380fb27/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] /home/bullshark/.gradle/caches/transforms-3/43711b72eaf2f529e5b9b1576380fb27/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:20:5-22:41
@@ -164,12 +164,16 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:13:5-67
 	android:name
 		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:14:22-78
 application
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:15:5-185:19
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:16:5-204:19
 MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/f794c157ce27c216c504b2261e60ef5d/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /home/bullshark/.gradle/caches/transforms-3/f794c157ce27c216c504b2261e60ef5d/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/513c3a06072697aac9fec8d66b2c19d4/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/bullshark/.gradle/caches/transforms-3/513c3a06072697aac9fec8d66b2c19d4/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/bullshark/.gradle/caches/transforms-3/763fcd2e0284e5e571bdcc51d674f4ec/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/bullshark/.gradle/caches/transforms-3/763fcd2e0284e5e571bdcc51d674f4ec/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:26:5-51:19
 MERGED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:26:5-51:19
 MERGED from [androidx.test:runner:1.4.0] /home/bullshark/.gradle/caches/transforms-3/22981166ebb7de5e3c35916d6f649a10/transformed/runner-1.4.0/AndroidManifest.xml:30:5-20
@@ -181,253 +185,291 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bulls
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /home/bullshark/.gradle/caches/transforms-3/97e7ec19bd11dff7ae3d399ac9d0fa5b/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:19:9-41
 	android:icon
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:17:9-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:18:9-45
 	android:allowBackup
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:16:9-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:17:9-36
 	android:theme
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:19:9-53
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:20:9-53
+activity#ch.expectusafterlun.androidtutorial.SQLView
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:22:13-36
+activity#ch.expectusafterlun.androidtutorial.SQLiteExample
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:25:13-42
+activity#ch.expectusafterlun.androidtutorial.ExternalData
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:28:13-41
+activity#ch.expectusafterlun.androidtutorial.InternalData
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:31:13-41
+activity#ch.expectusafterlun.androidtutorial.SharedPrefs
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:34:13-40
+activity#ch.expectusafterlun.androidtutorial.Flipper
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:37:13-36
 activity#ch.expectusafterlun.androidtutorial.SimpleBrowser
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:21:9-23:39
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:39:9-41:39
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:22:13-42
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:40:13-42
 activity#ch.expectusafterlun.androidtutorial.Splash
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:24:9-33:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:42:9-51:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:27:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:45:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:26:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:25:13-35
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:13-35
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:46:13-50:29
 action#android.intent.action.MAIN
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:31:17-77
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:49:27-74
 activity#ch.expectusafterlun.androidtutorial.Menu
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:34:9-43:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:52:9-61:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:37:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:55:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:35:13-33
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:53:13-33
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.MENU+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:38:13-42:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:56:13-60:29
 action#ch.expectusafterlun.androidtutorial.MENU
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:39:17-83
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:57:17-83
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:39:25-80
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:57:25-80
 category#android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:41:17-76
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:59:17-76
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:41:27-73
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:59:27-73
 activity#ch.expectusafterlun.androidtutorial.Count
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:44:9-53:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:9-71:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:47:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:46:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:45:13-34
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:63:13-34
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.COUNT+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:48:13-52:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:66:13-70:29
 action#ch.expectusafterlun.androidtutorial.COUNT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:49:17-84
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:67:17-84
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:49:25-81
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:67:25-81
 activity#ch.expectusafterlun.androidtutorial.TextPlay
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:54:9-63:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:72:9-81:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:57:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:75:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:56:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:74:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:55:13-37
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:73:13-37
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.TEXTPLAY+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:58:13-62:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:76:13-80:29
 action#ch.expectusafterlun.androidtutorial.TEXTPLAY
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:59:17-87
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:77:17-87
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:59:25-84
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:77:25-84
 activity#ch.expectusafterlun.androidtutorial.Email
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:64:9-73:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:82:9-91:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:67:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:85:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:66:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:84:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:13-34
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:83:13-34
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.EMAIL+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:68:13-72:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:86:13-90:29
 action#ch.expectusafterlun.androidtutorial.EMAIL
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:17-84
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:87:17-84
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:25-81
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:87:25-81
 activity#ch.expectusafterlun.androidtutorial.Camera
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:74:9-84:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:92:9-102:20
 	android:screenOrientation
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:78:13-49
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:96:13-49
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:77:13-47
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:95:13-47
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:76:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:94:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:75:13-35
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:93:13-35
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.CAMERA+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:79:13-83:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:97:13-101:29
 action#ch.expectusafterlun.androidtutorial.CAMERA
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:80:17-85
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:98:17-85
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:80:25-82
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:98:25-82
 activity#ch.expectusafterlun.androidtutorial.Data
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:85:9-94:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:103:9-112:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:88:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:106:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:87:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:105:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:86:13-33
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:104:13-33
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.DATA+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:89:13-93:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:107:13-111:29
 action#ch.expectusafterlun.androidtutorial.DATA
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:90:17-83
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:108:17-83
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:90:25-80
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:108:25-80
 activity#ch.expectusafterlun.androidtutorial.Opens
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:95:9-104:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:113:9-122:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:98:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:116:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:97:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:115:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:96:13-34
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:114:13-34
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.OPENEDCLASS+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:99:13-103:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:117:13-121:29
 action#ch.expectusafterlun.androidtutorial.OPENEDCLASS
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:100:17-90
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:118:17-90
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:100:25-87
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:118:25-87
 activity#ch.expectusafterlun.androidtutorial.AboutUs
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:105:9-114:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:123:9-133:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:107:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:126:13-45
+	android:exported
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:125:13-36
 	android:theme
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:108:13-56
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:127:13-56
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:106:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:124:13-36
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.ABOUT+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:109:13-113:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:128:13-132:29
 action#ch.expectusafterlun.androidtutorial.ABOUT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:110:17-84
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:129:17-84
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:110:25-81
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:129:25-81
 activity#ch.expectusafterlun.androidtutorial.Prefs
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:115:9-124:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:134:9-143:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:118:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:137:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:117:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:136:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:116:13-34
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:135:13-34
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.PREFS+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:119:13-123:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:138:13-142:29
 action#ch.expectusafterlun.androidtutorial.PREFS
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:120:17-84
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:139:17-84
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:120:25-81
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:139:25-81
 activity#ch.expectusafterlun.androidtutorial.FullScreen
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:125:9-134:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:144:9-153:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:128:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:147:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:127:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:146:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:126:13-39
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:145:13-39
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.FULLSCREEN+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:129:13-133:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:148:13-152:29
 action#ch.expectusafterlun.androidtutorial.FULLSCREEN
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:130:17-89
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:149:17-89
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:130:25-86
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:149:25-86
 activity#ch.expectusafterlun.androidtutorial.GFX
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:135:9-144:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:154:9-163:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:138:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:157:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:137:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:156:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:136:13-32
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:155:13-32
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.GFX+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:139:13-143:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:158:13-162:29
 action#ch.expectusafterlun.androidtutorial.GFX
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:140:17-82
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:159:17-82
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:140:25-79
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:159:25-79
 activity#ch.expectusafterlun.androidtutorial.GFXSurface
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:145:9-154:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:164:9-173:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:148:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:167:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:147:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:166:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:146:13-39
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:165:13-39
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.GFXSURFACE+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:149:13-153:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:168:13-172:29
 action#ch.expectusafterlun.androidtutorial.GFXSURFACE
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:150:17-89
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:169:17-89
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:150:25-86
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:169:25-86
 activity#ch.expectusafterlun.androidtutorial.SoundStuff
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:155:9-164:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:174:9-183:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:158:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:177:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:157:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:176:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:156:13-39
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:175:13-39
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.SOUNDSTUFF+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:159:13-163:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:178:13-182:29
 action#ch.expectusafterlun.androidtutorial.SOUNDSTUFF
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:160:17-89
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:179:17-89
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:160:25-86
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:179:25-86
 activity#ch.expectusafterlun.androidtutorial.Slider
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:165:9-174:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:184:9-193:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:168:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:187:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:167:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:186:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:166:13-35
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:185:13-35
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.SLIDE+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:169:13-173:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:188:13-192:29
 action#ch.expectusafterlun.androidtutorial.SLIDE
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:170:17-84
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:189:17-84
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:170:25-81
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:189:25-81
 activity#ch.expectusafterlun.androidtutorial.Tabs
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:175:9-184:20
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:194:9-203:20
 	android:label
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:178:13-45
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:197:13-45
 	android:exported
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:177:13-36
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:196:13-36
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:176:13-33
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:195:13-33
 intent-filter#action:name:ch.expectusafterlun.androidtutorial.TABS+category:name:android.intent.category.DEFAULT
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:179:13-183:29
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:198:13-202:29
 action#ch.expectusafterlun.androidtutorial.TABS
-ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:180:17-83
+ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:199:17-83
 	android:name
-		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:180:25-80
+		ADDED from /home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:199:25-80
 uses-permission#android.permission.REORDER_TASKS
 ADDED from [androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
 	android:name
