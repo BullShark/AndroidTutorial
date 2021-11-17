@@ -30,7 +30,13 @@ public class SQLiteExample extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.b_sql_update:
+                String name = sqlName.getText().toString();
+                String hotness = sqlHotness.getText().toString();
 
+                HotOrNot entry = new HotOrNot(SQLiteExample.this);
+                entry.open();
+                entry.createEntry(name, hotness);
+                entry.close();
                 break;
             case R.id.b_sql_open_view:
 

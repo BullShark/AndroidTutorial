@@ -39,6 +39,14 @@ public class HotOrNot {
         return this;
     }
 
+    public void close() {
+        helper.close();
+    }
+
+    public void createEntry(String name, String hotness) {
+        db.execSQL("implement me");
+    }
+
     private static class DbHelper extends SQLiteOpenHelper {
 
         public DbHelper(Context context) {

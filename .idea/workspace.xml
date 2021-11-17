@@ -12,9 +12,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 114">
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Added a message in README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SQLiteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SQLiteExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/README.md" />
     <property name="memory.settings.postsync.last.time.stamp" value="1629659991314" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -214,20 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Completed Video Tutorial 89">
-      <created>1635910755407</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1635910755407</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Completed Video Tutorial 89">
-      <created>1635910977727</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1635910977727</updated>
     </task>
     <task id="LOCAL-00013" summary="Upgraded Gradle to 7.0.3">
       <created>1635911287802</created>
@@ -558,7 +545,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637140981500</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Completed Video Tutorial 115">
+      <created>1637141584326</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1637141584326</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Added a message in README.md">
+      <created>1637141753028</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1637141753028</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -574,8 +575,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Video Tutorial 99&#10;&#10;Different ways of writing data with streams and bytes etc and making it internal" />
-    <MESSAGE value="Completed Video Tutorial 100&#10;&#10;Different ways of reading internal data with streams and bytes etc" />
     <MESSAGE value="Completed Video Tutorial 100&#10;&#10;Move are code that reads in internal data to an AsyncTask because it could take some time and we don't want to lock up the gui, so we use multithreading." />
     <MESSAGE value="Completed Video Tutorial 102&#10;&#10;Implemented all 4 methods of a class that extends AsyncTask&lt;...&gt;" />
     <MESSAGE value="Completed Video Tutorial 102&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird" />
@@ -599,6 +598,8 @@
     <MESSAGE value="Completed Video Tutorial 112" />
     <MESSAGE value="Completed Video Tutorial 113" />
     <MESSAGE value="Completed Video Tutorial 114" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 114" />
+    <MESSAGE value="Completed Video Tutorial 115" />
+    <MESSAGE value="Added a message in README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a message in README.md" />
   </component>
 </project>
