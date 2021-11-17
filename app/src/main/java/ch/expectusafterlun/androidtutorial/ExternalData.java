@@ -3,6 +3,8 @@ package ch.expectusafterlun.androidtutorial;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.media.MediaScannerConnection;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
@@ -123,6 +125,15 @@ public class ExternalData extends AppCompatActivity implements AdapterView.OnIte
                                 "File has been Saved!",
                                 Toast.LENGTH_SHORT);
                         t.show();
+
+                        // Update files for the user to use
+                        MediaScannerConnection.scanFile(ExternalData.this, new String[]{file.toString()}, null, new MediaScannerConnection.OnScanCompletedListener() {
+                            @Override
+                            public void onScanCompleted(String path, Uri uri) {
+                                Toast t = Toast.makeText(ExternalData.this, "Scan complete", Toast.LENGTH_SHORT);
+                                t.show();
+                            }
+                        });
 
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
