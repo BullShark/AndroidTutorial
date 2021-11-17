@@ -1,5 +1,6 @@
 package ch.expectusafterlun.androidtutorial;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -43,8 +44,11 @@ public class HotOrNot {
         helper.close();
     }
 
-    public void createEntry(String name, String hotness) {
-        db.execSQL("implement me");
+    public long createEntry(String name, String hotness) {
+        ContentValues cv = new ContentValues();
+        cv.put(KEY_NAME, name);
+        cv.put(KEY_HOTNESS, hotness);
+        return db.insert(DATABASE_TABLE, null, cv);
     }
 
     private static class DbHelper extends SQLiteOpenHelper {

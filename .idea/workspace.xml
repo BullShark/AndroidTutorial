@@ -12,10 +12,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Added a message in README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 116">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SQLiteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/SQLiteExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,13 +213,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Upgraded Gradle to 7.0.3">
-      <created>1635911287802</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1635911287802</updated>
     </task>
     <task id="LOCAL-00014" summary="Upgraded Gradle to 7.0.3">
       <created>1635911305497</created>
@@ -559,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637141753028</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Completed Video Tutorial 116">
+      <created>1637142646817</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1637142646817</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -575,7 +573,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Video Tutorial 100&#10;&#10;Move are code that reads in internal data to an AsyncTask because it could take some time and we don't want to lock up the gui, so we use multithreading." />
     <MESSAGE value="Completed Video Tutorial 102&#10;&#10;Implemented all 4 methods of a class that extends AsyncTask&lt;...&gt;" />
     <MESSAGE value="Completed Video Tutorial 102&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird" />
     <MESSAGE value="Completed Video Tutorial 103&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird" />
@@ -600,6 +597,7 @@
     <MESSAGE value="Completed Video Tutorial 114" />
     <MESSAGE value="Completed Video Tutorial 115" />
     <MESSAGE value="Added a message in README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a message in README.md" />
+    <MESSAGE value="Completed Video Tutorial 116" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 116" />
   </component>
 </project>
