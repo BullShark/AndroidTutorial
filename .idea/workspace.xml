@@ -12,8 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 112">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 113">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HotOrNot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,13 +213,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Uses permission INTERNET for the web browser">
-      <created>1635909827301</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1635909827301</updated>
     </task>
     <task id="LOCAL-00010" summary="Completed Video Tutorial 89">
       <created>1635910553748</created>
@@ -558,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637139949698</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Completed Video Tutorial 113">
+      <created>1637140559238</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1637140559238</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -574,7 +573,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solved all the problem errors the IDE was pointing out and took care of many of the warnings&#10;Also gradle files" />
     <MESSAGE value="Also gradle files" />
     <MESSAGE value="Completed Video Tutorial 99&#10;&#10;Different ways of writing data with streams and bytes etc and making it internal" />
     <MESSAGE value="Completed Video Tutorial 100&#10;&#10;Different ways of reading internal data with streams and bytes etc" />
@@ -599,6 +597,7 @@
     <MESSAGE value="New class that will handle the database" />
     <MESSAGE value="Completed Video Tutorial 111" />
     <MESSAGE value="Completed Video Tutorial 112" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 112" />
+    <MESSAGE value="Completed Video Tutorial 113" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 113" />
   </component>
 </project>

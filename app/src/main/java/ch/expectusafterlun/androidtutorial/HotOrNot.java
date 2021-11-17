@@ -45,7 +45,11 @@ public class HotOrNot {
          */
         @Override
         public void onCreate(SQLiteDatabase db) {
-
+            db.execSQL("CREATE TABLE " + DATABASE_TABLE + " " + " (" +
+                    KEY_ROWID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                    KEY_NAME + " TEXT NOT NULL, " +
+                    KEY_HOTNESS + " TEXT NOT NULL);"
+            );
         }
 
         @Override
