@@ -73,7 +73,9 @@ public class HotOrNot {
         Cursor cursor = db.query(DATABASE_TABLE, columns, KEY_ROWID + "=" + l, null, null, null, null);
         if(cursor != null) {
             cursor.moveToFirst();
-            return cursor.getString(1); // Name column at position 1
+            String str = cursor.getString(1); // Name column at position 1
+            cursor.close();
+            return str;
         } else {
             return null;
         }
@@ -83,7 +85,9 @@ public class HotOrNot {
         Cursor cursor = db.query(DATABASE_TABLE, columns, KEY_ROWID + "=" + l, null, null, null, null);
         if(cursor != null) {
             cursor.moveToFirst();
-            return cursor.getString(2); // Hotness column at position 2
+            String str = cursor.getString(2); // Hotness column at position 2
+            cursor.close();
+            return str;
         } else {
             return null;
         }
