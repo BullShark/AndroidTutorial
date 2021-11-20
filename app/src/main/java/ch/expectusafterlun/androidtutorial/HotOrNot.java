@@ -69,7 +69,7 @@ public class HotOrNot {
         return result;
     }
 
-    public String getName(long l) {
+    public String getName(long l) throws SQLException {
         Cursor cursor = db.query(DATABASE_TABLE, columns, KEY_ROWID + "=" + l, null, null, null, null);
         if(cursor != null) {
             cursor.moveToFirst();
@@ -81,7 +81,7 @@ public class HotOrNot {
         }
     }
 
-    public String getHotness(long l) {
+    public String getHotness(long l) throws SQLException {
         Cursor cursor = db.query(DATABASE_TABLE, columns, KEY_ROWID + "=" + l, null, null, null, null);
         if(cursor != null) {
             cursor.moveToFirst();
@@ -93,11 +93,15 @@ public class HotOrNot {
         }
     }
 
-    public void updateEntry(long lRow, String mName, String mHotness) {
+    public void updateEntry(long lRow, String mName, String mHotness) throws SQLException {
         ContentValues cvUpdate = new ContentValues();
         cvUpdate.put(KEY_NAME, mName);
         cvUpdate.put(KEY_HOTNESS, mHotness);
         db.update(DATABASE_TABLE, cvUpdate, KEY_ROWID + "=" + lRow, null);
+    }
+
+    public void deleteEntry(long lRow2) throws SQLException {
+        db.delete(DATABASE_TABLE, KEY_ROWID + "=" + lRow2, null);
     }
 
     private static class DbHelper extends SQLiteOpenHelper {
