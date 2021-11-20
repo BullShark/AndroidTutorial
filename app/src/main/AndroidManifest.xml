@@ -20,6 +20,7 @@
         android:theme="@style/Theme.AppCompat.Light">
         <activity
             android:name=".Accelerate"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".SQLView"
