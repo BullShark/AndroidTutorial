@@ -12,10 +12,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 117">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Accelerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/accelerate.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,9 @@
       <recent name="ch.expectusafterlun.androidtutorial" />
     </key>
     <key name="android.template.100562700">
+      <recent name="ch.expectusafterlun.androidtutorial" />
+    </key>
+    <key name="android.template.1686795961">
       <recent name="ch.expectusafterlun.androidtutorial" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -223,27 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Completed Video Tutorial 92">
-      <created>1636116537233</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1636116537233</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Completed Video Tutorial 92">
-      <created>1636116669611</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1636116669611</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Completed Video Tutorial 93">
-      <created>1636117228892</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1636117228892</updated>
     </task>
     <task id="LOCAL-00025" summary="LinearLayout with a ViewFlipper, Button, and 2 TextViews">
       <created>1636643445331</created>
@@ -567,7 +550,28 @@
       <option name="project" value="LOCAL" />
       <updated>1637440071809</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="SQLView is meant to be launched from SQLiteExample, not from the Menu">
+      <created>1637440160917</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1637440160917</updated>
+    </task>
+    <task id="LOCAL-00072" summary="SQLView is meant to be launched from SQLiteExample, not from the Menu">
+      <created>1637440166272</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1637440166272</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Completed Video Tutorial 124">
+      <created>1637440620878</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1637440620878</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -583,9 +587,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Video Tutorial 107" />
-    <MESSAGE value="Completed Video Tutorial 108" />
-    <MESSAGE value="New permission: Write external storage" />
     <MESSAGE value="Completed Video Tutorial 109" />
     <MESSAGE value="Add ExternalData to the Menu" />
     <MESSAGE value="Completed Video Tutorial 110" />
@@ -608,6 +609,9 @@
     <MESSAGE value="Forgot to call Cursor.close()" />
     <MESSAGE value="Completed Video Tutorial 123" />
     <MESSAGE value="Exception handling in the Button code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception handling in the Button code" />
+    <MESSAGE value="SQLView is meant to be launched from SQLiteExample, not from the Menu" />
+    <MESSAGE value="Completed Video Tutorial 124" />
+    <MESSAGE value="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface" />
   </component>
 </project>

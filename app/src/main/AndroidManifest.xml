@@ -19,6 +19,9 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat.Light">
         <activity
+            android:name=".Accelerate"
+            android:exported="false" />
+        <activity
             android:name=".SQLView"
             android:exported="false"
             android:label="@string/app_name">
