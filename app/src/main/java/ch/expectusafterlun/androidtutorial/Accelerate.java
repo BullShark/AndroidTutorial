@@ -18,13 +18,14 @@ public class Accelerate extends AppCompatActivity implements SensorEventListener
 
     private float x, y, sensorX, sensorY;
     private Bitmap ball;
+    private SensorManager sm;
+    AnimationViewSurface animationViewSurface;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new AnimationViewSurface(this));
         // Check if the device has an accelerometer
-        SensorManager sm = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sm = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         if(sm.getSensorList(Sensor.TYPE_ACCELEROMETER).size() != 0) {
             Sensor sensor = sm.getSensorList(Sensor.TYPE_ACCELEROMETER).get(0);
             sm.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
@@ -32,6 +33,19 @@ public class Accelerate extends AppCompatActivity implements SensorEventListener
 
         ball = BitmapFactory.decodeResource(getResources(), R.drawable.greenball);
         x = y = sensorX = sensorY = 0;
+
+        animationViewSurface = new AnimationViewSurface(this);
+        // Won't run because everything is set to false until the resume() method
+        animationViewSurface.resume();
+        setContentView(animationViewSurface);
+    }
+
+    // Since we registered are listener, we want to create an onPause() method and unregister it
+    // So it's not always playing
+    @Override
+    protected void onPause() {
+        sm.unregisterListener(this);
+        super.onPause();
     }
 
     @Override
@@ -94,6 +108,13 @@ public class Accelerate extends AppCompatActivity implements SensorEventListener
 
                 Canvas canvas = holder.lockCanvas();
                 canvas.drawRGB(2, 2, 150);
+                // Paint our Bitmap in the center
+                // It's not the center of the Bitmap itself so a little bit off
+                float centerX = canvas.getWidth() / 2;
+                float centerY = canvas.getHeight() / 2;
+                // The sensor varies from 0 to 40 is the amount of force that can be applied
+                // So amplify the amount of pixels it's going to be able to move by 30
+                canvas.drawBitmap(ball, centerX + sensorX*30, centerY + sensorY*30, null);
 
                 holder.unlockCanvasAndPost(canvas);
             }
