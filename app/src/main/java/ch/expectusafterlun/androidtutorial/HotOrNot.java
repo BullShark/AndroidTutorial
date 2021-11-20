@@ -93,6 +93,13 @@ public class HotOrNot {
         }
     }
 
+    public void updateEntry(long lRow, String mName, String mHotness) {
+        ContentValues cvUpdate = new ContentValues();
+        cvUpdate.put(KEY_NAME, mName);
+        cvUpdate.put(KEY_HOTNESS, mHotness);
+        db.update(DATABASE_TABLE, cvUpdate, KEY_ROWID + "=" + lRow, null);
+    }
+
     private static class DbHelper extends SQLiteOpenHelper {
 
         public DbHelper(Context context) {

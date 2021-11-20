@@ -87,6 +87,16 @@ public class SQLiteExample extends AppCompatActivity implements View.OnClickList
                 sqlHotness.setText(hot);
                 break;
             case R.id.b_sql_modify:
+                String sRow = sqlRow.getText().toString();
+                long lRow = Long.parseLong(sRow);
+
+                String mName = sqlName.getText().toString();
+                String mHotness = sqlHotness.getText().toString();
+
+                HotOrNot hotOrNot = new HotOrNot(this);
+                hotOrNot.open();
+                hotOrNot.updateEntry(lRow, mName, mHotness);
+                hotOrNot.close();
 
                 break;
             case R.id.b_sql_delete:
