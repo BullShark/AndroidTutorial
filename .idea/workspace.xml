@@ -12,7 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface">
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 126">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Accelerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Accelerate.java" afterDir="false" />
     </list>
@@ -225,13 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Add an orientation to our LinearLayout and Format the code for readability">
-      <created>1636643836628</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1636643836628</updated>
     </task>
     <task id="LOCAL-00027" summary="Completed Video Tutorial 94">
       <created>1636644558493</created>
@@ -569,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637441043573</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Completed Video Tutorial 126">
+      <created>1637441612891</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1637441612891</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -585,7 +585,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Video Tutorial 109" />
     <MESSAGE value="Add ExternalData to the Menu" />
     <MESSAGE value="Completed Video Tutorial 110" />
     <MESSAGE value="Add SQLiteExample to the Menu" />
@@ -610,6 +609,7 @@
     <MESSAGE value="SQLView is meant to be launched from SQLiteExample, not from the Menu" />
     <MESSAGE value="Completed Video Tutorial 124" />
     <MESSAGE value="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface" />
+    <MESSAGE value="Completed Video Tutorial 126" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 126" />
   </component>
 </project>

@@ -3,6 +3,8 @@ package ch.expectusafterlun.androidtutorial;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -14,7 +16,8 @@ import android.view.SurfaceView;
 
 public class Accelerate extends AppCompatActivity implements SensorEventListener {
 
-
+    private float x, y, sensorX, sensorY;
+    private Bitmap ball;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +29,9 @@ public class Accelerate extends AppCompatActivity implements SensorEventListener
             Sensor sensor = sm.getSensorList(Sensor.TYPE_ACCELEROMETER).get(0);
             sm.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
         }
+
+        ball = BitmapFactory.decodeResource(getResources(), R.drawable.greenball);
+        x = y = sensorX = sensorY = 0;
     }
 
     @Override
@@ -34,6 +40,15 @@ public class Accelerate extends AppCompatActivity implements SensorEventListener
         // This gets called when we have a new SensorEvent,
         // When our accelerometer changes directions
 
+        // Add a delay
+        try {
+            Thread.sleep(16); // 16 is about 60 fps
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        sensorX = event.values[0];
+        sensorY = event.values[1];
     }
 
     @Override
