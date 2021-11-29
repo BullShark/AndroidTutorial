@@ -229,13 +229,6 @@
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
     </task>
-    <task id="LOCAL-00038" summary="Completed Video Tutorial 102&#10;&#10;Implemented all 4 methods of a class that extends AsyncTask&lt;...&gt;">
-      <created>1636657629893</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1636657629893</updated>
-    </task>
     <task id="LOCAL-00039" summary="Completed Video Tutorial 102&#10;&#10;ProgressDialog like a ProgressBar to show how much of a task is completed except this one, the task doesn't start until the dialog is finished loading, weird">
       <created>1636658391799</created>
       <option name="number" value="00039" />
@@ -572,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638160274761</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Completed Tutorial Video 151">
+      <created>1638218467637</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1638218467637</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

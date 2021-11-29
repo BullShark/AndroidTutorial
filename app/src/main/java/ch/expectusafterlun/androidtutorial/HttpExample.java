@@ -1,6 +1,7 @@
 package ch.expectusafterlun.androidtutorial;
 
 import android.app.Activity;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,7 +24,7 @@ public class HttpExample extends Activity {
     private TextView httpTv;
     private HttpClient client;
 
-    public final static String URL = "http://api.twitter.com/1/statuses/user_timeline.json";
+    public final static String URL = "http://api.twitter.com/1/statuses/user_timeline.json?screen_name=";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +48,7 @@ public class HttpExample extends Activity {
 
     public JSONObject lastTweet(String username) throws ClientProtocolException, IOException, JSONException {
         StringBuilder url = new StringBuilder(URL);
+        url.append("username");
 
         HttpGet get = new HttpGet(url.toString());
         HttpResponse response = client.execute(get);
@@ -67,6 +69,19 @@ public class HttpExample extends Activity {
         } else {
             Toast.makeText(HttpExample.this, "error", Toast.LENGTH_SHORT).show();
             return null;
+        }
+    }
+
+    public class Read extends AsyncTask<String, Integer, String> {
+
+        @Override
+        protected String doInBackground(String... strings) {
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            super.onPostExecute(result);
         }
     }
 }
