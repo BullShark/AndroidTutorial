@@ -63,8 +63,7 @@ public class HttpExample extends Activity {
             HttpEntity entity = response.getEntity();
             String data = EntityUtils.toString(entity);
             JSONArray timeline = new JSONArray(data);
-            JSONObject last = timeline.getJSONObject(0);
-            return last;
+            return timeline.getJSONObject(0); // Index 0 is the last tweet
         } else {
             Toast.makeText(HttpExample.this, "error", Toast.LENGTH_SHORT).show();
             return null;
