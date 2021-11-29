@@ -12,9 +12,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 126">
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 128">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Accelerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/Accelerate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,34 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Completed Video Tutorial 94">
-      <created>1636644558493</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1636644558493</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Completed Video Tutorial 94">
-      <created>1636644643758</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1636644643758</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Completed Video Tutorial 95">
-      <created>1636648675159</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1636648675159</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Completed Video Tutorial 96&#10;&#10;SharedPreferences saving data with key/value">
-      <created>1636650511327</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1636650511327</updated>
     </task>
     <task id="LOCAL-00031" summary="Completed Video Tutorial 96&#10;&#10;SharedPreferences saving data with key/value">
       <created>1636650522055</created>
@@ -569,7 +540,35 @@
       <option name="project" value="LOCAL" />
       <updated>1637441612891</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Completed Video Tutorial 127">
+      <created>1637442141417</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1637442141417</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Add Accelerate to the Menu ListActivity">
+      <created>1637443829367</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1637443829367</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Make the screen orientation fixed in portrait view, so the app doesn't crash when rotating the screen.">
+      <created>1637444903367</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1637444903367</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Completed Video Tutorial 128">
+      <created>1637445092352</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1637445092353</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -585,12 +584,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add ExternalData to the Menu" />
-    <MESSAGE value="Completed Video Tutorial 110" />
-    <MESSAGE value="Add SQLiteExample to the Menu" />
-    <MESSAGE value="Add SQLView to the Menu" />
-    <MESSAGE value="Created by the IDE" />
-    <MESSAGE value="New class that will handle the database" />
     <MESSAGE value="Completed Video Tutorial 111" />
     <MESSAGE value="Completed Video Tutorial 112" />
     <MESSAGE value="Completed Video Tutorial 113" />
@@ -610,6 +603,12 @@
     <MESSAGE value="Completed Video Tutorial 124" />
     <MESSAGE value="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface" />
     <MESSAGE value="Completed Video Tutorial 126" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 126" />
+    <MESSAGE value="Completed Video Tutorial 127" />
+    <MESSAGE value="Add Accelerate to the Menu ListActivity" />
+    <MESSAGE value="Make the screen orientation fixed in portrait view, so the app doesn't crash when rotating the screen." />
+    <MESSAGE value="Completed Video Tutorial 128" />
+    <MESSAGE value="Create Maps.java and maps.xml for our Google Map Code&#10;Add location permissions to the Manifest" />
+    <MESSAGE value="Google map files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google map files" />
   </component>
 </project>
