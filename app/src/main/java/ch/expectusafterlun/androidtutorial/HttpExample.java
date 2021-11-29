@@ -14,5 +14,13 @@ public class HttpExample extends Activity {
         setContentView(R.layout.http_example);
 
         httpTv = (TextView) findViewById(R.id.tv_http);
+        HttpGetMethodEx test = new HttpGetMethodEx();
+        String returned = null;
+        try {
+            returned = test.getInternetData();
+            httpTv.setText(returned);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
