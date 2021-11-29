@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 128">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HttpExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HttpExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,13 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Completed Video Tutorial 100&#10;&#10;Different ways of reading internal data with streams and bytes etc">
-      <created>1636656231778</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1636656231778</updated>
     </task>
     <task id="LOCAL-00037" summary="Completed Video Tutorial 100&#10;&#10;Move are code that reads in internal data to an AsyncTask because it could take some time and we don't want to lock up the gui, so we use multithreading.">
       <created>1636657112955</created>
@@ -572,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638148823817</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Completed Tutorial Video 150">
+      <created>1638159636510</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1638159636510</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +587,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added a message in README.md" />
     <MESSAGE value="Completed Video Tutorial 116" />
     <MESSAGE value="Completed Video Tutorial 117" />
     <MESSAGE value="Completed Video Tutorial 118" />
@@ -613,6 +611,7 @@
     <MESSAGE value="Completed Video Tutorial 147" />
     <MESSAGE value="Completed Video Tutorial 148" />
     <MESSAGE value="Completed Video Tutorial 149" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 149" />
+    <MESSAGE value="Completed Tutorial Video 150" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Tutorial Video 150" />
   </component>
 </project>
