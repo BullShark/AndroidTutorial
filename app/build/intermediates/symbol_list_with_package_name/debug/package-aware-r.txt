@@ -2346,6 +2346,7 @@ id tv_1
 id tv_2
 id tv_3
 id tv_display
+id tv_http
 id tv_question
 id tv_received
 id tv_results
@@ -2463,6 +2464,7 @@ layout design_text_input_start_icon
 layout email
 layout externaldata
 layout flipper
+layout http_example
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

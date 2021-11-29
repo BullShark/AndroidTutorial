@@ -2,13 +2,20 @@ ch/expectusafterlun/androidtutorial/SoundStuff.java
  ch.expectusafterlun.androidtutorial.SoundStuff
 ch/expectusafterlun/androidtutorial/Menu.java
  ch.expectusafterlun.androidtutorial.Menu
+ch/expectusafterlun/androidtutorial/Accelerate.java
+ ch.expectusafterlun.androidtutorial.Accelerate
+ ch.expectusafterlun.androidtutorial.Accelerate$AnimationViewSurface
 ch/expectusafterlun/androidtutorial/AnimationView.java
  ch.expectusafterlun.androidtutorial.AnimationView
 ch/expectusafterlun/androidtutorial/ExternalData.java
  ch.expectusafterlun.androidtutorial.ExternalData
  ch.expectusafterlun.androidtutorial.ExternalData$1
+ch/expectusafterlun/androidtutorial/HttpExample.java
+ ch.expectusafterlun.androidtutorial.HttpExample
 ch/expectusafterlun/androidtutorial/SQLView.java
  ch.expectusafterlun.androidtutorial.SQLView
+ch/expectusafterlun/androidtutorial/HttpGetMethodEx.java
+ ch.expectusafterlun.androidtutorial.HttpGetMethodEx
 ch/expectusafterlun/androidtutorial/BuildConfig.java
  ch.expectusafterlun.androidtutorial.BuildConfig
 ch/expectusafterlun/androidtutorial/Slider.java
