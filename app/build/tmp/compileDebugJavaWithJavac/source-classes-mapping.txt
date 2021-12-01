@@ -12,6 +12,8 @@ ch/expectusafterlun/androidtutorial/ExternalData.java
  ch.expectusafterlun.androidtutorial.ExternalData$1
 ch/expectusafterlun/androidtutorial/HttpExample.java
  ch.expectusafterlun.androidtutorial.HttpExample
+ ch.expectusafterlun.androidtutorial.HttpExample$1
+ ch.expectusafterlun.androidtutorial.HttpExample$Read
 ch/expectusafterlun/androidtutorial/SQLView.java
  ch.expectusafterlun.androidtutorial.SQLView
 ch/expectusafterlun/androidtutorial/HttpGetMethodEx.java
