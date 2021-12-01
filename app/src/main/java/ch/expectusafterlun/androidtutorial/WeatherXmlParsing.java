@@ -8,6 +8,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.xml.sax.InputSource;
+import org.xml.sax.XMLReader;
+
+import java.net.URL;
+
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+
 public class WeatherXmlParsing extends AppCompatActivity implements View.OnClickListener {
 
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/find?units=imperial&type=accurate&mode=xml&appid=0dcf84bfef65b293b5e3b444246ad6b2&lang=en&q=";
@@ -34,5 +42,20 @@ public class WeatherXmlParsing extends AppCompatActivity implements View.OnClick
         StringBuilder url = new StringBuilder(BASE_URL);
         url.append(c).append(",").append(s);
         String fullURL = url.toString();
+        try {
+            URL website = new URL(fullURL);
+            /* SAX = Simple API XML
+             * Getting XMLReader to parse data
+             */
+            SAXParserFactory spf = SAXParserFactory.newInstance();
+            SAXParser sp = spf.newSAXParser();
+            XMLReader xr = sp.getXMLReader();
+            HandlingXMLStuff doingWork = new HandlingXMLStuff();
+            xr.setContentHandler(doingWork);
+            xr.parse(new InputSource(website.openStream()));
+
+        } catch(Exception e) {
+            tv.setText("error");
+        }
     }
 }

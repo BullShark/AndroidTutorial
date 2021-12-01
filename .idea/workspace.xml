@@ -12,9 +12,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 155">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/XMLDataCollected.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/XMLDataCollected.java" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 156">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/WeatherXmlParsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/WeatherXmlParsing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,13 +231,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Completed Video Tutorial 109">
-      <created>1636995676099</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1636995676099</updated>
     </task>
     <task id="LOCAL-00050" summary="Add ExternalData to the Menu">
       <created>1637136009440</created>
@@ -576,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638355167537</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Completed Video Tutorial 156">
+      <created>1638355796594</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1638355796595</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -602,7 +601,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface" />
     <MESSAGE value="Completed Video Tutorial 126" />
     <MESSAGE value="Completed Video Tutorial 127" />
     <MESSAGE value="Add Accelerate to the Menu ListActivity" />
@@ -627,6 +625,7 @@
     <MESSAGE value="XML Layout weather.xml almost completed" />
     <MESSAGE value="Completed Video Tutorial 154" />
     <MESSAGE value="Completed Video Tutorial 155" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 155" />
+    <MESSAGE value="Completed Video Tutorial 156" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 156" />
   </component>
 </project>
