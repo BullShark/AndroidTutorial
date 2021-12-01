@@ -27,7 +27,7 @@ public class HttpExample extends Activity {
     /* Version 1 of the Twitter API is no longer available. OAUTH is now required in newer versions */
 //    public final static String URL = "https://api.twitter.com/1/statuses/user_timeline.json?screen_name=";
     /* Get a random Urban Dictionary definition instead */
-    public final static String URL = "http://api.urbandictionary.com/v0/random";
+    public final static String URL = "https://api.urbandictionary.com/v0/random";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,9 +50,8 @@ public class HttpExample extends Activity {
         */
     }
 
-    public JSONObject lastTweet(String username) throws ClientProtocolException, IOException, JSONException {
+    public JSONObject lastWordDefinition(String jsonItem) throws ClientProtocolException, IOException, JSONException {
         StringBuilder url = new StringBuilder(URL);
-        url.append("username");
 
         HttpGet get = new HttpGet(url.toString());
         HttpResponse response = client.execute(get);
@@ -68,8 +67,8 @@ public class HttpExample extends Activity {
         if(status == 200) {
             HttpEntity entity = response.getEntity();
             String data = EntityUtils.toString(entity);
-            JSONArray timeline = new JSONArray(data);
-            return timeline.getJSONObject(0); // Index 0 is the last tweet
+            JSONArray list = new JSONArray(data);
+            return list.getJSONObject(0); // Index 0 is the last tweet
         } else {
             runOnUiThread(new Runnable() {
                 public void run() {
@@ -78,7 +77,7 @@ public class HttpExample extends Activity {
                 }
             });
 
-            return null;
+            return new JSONObject("Error: HTTP Status was not 200");
         }
     }
 
@@ -87,7 +86,8 @@ public class HttpExample extends Activity {
         @Override
         protected String doInBackground(String... strings) {
             try {
-                json = lastTweet("mybringback");
+                /* word, definition */
+                json = lastWordDefinition("list");
                 return json.getString(strings[0]);
             } catch (IOException e) {
                 e.printStackTrace();
