@@ -23,8 +23,11 @@ public class HttpExample extends Activity {
 
     private TextView httpTv;
     private HttpClient client;
-
-    public final static String URL = "http://api.twitter.com/1/statuses/user_timeline.json?screen_name=";
+    private JSONObject json;
+    /* Version 1 of the Twitter API is no longer available. OAUTH is now required in newer versions */
+//    public final static String URL = "https://api.twitter.com/1/statuses/user_timeline.json?screen_name=";
+    /* Get a random Urban Dictionary definition instead */
+    public final static String URL = "http://api.urbandictionary.com/v0/random";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,7 @@ public class HttpExample extends Activity {
 
         httpTv = (TextView) findViewById(R.id.tv_http);
         client = new DefaultHttpClient();
+        new Read().execute("text");
 
         /*
         HttpGetMethodEx test = new HttpGetMethodEx();
@@ -67,7 +71,13 @@ public class HttpExample extends Activity {
             JSONArray timeline = new JSONArray(data);
             return timeline.getJSONObject(0); // Index 0 is the last tweet
         } else {
-            Toast.makeText(HttpExample.this, "error", Toast.LENGTH_SHORT).show();
+            runOnUiThread(new Runnable() {
+                public void run() {
+                    final Toast toast = Toast.makeText(HttpExample.this, "error", Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+            });
+
             return null;
         }
     }
@@ -76,12 +86,21 @@ public class HttpExample extends Activity {
 
         @Override
         protected String doInBackground(String... strings) {
+            try {
+                json = lastTweet("mybringback");
+                return json.getString(strings[0]);
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
             return null;
         }
 
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
+            httpTv.setText(result);
         }
     }
 }
