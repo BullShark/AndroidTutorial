@@ -35,10 +35,12 @@ public class HttpExample extends Activity {
         setContentView(R.layout.http_example);
 
         httpTv = (TextView) findViewById(R.id.tv_http);
-        client = new DefaultHttpClient();
-        new Read().execute("text");
 
         /*
+        client = new DefaultHttpClient();
+        new Read().execute("definition");
+        */
+
         HttpGetMethodEx test = new HttpGetMethodEx();
         String returned = null;
         try {
@@ -47,7 +49,6 @@ public class HttpExample extends Activity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        */
     }
 
     public JSONObject lastWordDefinition(String jsonItem) throws ClientProtocolException, IOException, JSONException {
@@ -87,7 +88,7 @@ public class HttpExample extends Activity {
         protected String doInBackground(String... strings) {
             try {
                 /* word, definition */
-                json = lastWordDefinition("list");
+                json = lastWordDefinition("definition");
                 return json.getString(strings[0]);
             } catch (IOException e) {
                 e.printStackTrace();
