@@ -19,6 +19,7 @@
         <entry key="app/src/main/res/layout/sqliteexample.xml" value="0.25" />
         <entry key="app/src/main/res/layout/sqlview.xml" value="0.5" />
         <entry key="app/src/main/res/layout/tabs.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/weather.xml" value="0.1" />
       </map>
     </option>
   </component>
