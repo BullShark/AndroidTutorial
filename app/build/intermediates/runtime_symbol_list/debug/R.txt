@@ -1936,6 +1936,7 @@ int id b_sql_modify 0x7f09006a
 int id b_sql_open_view 0x7f09006b
 int id b_sql_update 0x7f09006c
 int id b_sub 0x7f09006d
+int id b_weather 0x7f090225
 int id barrier 0x7f09006e
 int id baseline 0x7f09006f
 int id beginOnFirstDraw 0x7f090070
@@ -2041,11 +2042,13 @@ int id etOutro 0x7f0900d3
 int id etSaveAs 0x7f0900d4
 int id etSharedPrefs 0x7f0900d5
 int id etThings 0x7f0900d6
+int id et_city 0x7f090226
 int id et_commands 0x7f0900d7
 int id et_send 0x7f0900d8
 int id et_sql_hotness 0x7f0900d9
 int id et_sql_name 0x7f0900da
 int id et_sql_row_info 0x7f0900db
+int id et_state 0x7f090227
 int id et_url 0x7f0900dc
 int id exitUntilCollapsed 0x7f0900dd
 int id expand_activities_button 0x7f0900de
@@ -2351,6 +2354,7 @@ int id tv_received 0x7f090209
 int id tv_results 0x7f09020a
 int id tv_sql_info 0x7f09020b
 int id tv_text 0x7f09020c
+int id tv_weather 0x7f090228
 int id unchecked 0x7f09020d
 int id uniform 0x7f09020e
 int id unlabeled 0x7f09020f
@@ -2543,6 +2547,7 @@ int layout text_view_with_line_height_from_layout 0x7f0c007d
 int layout text_view_with_line_height_from_style 0x7f0c007e
 int layout text_view_with_theme_line_height 0x7f0c007f
 int layout text_view_without_line_height 0x7f0c0080
+int layout weather 0x7f0c0081
 int menu cool_menu 0x7f0d0000
 int plurals mtrl_badge_content_description 0x7f0e0000
 int raw dubstep 0x7f0f0000

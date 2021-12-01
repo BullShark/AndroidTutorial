@@ -48,6 +48,10 @@
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/menu/cool_menu.xml"
     },
     {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_weather.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/weather.xml"
+    },
+    {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_greenplus.png.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/greenplus.png"
     },

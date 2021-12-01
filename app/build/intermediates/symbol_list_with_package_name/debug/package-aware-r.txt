@@ -1937,6 +1937,7 @@ id b_sql_modify
 id b_sql_open_view
 id b_sql_update
 id b_sub
+id b_weather
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2042,11 +2043,13 @@ id etOutro
 id etSaveAs
 id etSharedPrefs
 id etThings
+id et_city
 id et_commands
 id et_send
 id et_sql_hotness
 id et_sql_name
 id et_sql_row_info
+id et_state
 id et_url
 id exitUntilCollapsed
 id expand_activities_button
@@ -2352,6 +2355,7 @@ id tv_received
 id tv_results
 id tv_sql_info
 id tv_text
+id tv_weather
 id unchecked
 id uniform
 id unlabeled
@@ -2544,6 +2548,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout weather
 menu cool_menu
 plurals mtrl_badge_content_description
 raw dubstep

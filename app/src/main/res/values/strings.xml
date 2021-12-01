@@ -14,5 +14,9 @@
     <string name="save">Save</string>
     <string name="load">Load</string>
     <string name="load_your_data">Load your data</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="button">Button</string>
+    <string name="current_weather">Current Weather</string>
 
 </resources>
