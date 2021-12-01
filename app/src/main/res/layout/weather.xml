@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -10,33 +9,40 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="City:" />
+        android:text="@string/city" />
 
     <EditText
         android:id="@+id/et_city"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:autofillHints="A large town"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="State:" />
+        android:text="@string/state" />
 
     <EditText
         android:id="@+id/et_state"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:autofillHints="An area of land inside a country"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/b_weather"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/button" />
 
     <TextView
         android:id="@+id/tv_weather"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Current Weather" />
+        android:layout_height="fill_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/current_weather" />
 
 </LinearLayout>

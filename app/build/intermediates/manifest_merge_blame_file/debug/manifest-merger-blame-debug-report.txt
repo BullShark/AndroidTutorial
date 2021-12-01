@@ -41,7 +41,7 @@
 21    </queries>
 22
 23    <application
-23-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:16:5-219:19
+23-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:16:5-226:19
 24        android:allowBackup="false"
 24-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:17:9-36
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -54,435 +54,442 @@
 29        android:testOnly="true"
 30        android:theme="@style/Theme.AppCompat.Light" >
 30-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:20:9-53
-31        <uses-library
-31-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:21:9-88
-32            android:name="org.apache.http.legacy"
-32-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:21:23-60
-33            android:required="false" />
-33-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:21:61-85
+31        <activity
+31-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:21:9-23:40
+32            android:name="ch.expectusafterlun.androidtutorial.WeatherXmlParsing"
+32-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:22:13-46
+33            android:exported="false" />
+33-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:23:13-37
 34
-35        <activity
-35-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:22:9-24:40
-36            android:name="ch.expectusafterlun.androidtutorial.HttpExample"
-36-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:23:13-40
-37            android:exported="false" />
-37-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:24:13-37
-38        <activity
-38-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:25:9-28:52
-39            android:name="ch.expectusafterlun.androidtutorial.Accelerate"
-39-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:26:13-39
-40            android:exported="false"
-40-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:27:13-37
-41            android:screenOrientation="portrait" />
-41-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:28:13-49
+35        <uses-library
+35-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:25:9-27:40
+36            android:name="org.apache.http.legacy"
+36-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:26:13-50
+37            android:required="false" />
+37-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:27:13-37
+38
+39        <activity
+39-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:29:9-31:40
+40            android:name="ch.expectusafterlun.androidtutorial.HttpExample"
+40-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:30:13-40
+41            android:exported="false" />
+41-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:31:13-37
 42        <activity
-42-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:29:9-38:20
-43            android:name="ch.expectusafterlun.androidtutorial.SQLView"
-43-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:30:13-36
+42-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:32:9-35:52
+43            android:name="ch.expectusafterlun.androidtutorial.Accelerate"
+43-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:33:13-39
 44            android:exported="false"
-44-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:31:13-37
-45            android:label="@string/app_name" >
-45-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:32:13-45
-46            <intent-filter>
-46-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:33:13-37:29
-47                <action android:name="android.intent.action.SQLVIEW" />
-47-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:34:17-72
-47-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:34:25-69
-48
-49                <category android:name="android.intent.category.DEFAULT" />
-49-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-49-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-50            </intent-filter>
-51        </activity>
-52        <activity
-52-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:39:9-41:39
-53            android:name="ch.expectusafterlun.androidtutorial.SQLiteExample"
-53-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:40:13-42
-54            android:exported="true" />
-54-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:41:13-36
-55        <activity
-55-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:42:9-44:40
-56            android:name="ch.expectusafterlun.androidtutorial.ExternalData"
-56-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:13-41
-57            android:exported="false" />
-57-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:44:13-37
-58        <activity
-58-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:45:9-47:40
-59            android:name="ch.expectusafterlun.androidtutorial.InternalData"
-59-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:46:13-41
-60            android:exported="false" />
-60-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:47:13-37
-61        <activity
-61-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:48:9-50:40
-62            android:name="ch.expectusafterlun.androidtutorial.SharedPrefs"
-62-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:49:13-40
-63            android:exported="false" />
-63-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:50:13-37
-64        <activity
-64-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:51:9-53:40
-65            android:name="ch.expectusafterlun.androidtutorial.Flipper"
-65-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:52:13-36
-66            android:exported="false" />
-66-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:53:13-37
-67        <activity
-67-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:54:9-56:39
-68            android:name="ch.expectusafterlun.androidtutorial.SimpleBrowser"
-68-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:55:13-42
-69            android:exported="true" />
-69-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:56:13-36
-70        <activity
-70-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:57:9-66:20
-71            android:name="ch.expectusafterlun.androidtutorial.Splash"
-71-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:58:13-35
-72            android:exported="true"
-72-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:59:13-36
-73            android:label="@string/app_name" >
-73-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:60:13-45
-74            <intent-filter>
-74-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:61:13-65:29
-75                <action android:name="android.intent.action.MAIN" />
-75-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:17-69
-75-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:25-66
-76
-77                <category android:name="android.intent.category.LAUNCHER" />
-77-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:64:17-77
-77-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:64:27-74
-78            </intent-filter>
-79        </activity>
-80        <activity
-80-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:67:9-76:20
-81            android:name="ch.expectusafterlun.androidtutorial.Menu"
-81-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:68:13-33
-82            android:exported="true"
-82-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:13-36
-83            android:label="@string/app_name" >
-83-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:70:13-45
-84            <intent-filter>
-84-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:71:13-75:29
-85                <action android:name="ch.expectusafterlun.androidtutorial.MENU" />
-85-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:72:17-83
-85-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:72:25-80
-86
-87                <category android:name="android.intent.category.DEFAULT" />
-87-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-87-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-88            </intent-filter>
-89        </activity>
-90        <activity
-90-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:77:9-86:20
-91            android:name="ch.expectusafterlun.androidtutorial.Count"
-91-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:78:13-34
-92            android:exported="true"
-92-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:79:13-36
-93            android:label="@string/app_name" >
-93-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:80:13-45
-94            <intent-filter>
-94-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:81:13-85:29
-95                <action android:name="ch.expectusafterlun.androidtutorial.COUNT" />
-95-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:82:17-84
-95-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:82:25-81
-96
-97                <category android:name="android.intent.category.DEFAULT" />
-97-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-97-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-98            </intent-filter>
-99        </activity>
-100        <activity
-100-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:87:9-96:20
-101            android:name="ch.expectusafterlun.androidtutorial.TextPlay"
-101-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:88:13-37
-102            android:exported="true"
-102-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:89:13-36
-103            android:label="@string/app_name" >
-103-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:90:13-45
-104            <intent-filter>
-104-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:91:13-95:29
-105                <action android:name="ch.expectusafterlun.androidtutorial.TEXTPLAY" />
-105-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:92:17-87
-105-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:92:25-84
-106
-107                <category android:name="android.intent.category.DEFAULT" />
-107-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-107-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-108            </intent-filter>
-109        </activity>
-110        <activity
-110-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:97:9-106:20
-111            android:name="ch.expectusafterlun.androidtutorial.Email"
-111-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:98:13-34
-112            android:exported="true"
-112-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:99:13-36
-113            android:label="@string/app_name" >
-113-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:100:13-45
-114            <intent-filter>
-114-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:101:13-105:29
-115                <action android:name="ch.expectusafterlun.androidtutorial.EMAIL" />
-115-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:102:17-84
-115-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:102:25-81
-116
-117                <category android:name="android.intent.category.DEFAULT" />
-117-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-117-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-118            </intent-filter>
-119        </activity>
-120        <activity
-120-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:107:9-117:20
-121            android:name="ch.expectusafterlun.androidtutorial.Camera"
-121-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:108:13-35
-122            android:exported="true"
-122-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:109:13-36
-123            android:label="Camera Application"
-123-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:110:13-47
-124            android:screenOrientation="portrait" >
-124-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:111:13-49
-125            <intent-filter>
-125-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:112:13-116:29
-126                <action android:name="ch.expectusafterlun.androidtutorial.CAMERA" />
-126-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:113:17-85
-126-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:113:25-82
-127
-128                <category android:name="android.intent.category.DEFAULT" />
-128-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-128-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-129            </intent-filter>
-130        </activity>
-131        <activity
-131-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:118:9-127:20
-132            android:name="ch.expectusafterlun.androidtutorial.Data"
-132-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:119:13-33
-133            android:exported="true"
-133-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:120:13-36
-134            android:label="@string/app_name" >
-134-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:121:13-45
-135            <intent-filter>
-135-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:122:13-126:29
-136                <action android:name="ch.expectusafterlun.androidtutorial.DATA" />
-136-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:123:17-83
-136-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:123:25-80
-137
-138                <category android:name="android.intent.category.DEFAULT" />
-138-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-138-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-139            </intent-filter>
-140        </activity>
-141        <activity
-141-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:128:9-137:20
-142            android:name="ch.expectusafterlun.androidtutorial.Opens"
-142-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:129:13-34
-143            android:exported="true"
-143-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:130:13-36
-144            android:label="@string/app_name" >
-144-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:131:13-45
-145            <intent-filter>
-145-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:132:13-136:29
-146                <action android:name="ch.expectusafterlun.androidtutorial.OPENEDCLASS" />
-146-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:133:17-90
-146-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:133:25-87
-147
-148                <category android:name="android.intent.category.DEFAULT" />
-148-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-148-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-149            </intent-filter>
-150        </activity>
-151        <activity
-151-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:138:9-148:20
-152            android:name="ch.expectusafterlun.androidtutorial.AboutUs"
-152-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:139:13-36
-153            android:exported="true"
-153-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:140:13-36
-154            android:label="@string/app_name"
-154-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:141:13-45
-155            android:theme="@android:style/Theme.Dialog" >
-155-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:142:13-56
-156            <intent-filter>
-156-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:143:13-147:29
-157                <action android:name="ch.expectusafterlun.androidtutorial.ABOUT" />
-157-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:144:17-84
-157-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:144:25-81
-158
-159                <category android:name="android.intent.category.DEFAULT" />
-159-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-159-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-160            </intent-filter>
-161        </activity>
-162        <activity
-162-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:149:9-158:20
-163            android:name="ch.expectusafterlun.androidtutorial.Prefs"
-163-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:150:13-34
-164            android:exported="true"
-164-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:151:13-36
-165            android:label="@string/app_name" >
-165-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:152:13-45
-166            <intent-filter>
-166-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:153:13-157:29
-167                <action android:name="ch.expectusafterlun.androidtutorial.PREFS" />
-167-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:154:17-84
-167-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:154:25-81
-168
-169                <category android:name="android.intent.category.DEFAULT" />
-169-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-169-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-170            </intent-filter>
-171        </activity>
-172        <activity
-172-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:159:9-168:20
-173            android:name="ch.expectusafterlun.androidtutorial.FullScreen"
-173-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:160:13-39
-174            android:exported="true"
-174-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:161:13-36
-175            android:label="@string/app_name" >
-175-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:162:13-45
-176            <intent-filter>
-176-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:163:13-167:29
-177                <action android:name="ch.expectusafterlun.androidtutorial.FULLSCREEN" />
-177-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:164:17-89
-177-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:164:25-86
-178
-179                <category android:name="android.intent.category.DEFAULT" />
-179-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-179-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-180            </intent-filter>
-181        </activity>
-182        <activity
-182-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:169:9-178:20
-183            android:name="ch.expectusafterlun.androidtutorial.GFX"
-183-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:170:13-32
-184            android:exported="true"
-184-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:171:13-36
-185            android:label="@string/app_name" >
-185-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:172:13-45
-186            <intent-filter>
-186-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:173:13-177:29
-187                <action android:name="ch.expectusafterlun.androidtutorial.GFX" />
-187-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:174:17-82
-187-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:174:25-79
-188
-189                <category android:name="android.intent.category.DEFAULT" />
-189-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-189-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-190            </intent-filter>
-191        </activity>
-192        <activity
-192-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:179:9-188:20
-193            android:name="ch.expectusafterlun.androidtutorial.GFXSurface"
-193-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:180:13-39
-194            android:exported="true"
-194-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:181:13-36
-195            android:label="@string/app_name" >
-195-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:182:13-45
-196            <intent-filter>
-196-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:183:13-187:29
-197                <action android:name="ch.expectusafterlun.androidtutorial.GFXSURFACE" />
-197-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:184:17-89
-197-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:184:25-86
-198
-199                <category android:name="android.intent.category.DEFAULT" />
-199-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-199-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-200            </intent-filter>
-201        </activity>
-202        <activity
-202-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:189:9-198:20
-203            android:name="ch.expectusafterlun.androidtutorial.SoundStuff"
-203-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:190:13-39
-204            android:exported="true"
-204-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:191:13-36
-205            android:label="@string/app_name" >
-205-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:192:13-45
-206            <intent-filter>
-206-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:193:13-197:29
-207                <action android:name="ch.expectusafterlun.androidtutorial.SOUNDSTUFF" />
-207-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:194:17-89
-207-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:194:25-86
-208
-209                <category android:name="android.intent.category.DEFAULT" />
-209-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-209-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-210            </intent-filter>
-211        </activity>
-212        <activity
-212-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:199:9-208:20
-213            android:name="ch.expectusafterlun.androidtutorial.Slider"
-213-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:200:13-35
-214            android:exported="true"
-214-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:201:13-36
-215            android:label="@string/app_name" >
-215-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:202:13-45
-216            <intent-filter>
-216-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:203:13-207:29
-217                <action android:name="ch.expectusafterlun.androidtutorial.SLIDE" />
-217-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:204:17-84
-217-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:204:25-81
-218
-219                <category android:name="android.intent.category.DEFAULT" />
-219-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-219-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-220            </intent-filter>
-221        </activity>
-222        <activity
-222-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:209:9-218:20
-223            android:name="ch.expectusafterlun.androidtutorial.Tabs"
-223-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:210:13-33
-224            android:exported="true"
-224-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:211:13-36
-225            android:label="@string/app_name" >
-225-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:212:13-45
-226            <intent-filter>
-226-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:213:13-217:29
-227                <action android:name="ch.expectusafterlun.androidtutorial.TABS" />
-227-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:214:17-83
-227-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:214:25-80
-228
-229                <category android:name="android.intent.category.DEFAULT" />
-229-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:17-76
-229-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:27-73
-230            </intent-filter>
-231        </activity>
-232        <activity
-232-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
-233            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-233-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
-234            android:exported="true"
-234-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
-235            android:theme="@android:style/Theme" >
-235-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
-236            <intent-filter>
-236-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
-237                <action android:name="android.intent.action.MAIN" />
-237-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:17-69
-237-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:25-66
-238            </intent-filter>
-239        </activity>
-240        <activity
-240-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
-241            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-241-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
-242            android:exported="true"
-242-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
-243            android:theme="@android:style/Theme" >
-243-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
-244            <intent-filter>
-244-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
-245                <action android:name="android.intent.action.MAIN" />
-245-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:17-69
-245-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:25-66
-246            </intent-filter>
-247        </activity>
-248        <activity
-248-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
-249            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-249-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
-250            android:exported="true"
-250-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
-251            android:theme="@android:style/Theme.Dialog" >
-251-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
-252            <intent-filter>
-252-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
-253                <action android:name="android.intent.action.MAIN" />
-253-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:17-69
-253-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:25-66
-254            </intent-filter>
-255        </activity>
-256    </application>
-257
-258</manifest>
+44-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:34:13-37
+45            android:screenOrientation="portrait" />
+45-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:35:13-49
+46        <activity
+46-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:36:9-45:20
+47            android:name="ch.expectusafterlun.androidtutorial.SQLView"
+47-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:37:13-36
+48            android:exported="false"
+48-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:38:13-37
+49            android:label="@string/app_name" >
+49-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:39:13-45
+50            <intent-filter>
+50-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:40:13-44:29
+51                <action android:name="android.intent.action.SQLVIEW" />
+51-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:41:17-72
+51-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:41:25-69
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+53-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:46:9-48:39
+57            android:name="ch.expectusafterlun.androidtutorial.SQLiteExample"
+57-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:47:13-42
+58            android:exported="true" />
+58-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:48:13-36
+59        <activity
+59-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:49:9-51:40
+60            android:name="ch.expectusafterlun.androidtutorial.ExternalData"
+60-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:50:13-41
+61            android:exported="false" />
+61-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:51:13-37
+62        <activity
+62-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:52:9-54:40
+63            android:name="ch.expectusafterlun.androidtutorial.InternalData"
+63-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:53:13-41
+64            android:exported="false" />
+64-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:54:13-37
+65        <activity
+65-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:55:9-57:40
+66            android:name="ch.expectusafterlun.androidtutorial.SharedPrefs"
+66-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:56:13-40
+67            android:exported="false" />
+67-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:57:13-37
+68        <activity
+68-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:58:9-60:40
+69            android:name="ch.expectusafterlun.androidtutorial.Flipper"
+69-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:59:13-36
+70            android:exported="false" />
+70-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:60:13-37
+71        <activity
+71-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:61:9-63:39
+72            android:name="ch.expectusafterlun.androidtutorial.SimpleBrowser"
+72-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:62:13-42
+73            android:exported="true" />
+73-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:63:13-36
+74        <activity
+74-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:64:9-73:20
+75            android:name="ch.expectusafterlun.androidtutorial.Splash"
+75-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:13-35
+76            android:exported="true"
+76-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:66:13-36
+77            android:label="@string/app_name" >
+77-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:67:13-45
+78            <intent-filter>
+78-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:68:13-72:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:17-69
+79-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:71:17-77
+81-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:71:27-74
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:74:9-83:20
+85            android:name="ch.expectusafterlun.androidtutorial.Menu"
+85-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:75:13-33
+86            android:exported="true"
+86-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:76:13-36
+87            android:label="@string/app_name" >
+87-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:77:13-45
+88            <intent-filter>
+88-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:78:13-82:29
+89                <action android:name="ch.expectusafterlun.androidtutorial.MENU" />
+89-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:79:17-83
+89-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:79:25-80
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+91-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:84:9-93:20
+95            android:name="ch.expectusafterlun.androidtutorial.Count"
+95-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:85:13-34
+96            android:exported="true"
+96-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:86:13-36
+97            android:label="@string/app_name" >
+97-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:87:13-45
+98            <intent-filter>
+98-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:88:13-92:29
+99                <action android:name="ch.expectusafterlun.androidtutorial.COUNT" />
+99-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:89:17-84
+99-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:89:25-81
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+101-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+102            </intent-filter>
+103        </activity>
+104        <activity
+104-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:94:9-103:20
+105            android:name="ch.expectusafterlun.androidtutorial.TextPlay"
+105-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:95:13-37
+106            android:exported="true"
+106-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:96:13-36
+107            android:label="@string/app_name" >
+107-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:97:13-45
+108            <intent-filter>
+108-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:98:13-102:29
+109                <action android:name="ch.expectusafterlun.androidtutorial.TEXTPLAY" />
+109-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:99:17-87
+109-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:99:25-84
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+111-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:104:9-113:20
+115            android:name="ch.expectusafterlun.androidtutorial.Email"
+115-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:105:13-34
+116            android:exported="true"
+116-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:106:13-36
+117            android:label="@string/app_name" >
+117-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:107:13-45
+118            <intent-filter>
+118-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:108:13-112:29
+119                <action android:name="ch.expectusafterlun.androidtutorial.EMAIL" />
+119-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:109:17-84
+119-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:109:25-81
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+121-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+122            </intent-filter>
+123        </activity>
+124        <activity
+124-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:114:9-124:20
+125            android:name="ch.expectusafterlun.androidtutorial.Camera"
+125-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:115:13-35
+126            android:exported="true"
+126-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:116:13-36
+127            android:label="Camera Application"
+127-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:117:13-47
+128            android:screenOrientation="portrait" >
+128-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:118:13-49
+129            <intent-filter>
+129-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:119:13-123:29
+130                <action android:name="ch.expectusafterlun.androidtutorial.CAMERA" />
+130-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:120:17-85
+130-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:120:25-82
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+132-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:125:9-134:20
+136            android:name="ch.expectusafterlun.androidtutorial.Data"
+136-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:126:13-33
+137            android:exported="true"
+137-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:127:13-36
+138            android:label="@string/app_name" >
+138-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:128:13-45
+139            <intent-filter>
+139-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:129:13-133:29
+140                <action android:name="ch.expectusafterlun.androidtutorial.DATA" />
+140-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:130:17-83
+140-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:130:25-80
+141
+142                <category android:name="android.intent.category.DEFAULT" />
+142-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+142-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+143            </intent-filter>
+144        </activity>
+145        <activity
+145-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:135:9-144:20
+146            android:name="ch.expectusafterlun.androidtutorial.Opens"
+146-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:136:13-34
+147            android:exported="true"
+147-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:137:13-36
+148            android:label="@string/app_name" >
+148-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:138:13-45
+149            <intent-filter>
+149-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:139:13-143:29
+150                <action android:name="ch.expectusafterlun.androidtutorial.OPENEDCLASS" />
+150-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:140:17-90
+150-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:140:25-87
+151
+152                <category android:name="android.intent.category.DEFAULT" />
+152-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+152-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+153            </intent-filter>
+154        </activity>
+155        <activity
+155-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:145:9-155:20
+156            android:name="ch.expectusafterlun.androidtutorial.AboutUs"
+156-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:146:13-36
+157            android:exported="true"
+157-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:147:13-36
+158            android:label="@string/app_name"
+158-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:148:13-45
+159            android:theme="@android:style/Theme.Dialog" >
+159-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:149:13-56
+160            <intent-filter>
+160-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:150:13-154:29
+161                <action android:name="ch.expectusafterlun.androidtutorial.ABOUT" />
+161-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:151:17-84
+161-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:151:25-81
+162
+163                <category android:name="android.intent.category.DEFAULT" />
+163-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+163-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:156:9-165:20
+167            android:name="ch.expectusafterlun.androidtutorial.Prefs"
+167-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:157:13-34
+168            android:exported="true"
+168-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:158:13-36
+169            android:label="@string/app_name" >
+169-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:159:13-45
+170            <intent-filter>
+170-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:160:13-164:29
+171                <action android:name="ch.expectusafterlun.androidtutorial.PREFS" />
+171-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:161:17-84
+171-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:161:25-81
+172
+173                <category android:name="android.intent.category.DEFAULT" />
+173-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+173-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+174            </intent-filter>
+175        </activity>
+176        <activity
+176-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:166:9-175:20
+177            android:name="ch.expectusafterlun.androidtutorial.FullScreen"
+177-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:167:13-39
+178            android:exported="true"
+178-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:168:13-36
+179            android:label="@string/app_name" >
+179-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:169:13-45
+180            <intent-filter>
+180-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:170:13-174:29
+181                <action android:name="ch.expectusafterlun.androidtutorial.FULLSCREEN" />
+181-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:171:17-89
+181-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:171:25-86
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+183-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+184            </intent-filter>
+185        </activity>
+186        <activity
+186-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:176:9-185:20
+187            android:name="ch.expectusafterlun.androidtutorial.GFX"
+187-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:177:13-32
+188            android:exported="true"
+188-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:178:13-36
+189            android:label="@string/app_name" >
+189-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:179:13-45
+190            <intent-filter>
+190-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:180:13-184:29
+191                <action android:name="ch.expectusafterlun.androidtutorial.GFX" />
+191-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:181:17-82
+191-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:181:25-79
+192
+193                <category android:name="android.intent.category.DEFAULT" />
+193-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+193-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+194            </intent-filter>
+195        </activity>
+196        <activity
+196-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:186:9-195:20
+197            android:name="ch.expectusafterlun.androidtutorial.GFXSurface"
+197-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:187:13-39
+198            android:exported="true"
+198-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:188:13-36
+199            android:label="@string/app_name" >
+199-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:189:13-45
+200            <intent-filter>
+200-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:190:13-194:29
+201                <action android:name="ch.expectusafterlun.androidtutorial.GFXSURFACE" />
+201-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:191:17-89
+201-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:191:25-86
+202
+203                <category android:name="android.intent.category.DEFAULT" />
+203-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+203-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+204            </intent-filter>
+205        </activity>
+206        <activity
+206-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:196:9-205:20
+207            android:name="ch.expectusafterlun.androidtutorial.SoundStuff"
+207-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:197:13-39
+208            android:exported="true"
+208-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:198:13-36
+209            android:label="@string/app_name" >
+209-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:199:13-45
+210            <intent-filter>
+210-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:200:13-204:29
+211                <action android:name="ch.expectusafterlun.androidtutorial.SOUNDSTUFF" />
+211-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:201:17-89
+211-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:201:25-86
+212
+213                <category android:name="android.intent.category.DEFAULT" />
+213-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+213-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+214            </intent-filter>
+215        </activity>
+216        <activity
+216-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:206:9-215:20
+217            android:name="ch.expectusafterlun.androidtutorial.Slider"
+217-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:207:13-35
+218            android:exported="true"
+218-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:208:13-36
+219            android:label="@string/app_name" >
+219-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:209:13-45
+220            <intent-filter>
+220-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:210:13-214:29
+221                <action android:name="ch.expectusafterlun.androidtutorial.SLIDE" />
+221-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:211:17-84
+221-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:211:25-81
+222
+223                <category android:name="android.intent.category.DEFAULT" />
+223-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+223-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+224            </intent-filter>
+225        </activity>
+226        <activity
+226-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:216:9-225:20
+227            android:name="ch.expectusafterlun.androidtutorial.Tabs"
+227-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:217:13-33
+228            android:exported="true"
+228-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:218:13-36
+229            android:label="@string/app_name" >
+229-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:219:13-45
+230            <intent-filter>
+230-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:220:13-224:29
+231                <action android:name="ch.expectusafterlun.androidtutorial.TABS" />
+231-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:221:17-83
+231-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:221:25-80
+232
+233                <category android:name="android.intent.category.DEFAULT" />
+233-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:17-76
+233-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:43:27-73
+234            </intent-filter>
+235        </activity>
+236        <activity
+236-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+237            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+237-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+238            android:exported="true"
+238-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+239            android:theme="@android:style/Theme" >
+239-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+240            <intent-filter>
+240-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+241                <action android:name="android.intent.action.MAIN" />
+241-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:17-69
+241-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:25-66
+242            </intent-filter>
+243        </activity>
+244        <activity
+244-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+245            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+245-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+246            android:exported="true"
+246-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+247            android:theme="@android:style/Theme" >
+247-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+248            <intent-filter>
+248-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+249                <action android:name="android.intent.action.MAIN" />
+249-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:17-69
+249-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:25-66
+250            </intent-filter>
+251        </activity>
+252        <activity
+252-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+253            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+253-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+254            android:exported="true"
+254-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+255            android:theme="@android:style/Theme.Dialog" >
+255-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+256            <intent-filter>
+256-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+257                <action android:name="android.intent.action.MAIN" />
+257-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:17-69
+257-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:69:25-66
+258            </intent-filter>
+259        </activity>
+260    </application>
+261
+262</manifest>

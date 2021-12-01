@@ -49,6 +49,8 @@ ch/expectusafterlun/androidtutorial/InternalData.java
 ch/expectusafterlun/androidtutorial/GFXSurface.java
  ch.expectusafterlun.androidtutorial.GFXSurface
  ch.expectusafterlun.androidtutorial.GFXSurface$AnimationViewSurface
+ch/expectusafterlun/androidtutorial/Data.java
+ ch.expectusafterlun.androidtutorial.Data
 ch/expectusafterlun/androidtutorial/FullScreen.java
  ch.expectusafterlun.androidtutorial.FullScreen
 ch/expectusafterlun/androidtutorial/Count.java
@@ -61,11 +63,16 @@ ch/expectusafterlun/androidtutorial/GFX.java
  ch.expectusafterlun.androidtutorial.GFX
 ch/expectusafterlun/androidtutorial/Prefs.java
  ch.expectusafterlun.androidtutorial.Prefs
-ch/expectusafterlun/androidtutorial/AboutUs.java
- ch.expectusafterlun.androidtutorial.AboutUs
 ch/expectusafterlun/androidtutorial/Camera.java
  ch.expectusafterlun.androidtutorial.Camera
+ch/expectusafterlun/androidtutorial/AboutUs.java
+ ch.expectusafterlun.androidtutorial.AboutUs
 ch/expectusafterlun/androidtutorial/Opens.java
  ch.expectusafterlun.androidtutorial.Opens
-ch/expectusafterlun/androidtutorial/Data.java
- ch.expectusafterlun.androidtutorial.Data
+ch/expectusafterlun/androidtutorial/HandlingXMLStuff.java
+ ch.expectusafterlun.androidtutorial.HandlingXMLStuff
+ch/expectusafterlun/androidtutorial/XMLDataCollected.java
+ ch.expectusafterlun.androidtutorial.XMLDataCollected
+ch/expectusafterlun/androidtutorial/WeatherXmlParsing.java
+ ch.expectusafterlun.androidtutorial.WeatherXmlParsing
+ ch.expectusafterlun.androidtutorial.WeatherXmlParsing$MyTask
