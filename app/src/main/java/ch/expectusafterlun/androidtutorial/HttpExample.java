@@ -95,7 +95,7 @@ public class HttpExample extends Activity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            return null;
+            return "";
         }
 
         @Override
