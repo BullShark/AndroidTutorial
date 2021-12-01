@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class WeatherXmlParsing extends AppCompatActivity implements View.OnClickListener {
 
-    private String url = "https://api.openweathermap.org/data/2.5/find?units=imperial&type=accurate&mode=xml&appid=0dcf84bfef65b293b5e3b444246ad6b2&lang=en&q=";
+    private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/find?units=imperial&type=accurate&mode=xml&appid=0dcf84bfef65b293b5e3b444246ad6b2&lang=en&q=";
     private TextView tv;
     private EditText city, state;
 
@@ -29,6 +29,10 @@ public class WeatherXmlParsing extends AppCompatActivity implements View.OnClick
 
     @Override
     public void onClick(View v) {
-
+        String c = city.getText().toString();
+        String s = state.getText().toString();
+        StringBuilder url = new StringBuilder(BASE_URL);
+        url.append(c).append(",").append(s);
+        String fullURL = url.toString();
     }
 }

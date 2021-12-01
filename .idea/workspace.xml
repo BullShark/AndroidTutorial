@@ -12,13 +12,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="XML Layout weather.xml almost completed">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/HandlingXMLStuff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/WeatherXmlParsing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/XMLDataCollected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 154">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/WeatherXmlParsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/WeatherXmlParsing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,13 +232,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Completed Video Tutorial 108">
-      <created>1636994806459</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1636994806459</updated>
     </task>
     <task id="LOCAL-00048" summary="New permission: Write external storage">
       <created>1636995101334</created>
@@ -580,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638353918562</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Completed Video Tutorial 154">
+      <created>1638354706298</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1638354706298</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -606,7 +602,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SQLView is meant to be launched from SQLiteExample, not from the Menu" />
     <MESSAGE value="Completed Video Tutorial 124" />
     <MESSAGE value="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface" />
     <MESSAGE value="Completed Video Tutorial 126" />
@@ -631,6 +626,7 @@
     <MESSAGE value="Moving on from Tutorial Video 153" />
     <MESSAGE value="Adding our new Activity to the Menu List" />
     <MESSAGE value="XML Layout weather.xml almost completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="XML Layout weather.xml almost completed" />
+    <MESSAGE value="Completed Video Tutorial 154" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 154" />
   </component>
 </project>
