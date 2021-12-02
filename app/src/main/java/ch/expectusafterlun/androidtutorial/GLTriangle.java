@@ -26,12 +26,14 @@ public class GLTriangle {
      * We need to reserve 24 bytes
      */
     public GLTriangle() {
+        // Floats
         ByteBuffer bBuff = ByteBuffer.allocateDirect(VERTICES.length * 4);
         bBuff.order(ByteOrder.nativeOrder());
         vertBuff = bBuff.asFloatBuffer();
         vertBuff.put(VERTICES);
         vertBuff.position(0);
 
+        // Shorts
         ByteBuffer pbBuff = ByteBuffer.allocateDirect(PINDEX.length * 2);
         pbBuff.order(ByteOrder.nativeOrder());
         pBuff = pbBuff.asShortBuffer();
@@ -47,7 +49,13 @@ public class GLTriangle {
          * stride is for skipping elements in an array, not needed here
          */
         gl.glVertexPointer(2, GL10.GL_FLOAT, 0, vertBuff);
-
+        /* Going clock-wise
+         * Mode: How we want to draw
+         * How many points or indexes do we have
+         * The data type we are working with
+         * Our buffer
+         */
+        gl.glDrawElements(GL10.GL_TRIANGLES, PINDEX.length, GL10.GL_UNSIGNED_SHORT, pBuff);
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
     }
 }

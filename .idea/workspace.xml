@@ -234,13 +234,6 @@
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
     </task>
-    <task id="LOCAL-00066" summary="Completed Video Tutorial 121">
-      <created>1637157059308</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1637157059309</updated>
-    </task>
     <task id="LOCAL-00067" summary="Completed Video Tutorial 122">
       <created>1637158615063</created>
       <option name="number" value="00067" />
@@ -577,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638479596619</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Completed Video Tutorial 174">
+      <created>1638480510625</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1638480510625</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -603,7 +603,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1 of the Twitter API is no longer available. OAUTH is now required in newer versions&#10;&#10;Get a random Urban Dictionary definition instead" />
     <MESSAGE value="http -&gt; https" />
     <MESSAGE value="Not working :(" />
     <MESSAGE value="Return empty string on failure" />
@@ -628,6 +627,7 @@
     <MESSAGE value="Completed Video Tutorial 170" />
     <MESSAGE value="Completed Video Tutorial 172" />
     <MESSAGE value="Completed Video Tutorial 173" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 173" />
+    <MESSAGE value="Completed Video Tutorial 174" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 174" />
   </component>
 </project>
