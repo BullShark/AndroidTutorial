@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RemoteViews;
 
 import androidx.annotation.Nullable;
 
@@ -20,7 +21,12 @@ public class WidgetConfig extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
+        String e = info.getText().toString();
+        RemoteViews views = new RemoteViews(c.getPackageName(), R.layout.widget);
+        views.setTextViewText(R.id.tv_config_input, e);
+        awm.updateAppWidget(awID, views);
 
+        finish();
     }
 
     @Override
@@ -39,5 +45,6 @@ public class WidgetConfig extends Activity implements View.OnClickListener {
                 AppWidgetManager.INVALID_APPWIDGET_ID
             );
         }
+        awm = AppWidgetManager.getInstance(c);
     }
 }
