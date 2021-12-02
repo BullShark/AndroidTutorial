@@ -28,12 +28,16 @@
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout-land/count.xml"
     },
     {
-        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable_standard.png.flat",
-        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable/standard.png"
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_widgetconfig.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/widgetconfig.xml"
     },
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/raw_dubstep.mp3.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/raw/dubstep.mp3"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable_standard.png.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable/standard.png"
     },
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_simplebrowser.xml.flat",
@@ -74,6 +78,10 @@
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher.webp.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_widget.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/widget.xml"
     },
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_sliding.xml.flat",
@@ -122,5 +130,9 @@
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_externaldata.xml.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/externaldata.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/xml_widget_stuff.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/xml/widget_stuff.xml"
     }
 ]

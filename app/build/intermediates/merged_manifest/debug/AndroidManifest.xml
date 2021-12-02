@@ -233,6 +233,33 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name="ch.expectusafterlun.androidtutorial.PointlessWidget"
+            android:exported="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_stuff" />
+        </receiver>
+
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.WidgetConfig"
+            android:exported="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.GLExample"
+            android:exported="true"
+            android:label="@string/app_name" >
+        </activity>
         <activity
             android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
             android:exported="true"

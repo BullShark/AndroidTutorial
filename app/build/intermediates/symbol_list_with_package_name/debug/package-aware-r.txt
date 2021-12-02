@@ -1938,6 +1938,8 @@ id b_sql_open_view
 id b_sql_update
 id b_sub
 id b_weather
+id b_widget_config
+id b_widget_open
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2051,6 +2053,7 @@ id et_sql_name
 id et_sql_row_info
 id et_state
 id et_url
+id et_widget_config
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2348,6 +2351,7 @@ id tvLoadSharedPreferences
 id tv_1
 id tv_2
 id tv_3
+id tv_config_input
 id tv_display
 id tv_http
 id tv_question
@@ -2356,6 +2360,7 @@ id tv_results
 id tv_sql_info
 id tv_text
 id tv_weather
+id tv_widget_update
 id unchecked
 id uniform
 id unlabeled
@@ -2549,6 +2554,8 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout weather
+layout widget
+layout widgetconfig
 menu cool_menu
 plurals mtrl_badge_content_description
 raw dubstep
@@ -2586,11 +2593,14 @@ string appbar_scrolling_view_behavior
 string b_results_text
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string button
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string city
 string clear_text_end_icon_content_description
+string current_weather
 string edit_text_hint
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -2665,6 +2675,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string save
 string search_menu_title
+string state
 string status_bar_notification_info_overflow
 string sub_bt_text
 string tb_pass_text
@@ -3542,3 +3553,4 @@ xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start
 xml standalone_badge_gravity_top_start
 xml standalone_badge_offset
+xml widget_stuff
