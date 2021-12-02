@@ -14,14 +14,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 159">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/PointlessWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/PointlessWidget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/WidgetConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/WidgetConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/bullshark/.android/avd/Pixel_5_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[17281JECB02717]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -64,7 +64,7 @@
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
@@ -233,13 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Completed Video Tutorial 113">
-      <created>1637140559238</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1637140559238</updated>
     </task>
     <task id="LOCAL-00059" summary="Completed Video Tutorial 114">
       <created>1637140981500</created>
@@ -577,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638427473480</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Completed Video Tutorial 164">
+      <created>1638470076450</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1638470076451</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -603,7 +603,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Google map files" />
     <MESSAGE value="Remove internet permission, not doing maps" />
     <MESSAGE value="Remove map files" />
     <MESSAGE value="Completed Video Tutorial 147" />
@@ -628,6 +627,7 @@
     <MESSAGE value="Completed Video Tutorial 161" />
     <MESSAGE value="Completed Video Tutorial 162" />
     <MESSAGE value="Completed Video Tutorial 163" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 163" />
+    <MESSAGE value="Completed Video Tutorial 164" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 164" />
   </component>
 </project>
