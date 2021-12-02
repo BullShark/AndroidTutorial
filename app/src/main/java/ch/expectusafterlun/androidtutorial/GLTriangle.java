@@ -5,6 +5,8 @@ import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;
 
+import javax.microedition.khronos.opengles.GL10;
+
 public class GLTriangle {
     /* x and y coordinates for point 1, 2 and 3 */
     private final float VERTICES[] = {
@@ -16,7 +18,7 @@ public class GLTriangle {
     private FloatBuffer vertBuff;
 
     /* Point Index and Point Buffer */
-    private short[] pIndex = { 0, 1, 2 };
+    private final short[] PINDEX = { 0, 1, 2 };
 
     private ShortBuffer pBuff;
 
@@ -30,10 +32,22 @@ public class GLTriangle {
         vertBuff.put(VERTICES);
         vertBuff.position(0);
 
-        ByteBuffer pbBuff = ByteBuffer.allocateDirect(pIndex.length * 2);
+        ByteBuffer pbBuff = ByteBuffer.allocateDirect(PINDEX.length * 2);
         pbBuff.order(ByteOrder.nativeOrder());
         pBuff = pbBuff.asShortBuffer();
-        pBuff.put(pIndex);
+        pBuff.put(PINDEX);
         pBuff.position(0);
+    }
+
+    /* Connect the points clock-wise */
+    public void draw(GL10 gl) {
+        gl.glFrontFace(GL10.GL_CW);
+        gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
+        /* 2 dimensional object, type is a float,
+         * stride is for skipping elements in an array, not needed here
+         */
+        gl.glVertexPointer(2, GL10.GL_FLOAT, 0, vertBuff);
+
+        gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
     }
 }
