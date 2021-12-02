@@ -14,7 +14,7 @@ public class GLExample extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         surface = new GLSurfaceView(GLExample.this);
-
+        surface.setRenderer((GLSurfaceView.Renderer) new GLRenderer());
         setContentView(surface);
     }
 
