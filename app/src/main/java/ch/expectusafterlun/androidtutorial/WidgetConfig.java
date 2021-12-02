@@ -1,6 +1,7 @@
 package ch.expectusafterlun.androidtutorial;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.content.Context;
 import android.content.Intent;
@@ -24,8 +25,13 @@ public class WidgetConfig extends Activity implements View.OnClickListener {
         String e = info.getText().toString();
         RemoteViews views = new RemoteViews(c.getPackageName(), R.layout.widget);
         views.setTextViewText(R.id.tv_config_input, e);
+        Intent in = new Intent(c, Splash.class);
+        PendingIntent pi = PendingIntent.getActivity(c, 0, in, 0);
+        views.setOnClickPendingIntent(R.id.b_widget_open, pi);
         awm.updateAppWidget(awID, views);
-
+        Intent result = new Intent();
+        result.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, awID);
+        setResult(RESULT_OK, result);
         finish();
     }
 
@@ -44,6 +50,8 @@ public class WidgetConfig extends Activity implements View.OnClickListener {
             awID = extras.getInt(AppWidgetManager.EXTRA_APPWIDGET_ID,
                 AppWidgetManager.INVALID_APPWIDGET_ID
             );
+        } else {
+            finish();
         }
         awm = AppWidgetManager.getInstance(c);
     }
