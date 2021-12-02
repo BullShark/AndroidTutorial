@@ -20,6 +20,8 @@
         <entry key="app/src/main/res/layout/sqlview.xml" value="0.5" />
         <entry key="app/src/main/res/layout/tabs.xml" value="0.1" />
         <entry key="app/src/main/res/layout/weather.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/widget.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/widgetconfig.xml" value="0.1" />
         <entry key="app/src/main/res/xml/widget_stuff.xml" value="0.19479166666666667" />
       </map>
     </option>
