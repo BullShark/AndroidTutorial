@@ -31,6 +31,13 @@ public class GLRenderer implements GLSurfaceView.Renderer {
 
     @Override
     public void onSurfaceChanged(GL10 gl, int width, int height) {
-
+        // The bottom left corner is (0, 0)
+        gl.glViewport(0,0, width, height);
+        // For keeping the same ratio if the phone changes landscape
+        float ratio = (float) width / height;
+        gl.glMatrixMode(GL10.GL_PROJECTION);
+        gl.glLoadIdentity();
+        // Our viewing area
+        gl.glFrustumf(-ratio, ratio, -1, .5f, 1, 25);
     }
 }
