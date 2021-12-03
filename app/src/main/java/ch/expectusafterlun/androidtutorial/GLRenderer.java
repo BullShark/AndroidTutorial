@@ -1,6 +1,7 @@
 package ch.expectusafterlun.androidtutorial;
 
 import android.opengl.GLSurfaceView;
+import android.opengl.GLU;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
@@ -26,6 +27,12 @@ public class GLRenderer implements GLSurfaceView.Renderer {
         gl.glDisable(GL10.GL_DITHER);
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
 
+        gl.glMatrixMode(GL10.GL_MODELVIEW);
+        gl.glLoadIdentity();
+
+        // Tell our camera to look at a specific point
+        GLU.gluLookAt(gl, 0, 0, -5, 0, 0, 0, 0, 2, 0);
+
         tri.draw(gl);
     }
 
@@ -38,6 +45,6 @@ public class GLRenderer implements GLSurfaceView.Renderer {
         gl.glMatrixMode(GL10.GL_PROJECTION);
         gl.glLoadIdentity();
         // Our viewing area
-        gl.glFrustumf(-ratio, ratio, -1, .5f, 1, 25);
+        gl.glFrustumf(-ratio, ratio, -1, 1, 1, 25);
     }
 }
