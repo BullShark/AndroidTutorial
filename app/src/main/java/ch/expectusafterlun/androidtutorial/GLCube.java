@@ -29,9 +29,22 @@ public class GLCube {
 
     private FloatBuffer vertBuff;
 
-    /* Point Index and Point Buffer */
-    private final short[] PINDEX = { 0, 1, 2 };
+    /*
+     * Point Index
+     * Creating the cube as triangle sections
+     * Going in the clockwise direction
+     * See GLCube Reference Diagram.png
+     */
+    private final short[] PINDEX = {
+            3, 4, 0,   0, 4, 1,   3, 0, 1, // Top right section
+            3, 7, 4,   7, 6, 4,   7, 3, 6, // Top left section
+            3, 1, 2,   1, 6, 2,   6, 3, 1, // Bottom left section
+            1, 4, 5,   5, 6, 1,   4, 5, 6  // Bottom right section
+    };
 
+    /*
+     * Point Buffer
+     */
     private ShortBuffer pBuff;
 
     /* Each float takes up 4 bytes
