@@ -242,7 +242,11 @@
             android:exported="true"
             android:label="@string/app_name">
         </activity>
-
+        <activity
+            android:name=".GLCubeEx"
+            android:exported="true"
+            android:label="@string/app_name">
+        </activity>
     </application>
 
 </manifest>

@@ -10,6 +10,7 @@ import javax.microedition.khronos.opengles.GL10;
 public class GLCube {
 
     /*
+     * Points, not sections
      * A Cube has 8 points.
      * x y and z coordinates for points 1-8
      */
@@ -30,7 +31,7 @@ public class GLCube {
     private FloatBuffer vertBuff;
 
     /*
-     * Point Index
+     * Point Index of sections
      * Creating the cube as triangle sections
      * Going in the clockwise direction
      * See GLCube Reference Diagram.png
@@ -69,18 +70,31 @@ public class GLCube {
     /* Connect the points clock-wise */
     public void draw(GL10 gl) {
         gl.glFrontFace(GL10.GL_CW);
+        /* Draw the front faces of the triangle
+         * Don't worry about the back face which would
+         * Only be visible from the inside of the cube
+         */
+        gl.glEnable(GL10.GL_CULL_FACE);
+        /* Refers to the face that
+         * We want to ignore drawing
+         */
+        gl.glCullFace(GL10.GL_BACK);
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
-        /* 2 dimensional object, type is a float,
+        /* 3 dimensional object, type is a float,
          * stride is for skipping elements in an array, not needed here
          */
-        gl.glVertexPointer(2, GL10.GL_FLOAT, 0, vertBuff);
+        gl.glVertexPointer(3, GL10.GL_FLOAT, 0, vertBuff);
         /* Going clock-wise
-         * Mode: How we want to draw
+         * Mode: How we want to draw, triangle sections
          * How many points or indexes do we have
          * The data type we are working with
          * Our buffer
          */
         gl.glDrawElements(GL10.GL_TRIANGLES, PINDEX.length, GL10.GL_UNSIGNED_SHORT, pBuff);
+        /* We enabled these 2 above
+         * Now we have to disable them
+         */
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
+        gl.glDisable(GL10.GL_CULL_FACE);
     }
 }

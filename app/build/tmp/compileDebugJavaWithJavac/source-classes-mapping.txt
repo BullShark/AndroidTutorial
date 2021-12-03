@@ -50,8 +50,8 @@ ch/expectusafterlun/androidtutorial/Flipper.java
 ch/expectusafterlun/androidtutorial/InternalData.java
  ch.expectusafterlun.androidtutorial.InternalData
  ch.expectusafterlun.androidtutorial.InternalData$LoadData
-ch/expectusafterlun/androidtutorial/GLCube.java
- ch.expectusafterlun.androidtutorial.GLCube
+ch/expectusafterlun/androidtutorial/GLTriangle.java
+ ch.expectusafterlun.androidtutorial.GLTriangle
 ch/expectusafterlun/androidtutorial/GFXSurface.java
  ch.expectusafterlun.androidtutorial.GFXSurface
  ch.expectusafterlun.androidtutorial.GFXSurface$AnimationViewSurface
@@ -80,11 +80,15 @@ ch/expectusafterlun/androidtutorial/Camera.java
  ch.expectusafterlun.androidtutorial.Camera
 ch/expectusafterlun/androidtutorial/Opens.java
  ch.expectusafterlun.androidtutorial.Opens
-ch/expectusafterlun/androidtutorial/GLTriangle.java
- ch.expectusafterlun.androidtutorial.GLTriangle
-ch/expectusafterlun/androidtutorial/Menu.java
- ch.expectusafterlun.androidtutorial.Menu
 ch/expectusafterlun/androidtutorial/GLExample.java
  ch.expectusafterlun.androidtutorial.GLExample
 ch/expectusafterlun/androidtutorial/GLRenderer.java
  ch.expectusafterlun.androidtutorial.GLRenderer
+ch/expectusafterlun/androidtutorial/GLCubeEx.java
+ ch.expectusafterlun.androidtutorial.GLCubeEx
+ch/expectusafterlun/androidtutorial/GLCube.java
+ ch.expectusafterlun.androidtutorial.GLCube
+ch/expectusafterlun/androidtutorial/GLCubeRendererEx.java
+ ch.expectusafterlun.androidtutorial.GLCubeRendererEx
+ch/expectusafterlun/androidtutorial/Menu.java
+ ch.expectusafterlun.androidtutorial.Menu

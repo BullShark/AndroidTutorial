@@ -14,7 +14,7 @@ public class GLCubeEx extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         surface = new GLSurfaceView(this);
-        surface.setRenderer(new GLCubeRendererEx());
+        surface.setRenderer((GLSurfaceView.Renderer)new GLCubeRendererEx());
         setContentView(surface);
     }
 

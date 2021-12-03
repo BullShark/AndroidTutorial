@@ -10,6 +10,10 @@ public class GLCubeRendererEx implements GLSurfaceView.Renderer {
 
     private GLCube cube;
 
+    public GLCubeRendererEx() {
+        cube = new GLCube();
+    }
+
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
         gl.glDisable(GL10.GL_DITHER);
@@ -32,6 +36,13 @@ public class GLCubeRendererEx implements GLSurfaceView.Renderer {
 
     @Override
     public void onSurfaceChanged(GL10 gl, int width, int height) {
-        //todo Implement me
+        // The bottom left corner is (0, 0)
+        gl.glViewport(0,0, width, height);
+        // For keeping the same ratio if the phone changes landscape
+        float ratio = (float) width / height;
+        gl.glMatrixMode(GL10.GL_PROJECTION);
+        gl.glLoadIdentity();
+        // Our viewing area
+        gl.glFrustumf(-ratio, ratio, -1, 1, 1, 25);
     }
 }

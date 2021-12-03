@@ -40,7 +40,7 @@
 21    </queries>
 22
 23    <application
-23-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:12:5-246:19
+23-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:12:5-250:19
 24        android:allowBackup="false"
 24-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:13:9-36
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -493,50 +493,59 @@
 261-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:243:13-45
 262        </activity>
 263        <activity
-263-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
-264            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-264-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+263-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:245:9-249:20
+264            android:name="ch.expectusafterlun.androidtutorial.GLCubeEx"
+264-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:246:13-37
 265            android:exported="true"
-265-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
-266            android:theme="@android:style/Theme" >
-266-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
-267            <intent-filter>
-267-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
-268                <action android:name="android.intent.action.MAIN" />
-268-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:17-69
-268-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:25-66
-269            </intent-filter>
-270        </activity>
-271        <activity
-271-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
-272            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-272-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
-273            android:exported="true"
-273-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
-274            android:theme="@android:style/Theme" >
-274-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
-275            <intent-filter>
-275-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
-276                <action android:name="android.intent.action.MAIN" />
-276-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:17-69
-276-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:25-66
-277            </intent-filter>
-278        </activity>
-279        <activity
-279-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
-280            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-280-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
-281            android:exported="true"
-281-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
-282            android:theme="@android:style/Theme.Dialog" >
-282-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
-283            <intent-filter>
-283-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
-284                <action android:name="android.intent.action.MAIN" />
-284-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:17-69
-284-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:25-66
-285            </intent-filter>
-286        </activity>
-287    </application>
-288
-289</manifest>
+265-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:247:13-36
+266            android:label="@string/app_name" >
+266-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:248:13-45
+267        </activity>
+268        <activity
+268-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+269            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+269-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+270            android:exported="true"
+270-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+271            android:theme="@android:style/Theme" >
+271-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+272            <intent-filter>
+272-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+273                <action android:name="android.intent.action.MAIN" />
+273-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:17-69
+273-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:25-66
+274            </intent-filter>
+275        </activity>
+276        <activity
+276-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+277            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+277-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+278            android:exported="true"
+278-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+279            android:theme="@android:style/Theme" >
+279-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+280            <intent-filter>
+280-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+281                <action android:name="android.intent.action.MAIN" />
+281-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:17-69
+281-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:25-66
+282            </intent-filter>
+283        </activity>
+284        <activity
+284-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+285            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+285-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+286            android:exported="true"
+286-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+287            android:theme="@android:style/Theme.Dialog" >
+287-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+288            <intent-filter>
+288-->[androidx.test:core:1.4.0] /home/bullshark/.gradle/caches/transforms-3/6100811890b659c30389a5cd68badfee/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+289                <action android:name="android.intent.action.MAIN" />
+289-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:17-69
+289-->/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/AndroidManifest.xml:65:25-66
+290            </intent-filter>
+291        </activity>
+292    </application>
+293
+294</manifest>
