@@ -78,10 +78,12 @@ ch/expectusafterlun/androidtutorial/XMLDataCollected.java
  ch.expectusafterlun.androidtutorial.XMLDataCollected
 ch/expectusafterlun/androidtutorial/Camera.java
  ch.expectusafterlun.androidtutorial.Camera
-ch/expectusafterlun/androidtutorial/Menu.java
- ch.expectusafterlun.androidtutorial.Menu
 ch/expectusafterlun/androidtutorial/Opens.java
  ch.expectusafterlun.androidtutorial.Opens
+ch/expectusafterlun/androidtutorial/GLTriangle.java
+ ch.expectusafterlun.androidtutorial.GLTriangle
+ch/expectusafterlun/androidtutorial/Menu.java
+ ch.expectusafterlun.androidtutorial.Menu
 ch/expectusafterlun/androidtutorial/GLExample.java
  ch.expectusafterlun.androidtutorial.GLExample
 ch/expectusafterlun/androidtutorial/GLRenderer.java
