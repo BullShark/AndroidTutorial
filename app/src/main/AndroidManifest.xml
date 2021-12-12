@@ -249,11 +249,19 @@
         <activity
             android:name=".GLExample"
             android:exported="true"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+        </activity>
         <activity
             android:name=".GLCubeEx"
             android:exported="true"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Voice"
+            android:exported="true"
+            android:label="@string/app_name">
+
+        </activity>
     </application>
 
 </manifest>
