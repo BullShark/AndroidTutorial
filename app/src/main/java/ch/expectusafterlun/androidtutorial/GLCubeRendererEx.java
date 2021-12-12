@@ -2,6 +2,7 @@ package ch.expectusafterlun.androidtutorial;
 
 import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
+import android.os.SystemClock;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
@@ -30,6 +31,15 @@ public class GLCubeRendererEx implements GLSurfaceView.Renderer {
         gl.glMatrixMode(GL10.GL_MODELVIEW);
         gl.glLoadIdentity();
         GLU.gluLookAt(gl, 0, 0, -5, 0, 0, 0, 0, 2, 0);
+
+        gl.glRotatef(1, 1, 0, 0);
+        gl.glRotatef(10, 0, 0, 1);
+
+        long time = SystemClock.uptimeMillis() % 4000L;
+        float angle = 0.090f * ((int)time);
+
+        gl.glRotatef(angle, 1, 0, 2);
+        gl.glRotatef(angle, 0, 0, 2);
 
         cube.draw(gl);
     }

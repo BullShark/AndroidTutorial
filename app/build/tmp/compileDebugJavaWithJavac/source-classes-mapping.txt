@@ -84,11 +84,11 @@ ch/expectusafterlun/androidtutorial/GLExample.java
  ch.expectusafterlun.androidtutorial.GLExample
 ch/expectusafterlun/androidtutorial/GLRenderer.java
  ch.expectusafterlun.androidtutorial.GLRenderer
-ch/expectusafterlun/androidtutorial/GLCubeEx.java
- ch.expectusafterlun.androidtutorial.GLCubeEx
+ch/expectusafterlun/androidtutorial/Menu.java
+ ch.expectusafterlun.androidtutorial.Menu
 ch/expectusafterlun/androidtutorial/GLCube.java
  ch.expectusafterlun.androidtutorial.GLCube
 ch/expectusafterlun/androidtutorial/GLCubeRendererEx.java
  ch.expectusafterlun.androidtutorial.GLCubeRendererEx
-ch/expectusafterlun/androidtutorial/Menu.java
- ch.expectusafterlun.androidtutorial.Menu
+ch/expectusafterlun/androidtutorial/GLCubeEx.java
+ ch.expectusafterlun.androidtutorial.GLCubeEx

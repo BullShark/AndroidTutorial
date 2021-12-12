@@ -13,8 +13,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Completed Video Tutorial 159">
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/GLCube.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/GLCube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/GLCubeRendererEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/GLCubeRendererEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,20 +249,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Completed Video Tutorial 124">
-      <created>1637440620878</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1637440620878</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Completed Video Tutorial 125&#10;&#10;Getting everything setup. Borrowing some code from GFXSurface">
-      <created>1637441043573</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1637441043573</updated>
     </task>
     <task id="LOCAL-00075" summary="Completed Video Tutorial 126">
       <created>1637441612891</created>
@@ -577,7 +579,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638558972318</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Gradle sync">
+      <created>1638582626562</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1638582626562</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Cube fix, one number was wrong">
+      <created>1638582664922</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1638582664922</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -603,9 +619,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="XML Layout weather.xml almost completed" />
-    <MESSAGE value="Completed Video Tutorial 154" />
-    <MESSAGE value="Completed Video Tutorial 155" />
     <MESSAGE value="Completed Video Tutorial 156" />
     <MESSAGE value="Completed Video Tutorial 157" />
     <MESSAGE value="Completed Video Tutorial 158" />
@@ -628,6 +641,9 @@
     <MESSAGE value="Completed Video Tutorial 177" />
     <MESSAGE value="Completed Video Tutorial 178" />
     <MESSAGE value="Completed Video Tutorial 180" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 180" />
+    <MESSAGE value="Gradle sync" />
+    <MESSAGE value="Cube fix, one number was wrong" />
+    <MESSAGE value="Completed Video Tutorial 182" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Video Tutorial 182" />
   </component>
 </project>

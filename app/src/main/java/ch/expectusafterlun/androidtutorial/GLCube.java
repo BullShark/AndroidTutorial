@@ -9,25 +9,6 @@ import javax.microedition.khronos.opengles.GL10;
 
 public class GLCube {
 
-    /*
-     * Points, not sections
-     * A Cube has 8 points.
-     * x y and z coordinates for points 1-8
-     */
-    private final float VERTICES[] = {
-            // Front points
-            1, 1, -1,  //p0 - topFrontRight
-            1, -1, -1  //p1 - bottomFrontRight
-            -1, -1, -1,//p2 - bottomFrontLeft
-            -1, 1, -1, //p3 - topFrontLeft
-
-            // Back points
-            1, 1, 1,  //p4 - topBackRight
-            1, -1, 1  //p5 - bottomBackRight
-            -1, -1, 1,//p6 - bottomBackLeft
-            -1, 1, 1, //p7 - topBackLeft
-    };
-
     private FloatBuffer vertBuff;
 
     /*
@@ -40,7 +21,7 @@ public class GLCube {
             3, 4, 0,   0, 4, 1,   3, 0, 1, // Top right section
             3, 7, 4,   7, 6, 4,   7, 3, 6, // Top left section
             3, 1, 2,   1, 6, 2,   6, 3, 2, // Bottom left section
-            1, 4, 5,   5, 6, 1,   4, 5, 6  // Bottom right section
+            1, 4, 5,   5, 6, 1,   6, 5, 4  // Bottom right section
     };
 
     /*
@@ -53,6 +34,34 @@ public class GLCube {
      */
     public GLCube() {
         // Floats
+        /*
+         * Points, not sections
+         * A Cube has 8 points.
+         * x y and z coordinates for points 1-8
+         */
+        // Front points
+        //p0 - topFrontRight
+        //p1 - bottomFrontRight
+        //p2 - bottomFrontLeft
+        //p3 - topFrontLeft
+        // Back points
+        //p4 - topBackRight
+        //p5 - bottomBackRight
+        //p6 - bottomBackLeft
+        //p7 - topBackLeft
+        float[] VERTICES = {
+                // Front points
+                1, 1, -1,  //p0 - topFrontRight
+                1, -1, -1  //p1 - bottomFrontRight
+                -1, -1, -1,//p2 - bottomFrontLeft
+                -1, 1, -1, //p3 - topFrontLeft
+
+                // Back points
+                1, 1, 1,  //p4 - topBackRight
+                1, -1, 1  //p5 - bottomBackRight
+                -1, -1, 1,//p6 - bottomBackLeft
+                -1, 1, 1, //p7 - topBackLeft
+        };
         ByteBuffer bBuff = ByteBuffer.allocateDirect(VERTICES.length * 4);
         bBuff.order(ByteOrder.nativeOrder());
         vertBuff = bBuff.asFloatBuffer();
