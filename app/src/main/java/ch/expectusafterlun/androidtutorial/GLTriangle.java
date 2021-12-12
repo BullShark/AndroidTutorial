@@ -15,7 +15,13 @@ public class GLTriangle {
             -1f, -1f
     };
 
-    private FloatBuffer vertBuff;
+    private final float RGBAVals[] = {
+            1,    1,  0, .5f,
+            .25f, 0, .85f, 1,
+            0,    1,  1,  1
+    };
+
+    private FloatBuffer vertBuff, colorBuff;
 
     /* Point Index and Point Buffer */
     private final short[] PINDEX = { 0, 1, 2 };
@@ -39,12 +45,20 @@ public class GLTriangle {
         pBuff = pbBuff.asShortBuffer();
         pBuff.put(PINDEX);
         pBuff.position(0);
+
+        // Shorts - Color
+        ByteBuffer cBuff = ByteBuffer.allocateDirect(RGBAVals.length * 4);
+        cBuff.order(ByteOrder.nativeOrder());
+        colorBuff = cBuff.asFloatBuffer();
+        colorBuff.put(RGBAVals);
+        colorBuff.position(0);
     }
 
     /* Connect the points clock-wise */
     public void draw(GL10 gl) {
         gl.glFrontFace(GL10.GL_CW);
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
+        gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
         /* 2 dimensional object, type is a float,
          * stride is for skipping elements in an array, not needed here
          */
@@ -55,7 +69,9 @@ public class GLTriangle {
          * The data type we are working with
          * Our buffer
          */
+        gl.glColorPointer(4, GL10.GL_FLOAT, 0, colorBuff);
         gl.glDrawElements(GL10.GL_TRIANGLES, PINDEX.length, GL10.GL_UNSIGNED_SHORT, pBuff);
+        gl.glDisableClientState(GL10.GL_COLOR_ARRAY);
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
     }
 }
