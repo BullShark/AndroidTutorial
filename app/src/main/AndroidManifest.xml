@@ -85,7 +85,7 @@
             android:name=".Count"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Black">
+            android:theme="@android:style/Theme.Translucent">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.COUNT" />
 
@@ -95,7 +95,8 @@
         <activity
             android:name=".TextPlay"
             android:exported="true"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.TEXTPLAY" />
 
