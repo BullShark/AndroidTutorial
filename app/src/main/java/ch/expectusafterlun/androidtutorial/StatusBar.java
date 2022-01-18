@@ -26,7 +26,7 @@ public class StatusBar extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         super.onCreate(new Bundle());
         Intent intent = new Intent(this, StatusBar.class);
-        PendingIntent pi = PendingIntent.getActivity(this, 0, intent, 0);
+        PendingIntent pi = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
         String body = "This is a message from Chris. Thanks for your support.";
         String title = "Chris L.";
         // depreciated
