@@ -44,7 +44,7 @@ public class StatusBar extends Activity implements View.OnClickListener {
 
         // depreciated
         //Notification n = builder.getNotification();
-        nm.notify(Integer.valueOf(getString(R.string.default_notification_channel_id)), builder.build());
+        nm.notify(Integer.parseInt(getString(R.string.default_notification_channel_id)), builder.build());
 
         // depreciated
         //Notification n = new Notification(R.drawable.gentoo, body, System.currentTimeMillis());
