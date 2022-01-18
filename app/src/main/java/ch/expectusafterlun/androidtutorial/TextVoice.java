@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Locale;
 import java.util.Random;
 
-public class TextVoice extends AppCompatActivity implements View.OnClickListener {
+public class TextVoice extends Activity implements View.OnClickListener {
 
     private static final String[] texts = {
         "Whaaat's up Gangstas!", "You smell!", "Supersize it!"
