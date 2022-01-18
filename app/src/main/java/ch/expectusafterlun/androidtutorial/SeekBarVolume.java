@@ -22,6 +22,8 @@ public class SeekBarVolume extends Activity implements SeekBar.OnSeekBarChangeLi
         am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         int maxV = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
         int curV = am.getStreamVolume(AudioManager.STREAM_MUSIC);
+        sb.setMax(maxV);
+        sb.setProgress(curV);
         sb.setOnSeekBarChangeListener(this);
     }
 
@@ -33,7 +35,7 @@ public class SeekBarVolume extends Activity implements SeekBar.OnSeekBarChangeLi
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-
+        am.setStreamVolume(AudioManager.STREAM_MUSIC, progress, 0);
     }
 
     @Override
