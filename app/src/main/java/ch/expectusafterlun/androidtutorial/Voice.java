@@ -30,7 +30,7 @@ public class Voice extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         Intent i = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-        /* The below is required when the line above */
+        /* The below is required when the line above is there */
         i.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         i.putExtra(RecognizerIntent.EXTRA_PROMPT, "Speak up son!");
         startActivityForResult(i, check);
