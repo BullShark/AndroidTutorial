@@ -6,7 +6,12 @@ import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.Button;
 
-public class TextVoice extends Activity implements View.OnClickListener {
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Locale;
+import java.util.Random;
+
+public class TextVoice extends AppCompatActivity implements View.OnClickListener {
 
     private static final String[] texts = {
         "Whaaat's up Gangstas!", "You smell!", "Supersize it!"
@@ -19,8 +24,10 @@ public class TextVoice extends Activity implements View.OnClickListener {
         Button b = (Button) findViewById(R.id.b_text_to_voice);
         b.setOnClickListener(this);
         tts = new TextToSpeech(TextVoice.this, new TextToSpeech.OnInitListener() {
-            public void onInit(int arg0) {
-
+            public void onInit(int status) {
+                if(status != TextToSpeech.ERROR) {
+                    tts.setLanguage(Locale.US);
+                }
             }
         });
     }
@@ -36,6 +43,8 @@ public class TextVoice extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-
+        Random r = new Random();
+        String random = texts[r.nextInt(3)];
+        tts.speak(random, TextToSpeech.QUEUE_FLUSH, null);
     }
 }

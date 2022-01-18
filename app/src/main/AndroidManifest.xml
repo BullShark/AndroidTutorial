@@ -258,9 +258,11 @@
             android:name=".Voice"
             android:exported="true"
             android:label="@string/app_name">
-
         </activity>
-        <activity android:name=".TextVoice" />
+        <activity android:name=".TextVoice"
+            android:exported="true"
+            android:label="@string/app_name">
+        </activity>
     </application>
 
 </manifest>

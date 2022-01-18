@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:weightSum="1"
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/b_text_to_voice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.54"
-        android:text="Text to Voice"
-        android:id="@+id/b_text_to_voice"></Button>
+        android:text="Text to Voice"></Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/b_test"
+        android:text="A Test"
+        android:layout_weight="@integer/material_motion_duration_long_1"
+        ></Button>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
