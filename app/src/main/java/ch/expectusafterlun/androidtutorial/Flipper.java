@@ -1,11 +1,11 @@
 package ch.expectusafterlun.androidtutorial;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ViewFlipper;
 
-public class Flipper extends AppCompatActivity implements View.OnClickListener {
+public class Flipper extends Activity implements View.OnClickListener {
 
     ViewFlipper flipper;
 

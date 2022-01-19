@@ -11,7 +11,7 @@
                         "startOffsets": "220",
                         "endLines": "9",
                         "endColumns": "12",
-                        "endOffsets": "366"
+                        "endOffsets": "361"
                     },
                     "to": {
                         "startLines": "2",
@@ -19,7 +19,7 @@
                         "startOffsets": "55",
                         "endLines": "4",
                         "endColumns": "12",
-                        "endOffsets": "201"
+                        "endOffsets": "196"
                     }
                 }
             ]

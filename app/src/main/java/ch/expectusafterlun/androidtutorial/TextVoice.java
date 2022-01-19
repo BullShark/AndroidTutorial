@@ -1,16 +1,16 @@
 package ch.expectusafterlun.androidtutorial;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.view.View;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
 import java.util.Locale;
 import java.util.Random;
 
-public class TextVoice extends AppCompatActivity implements View.OnClickListener {
+public class TextVoice extends Activity implements View.OnClickListener {
 
     private static final String[] texts = {
         "Whaaat's up Gangstas!", "You smell!", "Supersize it!"
@@ -32,7 +32,6 @@ public class TextVoice extends AppCompatActivity implements View.OnClickListener
         });
     }
 
-    @Override
     protected void onPause() {
         super.onPause();
         if(tts != null) {

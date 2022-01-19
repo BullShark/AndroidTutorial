@@ -1,11 +1,10 @@
 package ch.expectusafterlun.androidtutorial;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class SQLView extends AppCompatActivity {
+public class SQLView extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

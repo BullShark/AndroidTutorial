@@ -1,7 +1,6 @@
 package ch.expectusafterlun.androidtutorial;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -14,7 +13,7 @@ import android.os.Bundle;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
-public class Accelerate extends AppCompatActivity implements SensorEventListener {
+public class Accelerate extends Activity implements SensorEventListener {
 
     private float x, y, sensorX, sensorY;
     private Bitmap ball;

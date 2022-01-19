@@ -16,7 +16,6 @@
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.AppCompat.Light"
         android:name="androidx.multidex.MultiDexApplication" >
     <meta-data
         android:name="com.google.android.gms.ads.APPLICATION_ID"
@@ -68,7 +67,8 @@
         <activity
             android:name=".Splash"
             android:exported="true"
-            android:label="@string/app_name">
+            android:label="@string/app_name" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -79,7 +79,7 @@
             android:name=".Menu"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat.Light" >
+            >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.MENU" />
 
@@ -90,7 +90,7 @@
             android:name=".Count"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat.DayNight" >
+            >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.COUNT" />
 
@@ -101,7 +101,7 @@
             android:name=".TextPlay"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+            >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.TEXTPLAY" />
 
@@ -153,7 +153,7 @@
             android:name=".AboutUs"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/ThemeOverlay.AppCompat.Dialog" >
+            >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.ABOUT" />
 

@@ -1,7 +1,6 @@
 package ch.expectusafterlun.androidtutorial;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class SQLiteExample extends AppCompatActivity implements View.OnClickListener {
+public class SQLiteExample extends Activity implements View.OnClickListener {
 
     private Button sqlUpdate, sqlView, sqlModify, sqlGetInfo, sqlDelete;
     private EditText sqlName, sqlHotness, sqlRow;

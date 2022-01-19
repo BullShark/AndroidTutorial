@@ -1,5 +1,6 @@
 package ch.expectusafterlun.androidtutorial;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
@@ -10,7 +11,6 @@ import android.widget.ListView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -20,7 +20,7 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 
 import java.util.ArrayList;
 
-public class Voice extends AppCompatActivity implements View.OnClickListener {
+public class Voice extends Activity implements View.OnClickListener {
 
     private ListView lv;
     private static final int check = 1111;

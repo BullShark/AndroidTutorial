@@ -1,7 +1,6 @@
 package ch.expectusafterlun.androidtutorial;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class SharedPrefs extends AppCompatActivity {
+public class SharedPrefs extends Activity {
 
     private EditText sharedData;
     private TextView dataResult;
