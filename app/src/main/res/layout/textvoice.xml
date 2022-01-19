@@ -2,14 +2,16 @@
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
 
     <Button
         android:id="@+id/b_text_to_voice"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="Text to Voice"></Button>
+        android:text="Text to Voice"
+        ></Button>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
