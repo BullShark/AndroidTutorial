@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/b_text_to_voice"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="@string/text_to_voice"
         android:textSize="20sp"
         android:backgroundTint="@color/cardview_dark_background"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
         android:textAllCaps="false" />
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

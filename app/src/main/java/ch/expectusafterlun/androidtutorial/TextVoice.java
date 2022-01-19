@@ -4,8 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.view.View;
-
-import androidx.appcompat.widget.AppCompatButton;
+import android.widget.Button;
 
 import java.util.Locale;
 import java.util.Random;
@@ -16,12 +15,12 @@ public class TextVoice extends Activity implements View.OnClickListener {
         "Whaaat's up Gangstas!", "You smell!", "Supersize it!"
     };
     private TextToSpeech tts;
-    private AppCompatButton b;
+    private Button b;
 
     protected void OnCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.textvoice);
-        b = (AppCompatButton) findViewById(R.id.b_text_to_voice);
+        b = (Button) findViewById(R.id.b_text_to_voice);
         b.setOnClickListener(this);
         tts = new TextToSpeech(TextVoice.this, new TextToSpeech.OnInitListener() {
             public void onInit(int status) {
