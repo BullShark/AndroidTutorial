@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:text="@string/text_to_voice"
         android:textSize="20sp"
+        android:backgroundTint="@color/cardview_dark_background"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:textAllCaps="false" />
