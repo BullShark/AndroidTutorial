@@ -11,12 +11,10 @@ import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.RequestConfiguration;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
 
 import java.util.Arrays;
 
