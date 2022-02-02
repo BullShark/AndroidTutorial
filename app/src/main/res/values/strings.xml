@@ -23,6 +23,8 @@
     <string name="channel_description">Named after me</string>
     <string name="text_to_voice">Text to Voice</string>
     <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- This is my ad unit ID. -->
+    <string name="banner_ad_unit_id">ca-app-pub-8995816283899055/8696551007</string>
 
 </resources>
