@@ -7,19 +7,34 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 
 public class Data extends Activity implements OnClickListener {
 
 	private Button bStart, bStartFor;
 	private EditText etSend;
 	private TextView tvAnswer;
+	private RelativeLayout rl;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.receive);
 		initialize();
+
+		// Create a banner ad. The ad size and ad unit ID must be set before calling loadAd.
+		rl = (RelativeLayout) findViewById(R.id.rel_layout);
+		AdView ad = new AdView(this);
+		ad.setAdSize(AdSize.BANNER);
+		ad.setAdUnitId(String.valueOf(R.string.banner_ad_unit_id));
+		rl.addView(ad);
+		ad.loadAd(new AdRequest.Builder().build());
+
+		setContentView(R.layout.receive);
 	}
 
 	private void initialize() {
