@@ -27,6 +27,7 @@ public class Data extends Activity implements OnClickListener {
 	private EditText etSend;
 	private TextView tvAnswer;
 	private RelativeLayout rl;
+	private AdView adView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -41,14 +42,26 @@ public class Data extends Activity implements OnClickListener {
 			public void onInitializationComplete(InitializationStatus initializationStatus) {
 			}
 		});
-		AdView ad = new AdView(Data.this);
+
+		MobileAds.setRequestConfiguration(
+				new RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("17281JECB02717"))
+						.build());
+
+		//AdView ad = new AdView(Data.this);
+		AdView adView = (AdView)findViewById(R.id.ad_view);
 		// Create an ad request.
-		AdRequest request = new AdRequest.Builder()
+		AdRequest request = new AdRequest.Builder().build();
 				//.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
 				//.addTestDevice("17281JECB02717")  // My Google Pixel Phone
-				.build();
+				//.build();
 
-		new RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("13B6DBC07B8192BE1B8441B62BCCFAA2"));
+		//new RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("13B6DBC07B8192BE1B8441B62BCCFAA2"));
+
+		//RequestConfiguration requestConfiguration = MobileAds.getRequestConfiguration()
+		//        .toBuilder()
+		//		.build ();
+
+		//requestConfiguration.toBuilder().setTestDeviceIds(Arrays.asList("13B6DBC07B8192BE1B8441B62BCCFAA2"));
 
 		/*
 		List<String> testDeviceIds = Arrays.asList("13B6DBC07B8192BE1B8441B62BCCFAA2");
@@ -57,10 +70,11 @@ public class Data extends Activity implements OnClickListener {
 		MobileAds.setRequestConfiguration(configuration);
 		*/
 
-		ad.setAdSize(AdSize.BANNER);
-		ad.setAdUnitId(String.valueOf(R.string.banner_ad_unit_id_test));
-		rl.addView(ad);
-		ad.loadAd(request);
+		//adView.setAdSize(AdSize.BANNER);
+		adView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
+		//ad.setAdUnitId(String.valueOf(R.string.banner_ad_unit_id_test));
+		rl.addView(adView);
+		adView.loadAd(request);
 
 	}
 
@@ -101,6 +115,30 @@ public class Data extends Activity implements OnClickListener {
 				startActivityForResult(i, 0); // 0 is the default
 				break;
 		}
+	}
+
+	@Override
+	protected void onPause() {
+		if (adView != null) {
+			adView.pause();
+		}
+		super.onPause();
+	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+		if (adView != null) {
+			adView.resume();
+		}
+	}
+
+	@Override
+	public void onDestroy() {
+		if (adView != null) {
+			adView.destroy();
+		}
+		super.onDestroy();
 	}
 
 	@Override
