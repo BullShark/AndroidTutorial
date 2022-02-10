@@ -41,7 +41,9 @@ public class Voice extends Activity implements View.OnClickListener {
                 new RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("13B6DBC07B8192BE1B8441B62BCCFAA2")).build();
         MobileAds.setRequestConfiguration(configuration);
 
-        mAdView.setAdUnitId(String.valueOf(R.string.banner_ad_unit_id_test));
+        //mAdView.setAdUnitId(String.valueOf(R.string.banner_ad_unit_id_test));
+        mAdView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
+
         mAdView.setAdSize(AdSize.BANNER);
         //ll.addView(mAdView);
         mAdView.loadAd(adRequest);
