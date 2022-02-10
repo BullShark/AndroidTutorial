@@ -19,7 +19,7 @@
     <string name="button">Button</string>
     <string name="current_weather">Current Weather</string>
     <string name="default_notification_channel_id">420</string>
-    <string name="channel_name">Chris1</string>
+    <string name="channel_name">Chris!</string>
     <string name="channel_description">Named after me</string>
     <string name="text_to_voice">Text to Voice</string>
     <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
