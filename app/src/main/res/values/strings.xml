@@ -28,5 +28,11 @@
     <string name="banner_ad_unit_id">ca-app-pub-8995816283899055/8696551007</string>
     <string name="log_in">Do it!</string>
     <string name="signin_title">Sign In</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="bottom">Bottom</string>
+    <string name="right">Right</string>
+    <string name="message_text">Hello</string>
+    <string name="button_text">Click me Hoss</string>
 
 </resources>

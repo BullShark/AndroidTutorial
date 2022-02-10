@@ -6,7 +6,6 @@
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" /> <!-- For Android S devices & GMA SDK version 20.3.0 or lower -->
@@ -17,12 +16,17 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
         <activity
+            android:name=".SmartButton"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
             android:name=".GridLayoutExample"
             android:exported="false" />
         <activity
             android:name=".Allison"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light" /> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+            android:theme="@style/Theme.AppCompat.Light" />
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
@@ -48,8 +52,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".SQLView"
-            android:exported="false"
-            android:label="@string/app_name">
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.SQLVIEW" />
 
@@ -76,8 +79,7 @@
             android:exported="true" />
         <activity
             android:name=".Splash"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -86,8 +88,7 @@
         </activity>
         <activity
             android:name=".Menu"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.MENU" />
 
@@ -96,8 +97,7 @@
         </activity>
         <activity
             android:name=".Count"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.COUNT" />
 
@@ -106,8 +106,7 @@
         </activity>
         <activity
             android:name=".TextPlay"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.TEXTPLAY" />
 
@@ -116,8 +115,7 @@
         </activity>
         <activity
             android:name=".Email"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.EMAIL" />
 
@@ -137,8 +135,7 @@
         </activity>
         <activity
             android:name=".Data"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.DATA" />
 
@@ -147,8 +144,7 @@
         </activity>
         <activity
             android:name=".Opens"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.OPENEDCLASS" />
 
@@ -157,8 +153,7 @@
         </activity>
         <activity
             android:name=".AboutUs"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.ABOUT" />
 
@@ -167,8 +162,7 @@
         </activity>
         <activity
             android:name=".Prefs"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.PREFS" />
 
@@ -177,8 +171,7 @@
         </activity>
         <activity
             android:name=".FullScreen"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.FULLSCREEN" />
 
