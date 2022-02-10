@@ -9,19 +9,23 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <!-- For Android S devices & GMA SDK version 20.3.0 or lower -->
-    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- For Android S devices & GMA SDK version 20.3.0 or lower -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <application
+        android:name="androidx.multidex.MultiDexApplication"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:name="androidx.multidex.MultiDexApplication" >
+        android:label="@string/app_name">
         <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-3940256099942544~3347511713" />
 
+        <activity
+            android:name=".SignIn"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light"
+            />
         <activity
             android:name=".WeatherXmlParsing"
             android:exported="false" />
@@ -68,8 +72,7 @@
         <activity
             android:name=".Splash"
             android:exported="true"
-            android:label="@string/app_name" >
-
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -79,8 +82,7 @@
         <activity
             android:name=".Menu"
             android:exported="true"
-            android:label="@string/app_name"
-            >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.MENU" />
 
@@ -90,8 +92,7 @@
         <activity
             android:name=".Count"
             android:exported="true"
-            android:label="@string/app_name"
-            >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.COUNT" />
 
@@ -101,8 +102,7 @@
         <activity
             android:name=".TextPlay"
             android:exported="true"
-            android:label="@string/app_name"
-            >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.TEXTPLAY" />
 
@@ -153,8 +153,7 @@
         <activity
             android:name=".AboutUs"
             android:exported="true"
-            android:label="@string/app_name"
-            >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.ABOUT" />
 
@@ -256,32 +255,27 @@
         <activity
             android:name=".GLExample"
             android:exported="true"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".GLCubeEx"
             android:exported="true"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".Voice"
             android:exported="true"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".TextVoice"
             android:exported="true"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".StatusBar"
             android:exported="true"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity android:name=".SeekBarVolume" />
-        <activity android:name=".ActivityState"
-            android:theme="@style/Theme.AppCompat.Light"
-            />
+        <activity
+            android:name=".ActivityState"
+            android:theme="@style/Theme.AppCompat.Light" />
     </application>
 
 </manifest>
