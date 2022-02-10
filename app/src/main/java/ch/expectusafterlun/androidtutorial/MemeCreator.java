@@ -3,8 +3,11 @@ package ch.expectusafterlun.androidtutorial;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class MemeCreator extends AppCompatActivity implements TopSectionFragment.TopSectionListener {
+
+    private final static String TAG = "Meme";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +19,7 @@ public class MemeCreator extends AppCompatActivity implements TopSectionFragment
     @Override
     public void createMeme(String top, String bottom) {
         BottomPictureFragment bottomFragment = (BottomPictureFragment) getSupportFragmentManager().findFragmentById(R.id.fragment2);
+        Log.d(TAG, "method: createMeme(...), top: " + top + ", bottom: " + bottom);
         bottomFragment.setMemeText(top, bottom);
     }
 }
