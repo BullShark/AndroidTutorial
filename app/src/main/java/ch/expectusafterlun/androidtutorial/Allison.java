@@ -18,12 +18,21 @@ public class Allison extends AppCompatActivity {
         RelativeLayout rl = new RelativeLayout(this);
         Button redButton = new Button(this);
 
+        // Rules
+        RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
+                RelativeLayout.LayoutParams.WRAP_CONTENT,
+                RelativeLayout.LayoutParams.WRAP_CONTENT
+        );
+        buttonDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
+        buttonDetails.addRule(RelativeLayout.CENTER_VERTICAL);
+
         // Attributes
         redButton.setText("Push me!");
+        rl.setBackgroundColor(Color.GREEN);
         redButton.setBackgroundColor(Color.RED);
 
         // Add widget to layout
-        rl.addView(redButton);
+        rl.addView(redButton, buttonDetails);
 
         // Set this Activities content(display) to this View
         setContentView(rl);
