@@ -279,6 +279,7 @@
             android:label="@string/app_name">
         </activity>
         <activity android:name=".SeekBarVolume" />
+        <activity android:name=".Random" />
     </application>
 
 </manifest>
