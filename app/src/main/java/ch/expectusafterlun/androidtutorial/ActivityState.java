@@ -12,17 +12,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ActivityState extends AppCompatActivity {
 
-    private TextView tv;
-    private ActionBar ab;
     private static final String TAG = "BlackHats";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.state);
-        tv = (TextView) findViewById(R.id.tv1);
+        TextView tv = findViewById(R.id.tv1);
         tv.setTextColor(Color.WHITE);
-        ab = getSupportActionBar();
+        ActionBar ab = getSupportActionBar();
         if (ab != null) {
             ab.setTitle("BlackHats");
         }
