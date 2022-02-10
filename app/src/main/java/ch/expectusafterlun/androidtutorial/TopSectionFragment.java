@@ -1,5 +1,6 @@
 package ch.expectusafterlun.androidtutorial;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,6 +23,22 @@ public class TopSectionFragment extends Fragment {
     private static EditText bottomTextInput;
     private static Button button;
 
+    TopSectionListener activityCommander;
+
+    public interface TopSectionListener {
+        public void createMeme(String top, String bottom);
+    }
+
+    @Override
+    public void onAttach(@NonNull Activity activity) {
+        super.onAttach(activity);
+        try {
+            activityCommander = (TopSectionListener) activity;
+        } catch (Exception e) {
+            throw new ClassCastException(activity.toString());
+        }
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -41,7 +58,8 @@ public class TopSectionFragment extends Fragment {
         return view;
     }
 
+    // Calls this when the Button is clicked
     public void buttonClicked(View view) {
-
+        activityCommander.createMeme(topTextInput.getText().toString(), bottomTextInput.getText().toString());
     }
 }
