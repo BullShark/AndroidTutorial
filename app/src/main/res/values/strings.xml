@@ -34,5 +34,6 @@
     <string name="right">Right</string>
     <string name="message_text">Hello</string>
     <string name="button_text">Click me Hoss</string>
+    <string name="tv_bucky_text">Do some Gestures!</string>
 
 </resources>
