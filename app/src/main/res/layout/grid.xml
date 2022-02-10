@@ -20,5 +20,5 @@
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
-        android:text="@string/bottom"></Button>
+        android:text="@string/bottom_text"></Button>
 </GridLayout>

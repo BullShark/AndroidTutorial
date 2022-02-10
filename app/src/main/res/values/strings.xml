@@ -26,15 +26,17 @@
     <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
     <!-- This is my ad unit ID. -->
     <string name="banner_ad_unit_id">ca-app-pub-8995816283899055/8696551007</string>
-    <string name="log_in">Do it!</string>
-    <string name="signin_title">Sign In</string>
-    <string name="left">Left</string>
-    <string name="center">Center</string>
-    <string name="bottom">Bottom</string>
-    <string name="right">Right</string>
     <string name="message_text">Hello</string>
     <string name="button_text">Click me Hoss</string>
     <string name="tv_bucky_text">Do some Gestures!</string>
     <string name="button_text_2">Dank Meme Bro</string>
+    <string name="log_in">Do it!</string>
+    <string name="signin_title">Sign In</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="bottom">Bottom</string>
+    <string name="bottom_text">Bottom</string>
+    <string name="top_text">Top</string>
 
 </resources>
