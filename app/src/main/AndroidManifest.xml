@@ -16,6 +16,10 @@
         android:name="androidx.multidex.MultiDexApplication"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
+        <activity
+            android:name=".Allison"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
         <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
@@ -24,8 +28,7 @@
         <activity
             android:name=".SignIn"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light"
-            />
+            android:theme="@style/Theme.AppCompat.Light" />
         <activity
             android:name=".WeatherXmlParsing"
             android:exported="false" />
@@ -255,23 +258,23 @@
         <activity
             android:name=".GLExample"
             android:exported="true"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".GLCubeEx"
             android:exported="true"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".Voice"
             android:exported="true"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".TextVoice"
             android:exported="true"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".StatusBar"
             android:exported="true"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity android:name=".SeekBarVolume" />
         <activity
             android:name=".ActivityState"
