@@ -279,7 +279,7 @@
             android:label="@string/app_name">
         </activity>
         <activity android:name=".SeekBarVolume" />
-        <activity android:name=".Random"
+        <activity android:name=".ActivityState"
             android:theme="@style/Theme.AppCompat.Light"
             />
     </application>

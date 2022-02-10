@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847278425314",
+    "project_id": "android-tutorial-333223",
+    "storage_bucket": "android-tutorial-333223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847278425314:android:da298b4ec68ff32c7d8abb",
+        "android_client_info": {
+          "package_name": "ch.expectusafterlun.androidtutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847278425314-lio9ek62uj3ibv4dgqrltp1lbk006mnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnKs6DNjkohJjTOg3lGxbPtW8QZjuwdZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847278425314-lio9ek62uj3ibv4dgqrltp1lbk006mnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
