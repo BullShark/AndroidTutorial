@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_margin="20dp"
     tools:context=".GridLayoutExample">
 
-    <Button android:text="Left"></Button>
-    <Button android:text="Center"></Button>
+    <Button android:text="@string/left"></Button>
+    <Button android:text="@string/center"></Button>
 
     <Button
         android:layout_height="86dp"
         android:layout_rowSpan="2"
         android:layout_gravity="fill_vertical"
-        android:text="Right"></Button>
+        android:text="@string/right"></Button>
 
     <Button
         android:layout_row="1"
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
-        android:text="Bottom"></Button>
+        android:text="@string/bottom"></Button>
 </GridLayout>
