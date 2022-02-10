@@ -47,7 +47,6 @@ public class TextPlay extends Activity implements View.OnClickListener {
 	@SuppressLint("DefaultLocale")
 	@Override
 	public void onClick(View view) {
-		// TODO Auto-generated method stub
 		switch(view.getId()) {
 		case R.id.b_results:
 			String check = input.getText().toString();
@@ -91,7 +90,6 @@ public class TextPlay extends Activity implements View.OnClickListener {
 		case R.id.tb_pass:
 			// Is the ToggleButton checked on
 			if(passTog.isChecked()) {
-				//TODO What is the | (pipe) ,and why is it needed?
 				input.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
 				
 				//FIXME Does not work, why not?
