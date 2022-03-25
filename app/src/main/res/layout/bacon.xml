@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Bacon"
+        android:text="@string/bacon_text"
         android:id="@+id/bacon_text"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -25,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="@string/bacon_button_text"
         android:id="@+id/bacon_button"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"

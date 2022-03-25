@@ -46,5 +46,9 @@
     <string name="yellow_string">Yellow</string>
     <string name="tranny_button_text">Button</string>
     <string name="btn_text">Large Text</string>
+    <string name="apples">Apples</string>
+    <string name="go_to_bacon">Go to Bacon</string>
+    <string name="bacon_text">Bacon</string>
+    <string name="bacon_button_text">Go to Apples</string>
 
 </resources>
