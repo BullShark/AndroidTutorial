@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,6 +13,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="47dp"
         android:layout_marginBottom="651dp"
+        android:hint="@string/enter_a_food_product"
+        android:inputType="textAutoComplete"
         android:ems="10"
         />
 
@@ -26,7 +27,8 @@
         android:layout_marginEnd="258dp"
         android:layout_marginBottom="578dp"
         android:onClick="addButtonClicked"
-        android:text="@string/add" />
+        android:text="@string/add"
+        />
 
     <Button
         android:id="@+id/del_button"
@@ -37,7 +39,8 @@
         android:layout_marginEnd="46dp"
         android:layout_marginBottom="576dp"
         android:onClick="deleteButtonClicked"
-        android:text="@string/delete" />
+        android:text="@string/delete"
+        />
 
     <TextView
         android:id="@+id/buckys_text"
@@ -48,5 +51,7 @@
         android:layout_marginEnd="152dp"
         android:layout_marginBottom="374dp"
         android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
 </RelativeLayout>

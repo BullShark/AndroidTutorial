@@ -7,6 +7,7 @@ import android.database.Cursor;
 import android.content.Context;
 import android.content.ContentValues;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 public class MyDBHandler extends SQLiteOpenHelper {
@@ -28,7 +29,6 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 COLUMN_PRODUCTNAME + " TEXT" +
                 ");";
         db.execSQL(query);
-        db.close();
     }
 
     @Override
@@ -49,26 +49,32 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public void deleteProduct(String productName) {
         SQLiteDatabase db = getWritableDatabase();
         db.execSQL("DELETE FROM " + TABLE_PRODUCTS + " WHERE " + COLUMN_PRODUCTNAME + "= \"" + productName + "\";");
+    }
+
+    public void close() {
+        SQLiteDatabase db = getWritableDatabase();
         db.close();
     }
 
     // Print out the database as a String
+    @NonNull
     @SuppressLint("Range")
     public String toString() {
         SQLiteDatabase db = getWritableDatabase();
         String dbString = "";
         String query = "SELECT * FROM " + TABLE_PRODUCTS + " WHERE 1=1;";
         // Cursor points to a location in your results
-        Cursor c = db.rawQuery(query, null);
+        Cursor cursor = db.rawQuery(query, null);
         // Move to the first row
-        c.moveToFirst();
+        cursor.moveToFirst();
 
-        while (!c.isAfterLast()) {
-            if(c.getString(c.getColumnIndex(COLUMN_PRODUCTNAME)) != null) {
-                dbString += c.getString(c.getColumnIndex(COLUMN_PRODUCTNAME)) + '\n';
+        while (!cursor.isAfterLast()) {
+            if(cursor.getString(cursor.getColumnIndex(COLUMN_PRODUCTNAME)) != null) {
+                dbString += cursor.getString(cursor.getColumnIndex(COLUMN_PRODUCTNAME)) + '\n';
             }
+            cursor.moveToNext();
         }
-        db.close();
+        cursor.close();
 
         return dbString;
     }
