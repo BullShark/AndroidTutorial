@@ -31,7 +31,7 @@ public class HotOrNot {
     private final Context context;
     private SQLiteDatabase db;
 
-    String[] columns = new String[] { KEY_ROWID, KEY_NAME, KEY_HOTNESS };
+    final String[] columns = new String[] { KEY_ROWID, KEY_NAME, KEY_HOTNESS };
 
     public HotOrNot(Context context) {
         this.context = context;

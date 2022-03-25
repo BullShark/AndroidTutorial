@@ -9,7 +9,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 public class GLCube {
 
-    private FloatBuffer vertBuff;
+    private final FloatBuffer vertBuff;
 
     /*
      * Point Index of sections
@@ -27,7 +27,7 @@ public class GLCube {
     /*
      * Point Buffer
      */
-    private ShortBuffer pBuff;
+    private final ShortBuffer pBuff;
 
     /* Each float takes up 4 bytes
      * We need to reserve 24 bytes

@@ -1,5 +1,7 @@
 package ch.expectusafterlun.androidtutorial.placeholder;
 
+import androidx.annotation.NonNull;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -16,12 +18,12 @@ public class DummyContent {
     /**
      * An array of sample (dummy) items.
      */
-    public static List<DummyItem> ITEMS = new ArrayList<DummyItem>();
+    public static final List<DummyItem> ITEMS = new ArrayList<DummyItem>();
 
     /**
      * A map of sample (dummy) items, by ID.
      */
-    public static Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
+    public static final Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
 
     static {
         // Add 3 sample items.
@@ -39,9 +41,9 @@ public class DummyContent {
      * A dummy item representing a piece of content.
      */
     public static class DummyItem {
-        public String id;
-        public String item_name;
-        public String url;
+        public final String id;
+        public final String item_name;
+        public final String url;
 
         public DummyItem(String id, String item_name, String url) {
             this.id = id;
@@ -49,6 +51,7 @@ public class DummyContent {
             this.url = url;
         }
 
+        @NonNull
         @Override
         public String toString() {
             return item_name;

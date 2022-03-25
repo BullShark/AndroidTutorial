@@ -9,7 +9,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 public class GLCubeRendererEx implements GLSurfaceView.Renderer {
 
-    private GLCube cube;
+    private final GLCube cube;
 
     public GLCubeRendererEx() {
         cube = new GLCube();

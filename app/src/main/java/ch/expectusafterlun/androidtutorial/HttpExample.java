@@ -23,7 +23,6 @@ public class HttpExample extends Activity {
 
     private TextView httpTv;
     private HttpClient client;
-    private JSONObject json;
     /* Version 1 of the Twitter API is no longer available. OAUTH is now required in newer versions */
 //    public final static String URL = "https://api.twitter.com/1/statuses/user_timeline.json?screen_name=";
     /* Get a random Urban Dictionary definition instead */
@@ -51,7 +50,7 @@ public class HttpExample extends Activity {
         }
     }
 
-    public JSONObject lastWordDefinition(String jsonItem) throws ClientProtocolException, IOException, JSONException {
+    public JSONObject lastWordDefinition(String jsonItem) throws IOException, JSONException {
         StringBuilder url = new StringBuilder(URL);
 
         HttpGet get = new HttpGet(url.toString());
@@ -88,7 +87,7 @@ public class HttpExample extends Activity {
         protected String doInBackground(String... strings) {
             try {
                 /* word, definition */
-                json = lastWordDefinition("definition");
+                JSONObject json = lastWordDefinition("definition");
                 return json.getString(strings[0]);
             } catch (IOException e) {
                 e.printStackTrace();

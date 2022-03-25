@@ -33,11 +33,12 @@ public class InternalData extends Activity implements View.OnClickListener {
     }
 
     private void setupVariables() {
-        Button save = (Button) findViewById(R.id.bSave);
-        Button load = (Button) findViewById(R.id.bLoad);
-        sharedData = (EditText) findViewById(R.id.etSharedPrefs);
-        save.setOnClickListener((View.OnClickListener) this);
-        load.setOnClickListener((View.OnClickListener) this);
+        Button save = findViewById(R.id.bSave);
+        Button load = findViewById(R.id.bLoad);
+        dataResult = findViewById(R.id.tvLoadSharedPreferences);
+        sharedData = findViewById(R.id.etSharedPrefs);
+        save.setOnClickListener(this);
+        load.setOnClickListener(this);
         SharedPreferences prefs = getSharedPreferences(FILENAME, 0);
         try {
             fos = openFileOutput(FILENAME, Context.MODE_PRIVATE);
@@ -53,14 +54,6 @@ public class InternalData extends Activity implements View.OnClickListener {
         switch(v.getId()) {
             case R.id.bSave:
                 String data = sharedData.getText().toString();
-/*
-                File f = new File(FILENAME);
-                try {
-                    fos = new FileOutputStream(f);
-                } catch (FileNotFoundException e) {
-                    e.printStackTrace();
-                }
- */
                 try {
                     fos = openFileOutput(FILENAME, Context.MODE_PRIVATE);
                     fos.write(data.getBytes(StandardCharsets.UTF_8));

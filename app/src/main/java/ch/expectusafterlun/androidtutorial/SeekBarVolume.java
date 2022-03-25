@@ -9,14 +9,13 @@ import android.widget.SeekBar;
 
 public class SeekBarVolume extends Activity implements SeekBar.OnSeekBarChangeListener {
 
-    private SeekBar sb;
     private MediaPlayer mp;
     private AudioManager am;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.seekbarvolume);
-        sb = (SeekBar) findViewById(R.id.sb_volume);
+        SeekBar sb = findViewById(R.id.sb_volume);
         mp = MediaPlayer.create(this, R.raw.dubstep);
         mp.start();
         am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);

@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 public class SQLiteExample extends Activity implements View.OnClickListener {
 
-    private Button sqlUpdate, sqlView, sqlModify, sqlGetInfo, sqlDelete;
     private EditText sqlName, sqlHotness, sqlRow;
 
     @Override
@@ -19,18 +18,18 @@ public class SQLiteExample extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sqliteexample);
 
-        sqlUpdate = (Button) findViewById(R.id.b_sql_update);
-        sqlName = (EditText) findViewById(R.id.et_sql_name);
-        sqlHotness = (EditText) findViewById(R.id.et_sql_hotness);
-        sqlView = (Button) findViewById(R.id.b_sql_open_view);
+        Button sqlUpdate = findViewById(R.id.b_sql_update);
+        sqlName = findViewById(R.id.et_sql_name);
+        sqlHotness = findViewById(R.id.et_sql_hotness);
+        Button sqlView = findViewById(R.id.b_sql_open_view);
 
         sqlView.setOnClickListener(this);
         sqlUpdate.setOnClickListener(this);
 
-        sqlRow = (EditText) findViewById(R.id.et_sql_row_info);
-        sqlModify = (Button) findViewById(R.id.b_sql_modify);
-        sqlGetInfo = (Button) findViewById(R.id.b_get_info);
-        sqlDelete = (Button) findViewById(R.id.b_sql_delete);
+        sqlRow = findViewById(R.id.et_sql_row_info);
+        Button sqlModify = findViewById(R.id.b_sql_modify);
+        Button sqlGetInfo = findViewById(R.id.b_get_info);
+        Button sqlDelete = findViewById(R.id.b_sql_delete);
         sqlDelete.setOnClickListener(this);
         sqlModify.setOnClickListener(this);
         sqlGetInfo.setOnClickListener(this);
@@ -63,7 +62,7 @@ public class SQLiteExample extends Activity implements View.OnClickListener {
                         Dialog d = new Dialog(this);
                         d.setTitle("Heck Yeah!");
                         TextView tv = new TextView(this);
-                        tv.setText("Success");
+                        tv.setText(R.string.success);
                         d.setContentView(tv);
                         d.show();
                     }

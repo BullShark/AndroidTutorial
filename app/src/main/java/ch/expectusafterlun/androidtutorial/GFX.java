@@ -7,7 +7,6 @@ import android.os.PowerManager;
 
 public class GFX extends Activity {
 
-	private AnimationView view;
     private PowerManager.WakeLock wl;
 
   @Override
@@ -19,16 +18,16 @@ public class GFX extends Activity {
     PowerManager pm = (PowerManager)getSystemService(Context.POWER_SERVICE);
     wl = pm.newWakeLock(PowerManager.FULL_WAKE_LOCK, "FULL_WAKE_LOCK Demo: Preventing the display from turning off " +
         "while this Activity is active");
-    wl.acquire();
+    wl.acquire(10000);
 
-		view = new AnimationView(this);
+      AnimationView view = new AnimationView(this);
 		setContentView(view);
 	}
 
   @Override
   protected void onResume() {
     super.onResume();
-    wl.acquire();
+    wl.acquire(10000);
   }
 
   @Override

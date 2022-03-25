@@ -45,7 +45,55 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:testOnly="true" >
-        />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.VideoPlayer"
+            android:exported="false" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.SQLiteSample"
+            android:exported="false" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.ListExample"
+            android:exported="false" />
+
+        <service
+            android:name="ch.expectusafterlun.androidtutorial.TimeService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.BoundService"
+            android:exported="false" />
+
+        <service
+            android:name="ch.expectusafterlun.androidtutorial.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.ThreadsExample"
+            android:exported="false" />
+
+        <receiver
+            android:name="ch.expectusafterlun.androidtutorial.ReceiveBroadcast"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="ch.expectusafterlun.androidtutorial.BROADCAST" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.SendBroadcast"
+            android:exported="false" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.Bacon"
+            android:exported="false" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.Apples"
+            android:exported="false" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.Tranny"
+            android:exported="false" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Overflow"
             android:exported="false"
@@ -73,8 +121,7 @@
             android:exported="false" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Allison"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light" /> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+            android:exported="false" /> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
@@ -322,6 +369,9 @@
         <activity
             android:name="ch.expectusafterlun.androidtutorial.ActivityState"
             android:theme="@style/Theme.AppCompat.Light" />
+
+        <service android:name="ch.expectusafterlun.androidtutorial.ChrisIntentService" />
+
         <activity
             android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
             android:exported="true"

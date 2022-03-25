@@ -17,9 +17,6 @@ public class Opens extends Activity implements OnClickListener,
 		OnCheckedChangeListener {
 
 	private TextView tvQuestion, tvText;
-	private RadioGroup rgAnswers;
-	private RadioButton rCrazy, rAnnoying, rBoth;
-	private Button bReturn;
 	private String gotBread, setData;
 
 	@Override
@@ -57,11 +54,11 @@ public class Opens extends Activity implements OnClickListener,
 
 	private void initialize() {
 		tvQuestion = (TextView) findViewById(R.id.tv_question);
-		rgAnswers = (RadioGroup) findViewById(R.id.rg_answers);
-		rCrazy = (RadioButton) findViewById(R.id.r_crazy);
-		rAnnoying = (RadioButton) findViewById(R.id.r_annoying);
-		rBoth = (RadioButton) findViewById(R.id.r_both);
-		bReturn = (Button) findViewById(R.id.b_return);
+		RadioGroup rgAnswers = (RadioGroup) findViewById(R.id.rg_answers);
+		RadioButton rCrazy = (RadioButton) findViewById(R.id.r_crazy);
+		RadioButton rAnnoying = (RadioButton) findViewById(R.id.r_annoying);
+		RadioButton rBoth = (RadioButton) findViewById(R.id.r_both);
+		Button bReturn = (Button) findViewById(R.id.b_return);
 		tvText = (TextView) findViewById(R.id.tv_text);
 
 		bReturn.setOnClickListener(this);

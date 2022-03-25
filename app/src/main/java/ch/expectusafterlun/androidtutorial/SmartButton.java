@@ -9,7 +9,6 @@ import android.view.View;
 
 public class SmartButton extends AppCompatActivity {
 
-    private Button button;
     private TextView tv;
 
     @Override
@@ -17,14 +16,14 @@ public class SmartButton extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.smart);
 
-        tv = (TextView) findViewById(R.id.tv_bucky);
-        button = (Button) findViewById(R.id.b_bucky);
+        tv = findViewById(R.id.tv_bucky);
+        Button button = findViewById(R.id.b_bucky);
 
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                tv.setText("Good job Hoss!");
+                tv.setText(R.string.timer_completed);
             }
         });
 
@@ -32,7 +31,7 @@ public class SmartButton extends AppCompatActivity {
 
             @Override
             public boolean onLongClick(View v) {
-                tv.setText("Holy carp, that was a long one!");
+                tv.setText(R.string.funny_message);
                 //return true;
                 return false;
             }

@@ -15,7 +15,8 @@ import android.view.SurfaceView;
 
 public class Accelerate extends Activity implements SensorEventListener {
 
-    private float x, y, sensorX, sensorY;
+    private float sensorX;
+    private float sensorY;
     private Bitmap ball;
     private SensorManager sm;
     AnimationViewSurface animationViewSurface;
@@ -31,7 +32,8 @@ public class Accelerate extends Activity implements SensorEventListener {
         }
 
         ball = BitmapFactory.decodeResource(getResources(), R.drawable.greenball);
-        x = y = sensorX = sensorY = 0;
+        float y;
+        float x = y = sensorX = sensorY = 0;
 
         animationViewSurface = new AnimationViewSurface(this);
         // Won't run because everything is set to false until the resume() method

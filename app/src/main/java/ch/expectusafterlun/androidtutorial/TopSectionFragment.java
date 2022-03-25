@@ -21,12 +21,11 @@ public class TopSectionFragment extends Fragment {
 
     private static EditText topTextInput;
     private static EditText bottomTextInput;
-    private static Button button;
 
     TopSectionListener activityCommander;
 
     public interface TopSectionListener {
-        public void createMeme(String top, String bottom);
+        void createMeme(String top, String bottom);
     }
 
     @Override
@@ -44,9 +43,9 @@ public class TopSectionFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.top_section_fragment, container, false);
 
-        topTextInput = (EditText) view.findViewById(R.id.et_top_text_input);
-        bottomTextInput = (EditText) view.findViewById(R.id.et_bottom_text_input);
-        button = (Button) view.findViewById(R.id.my_button);
+        topTextInput = view.findViewById(R.id.et_top_text_input);
+        bottomTextInput = view.findViewById(R.id.et_bottom_text_input);
+        Button button = view.findViewById(R.id.my_button);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

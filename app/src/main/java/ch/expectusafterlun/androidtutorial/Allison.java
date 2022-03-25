@@ -1,19 +1,22 @@
 package ch.expectusafterlun.androidtutorial;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Color;
+import android.os.Bundle;
+import android.util.TypedValue;
+import android.view.KeyEvent;
 import android.view.MenuItem;
-import android.widget.RelativeLayout;
+import android.view.SubMenu;
 import android.widget.Button;
 import android.widget.EditText;
-import android.content.res.Resources;
-import android.util.TypedValue;
+import android.widget.RelativeLayout;
+import android.view.Menu;
 
-import android.os.Bundle;
-
-public class Allison extends AppCompatActivity {
+public class Allison extends Activity implements Menu {
 
     @SuppressLint({"ResourceType", "SetTextI18n"})
     @Override
@@ -69,10 +72,9 @@ public class Allison extends AppCompatActivity {
 
     //@Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        //super.onCreateOptionsMenu(menu);
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.cool_menu, menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
@@ -88,5 +90,125 @@ public class Allison extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public MenuItem add(CharSequence title) {
+        return null;
+    }
+
+    @Override
+    public MenuItem add(int titleRes) {
+        return null;
+    }
+
+    @Override
+    public MenuItem add(int groupId, int itemId, int order, CharSequence title) {
+        return null;
+    }
+
+    @Override
+    public MenuItem add(int groupId, int itemId, int order, int titleRes) {
+        return null;
+    }
+
+    @Override
+    public SubMenu addSubMenu(CharSequence title) {
+        return null;
+    }
+
+    @Override
+    public SubMenu addSubMenu(int titleRes) {
+        return null;
+    }
+
+    @Override
+    public SubMenu addSubMenu(int groupId, int itemId, int order, CharSequence title) {
+        return null;
+    }
+
+    @Override
+    public SubMenu addSubMenu(int groupId, int itemId, int order, int titleRes) {
+        return null;
+    }
+
+    @Override
+    public int addIntentOptions(int groupId, int itemId, int order, ComponentName caller, Intent[] specifics, Intent intent, int flags, MenuItem[] outSpecificItems) {
+        return 0;
+    }
+
+    @Override
+    public void removeItem(int id) {
+
+    }
+
+    @Override
+    public void removeGroup(int groupId) {
+
+    }
+
+    @Override
+    public void clear() {
+
+    }
+
+    @Override
+    public void setGroupCheckable(int group, boolean checkable, boolean exclusive) {
+
+    }
+
+    @Override
+    public void setGroupVisible(int group, boolean visible) {
+
+    }
+
+    @Override
+    public void setGroupEnabled(int group, boolean enabled) {
+
+    }
+
+    @Override
+    public boolean hasVisibleItems() {
+        return false;
+    }
+
+    @Override
+    public MenuItem findItem(int id) {
+        return null;
+    }
+
+    @Override
+    public int size() {
+        return 0;
+    }
+
+    @Override
+    public MenuItem getItem(int index) {
+        return null;
+    }
+
+    @Override
+    public void close() {
+
+    }
+
+    @Override
+    public boolean performShortcut(int keyCode, KeyEvent event, int flags) {
+        return false;
+    }
+
+    @Override
+    public boolean isShortcutKey(int keyCode, KeyEvent event) {
+        return false;
+    }
+
+    @Override
+    public boolean performIdentifierAction(int id, int flags) {
+        return false;
+    }
+
+    @Override
+    public void setQwertyMode(boolean isQwerty) {
+
     }
 }

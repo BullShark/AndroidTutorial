@@ -30,9 +30,8 @@ public class ExternalData extends Activity implements AdapterView.OnItemSelected
     private Spinner spinner;
     private final String[] PATHS = { "Music", "Pictures", "Download" };
     private File path = null;
-    private File file = null;
     private EditText saveFile;
-    private Button confirm, save;
+    private Button save;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +40,7 @@ public class ExternalData extends Activity implements AdapterView.OnItemSelected
         canWrite = (TextView)  findViewById(R.id.tvCanWrite);
         canRead = (TextView)  findViewById(R.id.tvCanRead);
         state = Environment.getExternalStorageState();
-        confirm = (Button) findViewById(R.id.bConfirmSaveAs);
+        Button confirm = (Button) findViewById(R.id.bConfirmSaveAs);
         save = (Button) findViewById(R.id.bSaveFile);
         saveFile = (EditText) findViewById(R.id.etSaveAs);
         confirm.setOnClickListener((View.OnClickListener) this);
@@ -103,7 +102,7 @@ public class ExternalData extends Activity implements AdapterView.OnItemSelected
         switch(v.getId()) {
             case R.id.bSaveFile:
                 String f = saveFile.getText().toString() + ".png";
-                file = new File(path, f);
+                File file = new File(path, f);
 
                 checkState();
                 if(canW && canR) {

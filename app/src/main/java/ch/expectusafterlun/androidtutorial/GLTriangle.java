@@ -8,31 +8,26 @@ import java.nio.ShortBuffer;
 import javax.microedition.khronos.opengles.GL10;
 
 public class GLTriangle {
-    /* x and y coordinates for point 1, 2 and 3 */
-    private final float VERTICES[] = {
-            0f, 1f,
-            1f, -1f,
-            -1f, -1f
-    };
 
-    private final float RGBAVals[] = {
-            1,    1,  0, .5f,
-            .25f, 0, .85f, 1,
-            0,    1,  1,  1
-    };
-
-    private FloatBuffer vertBuff, colorBuff;
+    private final FloatBuffer vertBuff;
+    private final FloatBuffer colorBuff;
 
     /* Point Index and Point Buffer */
     private final short[] PINDEX = { 0, 1, 2 };
 
-    private ShortBuffer pBuff;
+    private final ShortBuffer pBuff;
 
     /* Each float takes up 4 bytes
      * We need to reserve 24 bytes
      */
     public GLTriangle() {
         // Floats
+        /* x and y coordinates for point 1, 2 and 3 */
+        float[] VERTICES = {
+                0f, 1f,
+                1f, -1f,
+                -1f, -1f
+        };
         ByteBuffer bBuff = ByteBuffer.allocateDirect(VERTICES.length * 4);
         bBuff.order(ByteOrder.nativeOrder());
         vertBuff = bBuff.asFloatBuffer();
@@ -47,6 +42,11 @@ public class GLTriangle {
         pBuff.position(0);
 
         // Shorts - Color
+        float[] RGBAVals = {
+                1, 1, 0, .5f,
+                .25f, 0, .85f, 1,
+                0, 1, 1, 1
+        };
         ByteBuffer cBuff = ByteBuffer.allocateDirect(RGBAVals.length * 4);
         cBuff.order(ByteOrder.nativeOrder());
         colorBuff = cBuff.asFloatBuffer();

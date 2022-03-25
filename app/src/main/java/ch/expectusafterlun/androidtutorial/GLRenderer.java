@@ -8,7 +8,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 public class GLRenderer implements GLSurfaceView.Renderer {
 
-    private GLTriangle tri;
+    private final GLTriangle tri;
 
     public GLRenderer() {
         tri = new GLTriangle();

@@ -5,7 +5,7 @@ import org.xml.sax.helpers.DefaultHandler;
 
 public class HandlingXMLStuff extends DefaultHandler {
 
-    private XMLDataCollected info = new XMLDataCollected();
+    private final XMLDataCollected info = new XMLDataCollected();
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) {

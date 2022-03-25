@@ -36,7 +36,7 @@ public class BoundService extends Activity {
         tv.setText(currentTime);
     }
 
-    private ServiceConnection sConn = new ServiceConnection() {
+    private final ServiceConnection sConn = new ServiceConnection() {
         /*
          * What do you want to happen when you try to connect?
          */

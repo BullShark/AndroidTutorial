@@ -29,11 +29,6 @@ public class WebpageDetailFragment extends Fragment {
      */
     public static final String ARG_ITEM_ID = "item_id";
 
-//    /**
-//     * The placeholder content this fragment is presenting.
-//     */
-//    private PlaceholderContent.PlaceholderItem mItem;
-
     /**
      * The dummy content this fragment is presenting.
      */
@@ -82,11 +77,6 @@ public class WebpageDetailFragment extends Fragment {
         }
 
         return rootView;
-    }
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
     }
 
     private void updateContent() {

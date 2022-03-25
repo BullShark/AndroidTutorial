@@ -12,6 +12,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.RequestConfiguration;
@@ -22,10 +23,8 @@ import java.util.Arrays;
 
 public class Data extends Activity implements OnClickListener {
 
-	private Button bStart, bStartFor;
 	private EditText etSend;
 	private TextView tvAnswer;
-	private RelativeLayout rl;
 	private AdView adView;
 
 	@Override
@@ -35,52 +34,45 @@ public class Data extends Activity implements OnClickListener {
 		initialize();
 
 		// Create a banner ad. The ad size and ad unit ID must be set before calling loadAd.
-		rl = (RelativeLayout) findViewById(R.id.rel_layout);
-		MobileAds.initialize(this, new OnInitializationCompleteListener() {
-			@Override
-			public void onInitializationComplete(InitializationStatus initializationStatus) {
-			}
-		});
+		RelativeLayout rl = (RelativeLayout) findViewById(R.id.rel_layout);
+//		MobileAds.initialize(this, new OnInitializationCompleteListener() {
+//			@Override
+//			public void onInitializationComplete(InitializationStatus initializationStatus) {
+//			}
+//		});
+//
+//		MobileAds.setRequestConfiguration(
+//				new RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("17281JECB02717"))
+//						.build());
+//
+//		//AdView ad = new AdView(Data.this);
+//		adView = (AdView)findViewById(R.id.ad_view);
+//		// Create an ad request.
+//		AdRequest request = new AdRequest.Builder().build();
+//				//.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
+//				//.addTestDevice("17281JECB02717")  // My Google Pixel Phone
+//				//.build();
+//
+//		adView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
+//		adView.setAdSize(AdSize.BANNER);
+//		//ad.setAdUnitId(String.valueOf(R.string.banner_ad_unit_id_test));
+//		//rl.addView(adView);
+//		adView.loadAd(request);
 
-		MobileAds.setRequestConfiguration(
-				new RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("17281JECB02717"))
-						.build());
-
-		//AdView ad = new AdView(Data.this);
-		AdView adView = (AdView)findViewById(R.id.ad_view);
-		// Create an ad request.
-		AdRequest request = new AdRequest.Builder().build();
-				//.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
-				//.addTestDevice("17281JECB02717")  // My Google Pixel Phone
-				//.build();
-
-		//new RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("13B6DBC07B8192BE1B8441B62BCCFAA2"));
-
-		//RequestConfiguration requestConfiguration = MobileAds.getRequestConfiguration()
-		//        .toBuilder()
-		//		.build ();
-
-		//requestConfiguration.toBuilder().setTestDeviceIds(Arrays.asList("13B6DBC07B8192BE1B8441B62BCCFAA2"));
-
-		/*
-		List<String> testDeviceIds = Arrays.asList("13B6DBC07B8192BE1B8441B62BCCFAA2");
-		RequestConfiguration configuration =
-				new RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build();
-		MobileAds.setRequestConfiguration(configuration);
-		*/
-
-		//adView.setAdSize(AdSize.BANNER);
-		adView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
-		//ad.setAdUnitId(String.valueOf(R.string.banner_ad_unit_id_test));
-		rl.addView(adView);
-		adView.loadAd(request);
-
+        // Trying again
+		View adContainer = findViewById(R.id.adMobView);
+		AdView mAdView = new AdView(this);
+		mAdView.setAdSize(AdSize.BANNER);
+		mAdView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
+		((RelativeLayout)adContainer).addView(mAdView);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		mAdView.loadAd(adRequest);
 	}
 
 	private void initialize() {
 		etSend = (EditText) findViewById(R.id.et_send);
-		bStart = (Button) findViewById(R.id.b_start_activity);
-		bStartFor = (Button) findViewById(R.id.b_start_activity_for_result);
+		Button bStart = (Button) findViewById(R.id.b_start_activity);
+		Button bStartFor = (Button) findViewById(R.id.b_start_activity_for_result);
 		tvAnswer = (TextView) findViewById(R.id.tv_received);
 
 		// Set Listeners

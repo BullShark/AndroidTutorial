@@ -15,20 +15,19 @@ public class TextVoice extends Activity implements View.OnClickListener {
         "Whaaat's up Gangstas!", "You smell!", "Supersize it!"
     };
     private TextToSpeech tts;
-    private Button b;
 
     protected void OnCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.textvoice);
-        b = (Button) findViewById(R.id.b_text_to_voice);
+        Button b = findViewById(R.id.b_text_to_voice);
         b.setOnClickListener(this);
-        tts = new TextToSpeech(TextVoice.this, new TextToSpeech.OnInitListener() {
+        tts = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
             public void onInit(int status) {
                 if(status != TextToSpeech.ERROR) {
                     tts.setLanguage(Locale.US);
                 }
             }
         });
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.textvoice);
     }
 
     protected void onPause() {
