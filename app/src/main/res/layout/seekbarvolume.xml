@@ -7,6 +7,10 @@
     <SeekBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp"
         android:id="@+id/sb_volume"
     ></SeekBar>
 
