@@ -319,6 +319,8 @@
         <activity
             android:name=".ActivityState"
             android:theme="@style/Theme.AppCompat.Light" />
+
+        <service android:name=".ChrisIntentService" />
     </application>
 
 </manifest>
