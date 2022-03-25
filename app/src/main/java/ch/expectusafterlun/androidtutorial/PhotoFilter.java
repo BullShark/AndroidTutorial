@@ -26,10 +26,23 @@ public class PhotoFilter extends Activity {
         setContentView(R.layout.photo_filter);
 
         iv = findViewById(R.id.imageView1);
+
         gentoo = getApplicationContext().getDrawable(R.drawable.gentoobig);
         bitmapImage = ((BitmapDrawable) gentoo).getBitmap();
         Bitmap newPhoto = invertImage(bitmapImage);
         iv.setImageBitmap(newPhoto);
+
+        // Not working =(
+        /*
+        Drawable[] layers = new Drawable[2];
+        layers[0] = getApplicationContext().getDrawable(R.drawable.overlay);
+        layers[1] = getApplicationContext().getDrawable(R.drawable.gentoobig);
+        LayerDrawable layerDrawable = new LayerDrawable(layers);
+        iv.setImageDrawable(layerDrawable);
+         */
+
+        // Save an image on the device to the gallery
+        MediaStore.Images.Media.insertImage(getContentResolver(), newPhoto, "Missing my dog", "Looking good");
     }
 
     public static Bitmap invertImage(Bitmap original) {
