@@ -1,5 +1,6 @@
 package ch.expectusafterlun.androidtutorial;
 
+import android.annotation.SuppressLint;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.Cursor;
@@ -27,10 +28,48 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 COLUMN_PRODUCTNAME + " TEXT" +
                 ");";
         db.execSQL(query);
+        db.close();
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_PRODUCTS);
+        onCreate(db);
+    }
 
+    // Add a new row to the database
+    public void addProduct(Products products) {
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_PRODUCTNAME, products.get_productname());
+        db.insert(TABLE_PRODUCTS, null, values);
+        db.close();
+    }
+
+    public void deleteProduct(String productName) {
+        SQLiteDatabase db = getWritableDatabase();
+        db.execSQL("DELETE FROM " + TABLE_PRODUCTS + " WHERE " + COLUMN_PRODUCTNAME + "= \"" + productName + "\";");
+        db.close();
+    }
+
+    // Print out the database as a String
+    @SuppressLint("Range")
+    public String toString() {
+        SQLiteDatabase db = getWritableDatabase();
+        String dbString = "";
+        String query = "SELECT * FROM " + TABLE_PRODUCTS + " WHERE 1=1;";
+        // Cursor points to a location in your results
+        Cursor c = db.rawQuery(query, null);
+        // Move to the first row
+        c.moveToFirst();
+
+        while (!c.isAfterLast()) {
+            if(c.getString(c.getColumnIndex(COLUMN_PRODUCTNAME)) != null) {
+                dbString += c.getString(c.getColumnIndex(COLUMN_PRODUCTNAME)) + '\n';
+            }
+        }
+        db.close();
+
+        return dbString;
     }
 }
