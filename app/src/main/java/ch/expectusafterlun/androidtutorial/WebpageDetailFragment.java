@@ -32,7 +32,7 @@ public class WebpageDetailFragment extends Fragment {
 //    /**
 //     * The placeholder content this fragment is presenting.
 //     */
-    //private PlaceholderContent.PlaceholderItem mItem;
+//    private PlaceholderContent.PlaceholderItem mItem;
 
     /**
      * The dummy content this fragment is presenting.

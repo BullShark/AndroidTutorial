@@ -27,9 +27,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Master Detail Flow Example Completed">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AndroidTutorial.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/AndroidTutorial.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a09cb968-3b0d-4ebf-8362-b8c02d14d5da" name="Default Changelist" comment="Fixed most of the warnings in Android Studio">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/WebpageDetailFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ch/expectusafterlun/androidtutorial/WebpageDetailFragment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -313,13 +311,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629659882250</updated>
-    </task>
-    <task id="LOCAL-00139" summary="Integer.valOf() and Integer.parseInt() what is the difference">
-      <created>1642540361959</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1642540361959</updated>
     </task>
     <task id="LOCAL-00140" summary="Completed Video Tutorial 191,&#10;And notifications are working">
       <created>1642544597745</created>
@@ -657,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648167886303</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="Fixed most of the warnings in Android Studio">
+      <created>1648168202362</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1648168202362</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -683,7 +681,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Video Tutorial 10" />
     <MESSAGE value="Ran the fixes under &quot;Problems&quot; in Android Studio for the warnings" />
     <MESSAGE value="Set an AppCompat Theme for Activity SignIn" />
     <MESSAGE value="Completed Video Tutorial 12" />
@@ -708,6 +705,7 @@
     <MESSAGE value="Completed Video Tutorial 30,&#10;Ready for testing the Fragments in the Meme Creator" />
     <MESSAGE value="The MemeCreator is tested and working good now." />
     <MESSAGE value="Master Detail Flow Example Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master Detail Flow Example Completed" />
+    <MESSAGE value="Fixed most of the warnings in Android Studio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed most of the warnings in Android Studio" />
   </component>
 </project>
