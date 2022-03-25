@@ -66,5 +66,6 @@
     <string name="funny_message">Holy carp, that was a long one!</string>
     <string name="success">Success</string>
     <string name="take_photo">Take Photo</string>
+    <string name="click_for_notification">Click for Notification</string>
 
 </resources>
