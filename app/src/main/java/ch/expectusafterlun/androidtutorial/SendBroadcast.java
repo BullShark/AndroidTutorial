@@ -1,12 +1,11 @@
 package ch.expectusafterlun.androidtutorial;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 
-public class SendBroadcast extends AppCompatActivity {
+public class SendBroadcast extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
