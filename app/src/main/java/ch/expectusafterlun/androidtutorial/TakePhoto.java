@@ -47,9 +47,12 @@ public class TakePhoto extends Activity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             // Get the photo
-            Bundle extras = data.getExtras();
-            Bitmap photo = (Bitmap) extras.get("data");
-            buckysImageView.setImageBitmap(photo);
+            Bundle extras = null;
+            if (data != null) {
+                extras = data.getExtras();
+                Bitmap photo = (Bitmap) extras.get("data");
+                buckysImageView.setImageBitmap(photo);
+            }
         }
     }
 }
