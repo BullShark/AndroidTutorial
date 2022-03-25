@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bucks_bg_color">#009900</color>
+    <style name="BuckysTheme" parent="android:Theme.Light">
+        <item name="android:windowBackground">@color/bucks_bg_color</item>
+    </style>
+</resources>
