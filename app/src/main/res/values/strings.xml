@@ -38,5 +38,8 @@
     <string name="bottom">Bottom</string>
     <string name="bottom_text">Bottom</string>
     <string name="top_text">Top</string>
+    <string name="title_activity_webpage_detail_host">WebpageDetailHostActivity</string>
+    <string name="title_webpage_list">Webpages</string>
+    <string name="title_webpage_detail">Webpage Detail</string>
 
 </resources>

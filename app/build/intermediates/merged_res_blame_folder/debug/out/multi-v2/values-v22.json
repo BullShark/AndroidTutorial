@@ -4,7 +4,7 @@
             "outputFile": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/home/bullshark/.gradle/caches/transforms-3/e9612e7e6087009ff0139f0ccf77b379/transformed/appcompat-1.3.1/res/values-v22/values-v22.xml",
+                    "source": "/home/bullshark/.gradle/caches/transforms-3/97cea251175288fc790696707f4805b2/transformed/appcompat-1.3.1/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

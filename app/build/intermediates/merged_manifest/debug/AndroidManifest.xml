@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ch.expectusafterlun.myapplication"
+    package="ch.expectusafterlun.androidtutorial"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="19"
         android:targetSdkVersion="31" />
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <!-- For Android S devices & GMA SDK version 20.3.0 or lower -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- For Android S devices & GMA SDK version 20.3.0 or lower -->
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     <uses-permission android:name="android.permission.REORDER_TASKS" />
 
@@ -35,22 +34,50 @@
         </intent>
     </queries>
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:name="androidx.multidex.MultiDexApplication"
-        android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:testOnly="true" >
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.WebpageDetailHostActivity"
+            android:exported="false"
+            android:label="@string/title_activity_webpage_detail_host"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.MemeCreator"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.Swiper"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.SmartButton"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.GridLayoutExample"
+            android:exported="false" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.Allison"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" /> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8995816283899055~8832282373" />
+            android:value="ca-app-pub-3940256099942544~3347511713" />
 
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.SignIn"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.WeatherXmlParsing"
             android:exported="false" />
@@ -68,8 +95,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.SQLView"
-            android:exported="false"
-            android:label="@string/app_name" >
+            android:exported="false" >
             <intent-filter>
                 <action android:name="android.intent.action.SQLVIEW" />
 
@@ -96,8 +122,7 @@
             android:exported="true" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Splash"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -106,8 +131,7 @@
         </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Menu"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.MENU" />
 
@@ -116,8 +140,7 @@
         </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Count"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.COUNT" />
 
@@ -126,8 +149,7 @@
         </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.TextPlay"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.TEXTPLAY" />
 
@@ -136,8 +158,7 @@
         </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Email"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.EMAIL" />
 
@@ -157,8 +178,7 @@
         </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Data"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.DATA" />
 
@@ -167,8 +187,7 @@
         </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Opens"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.OPENEDCLASS" />
 
@@ -177,8 +196,7 @@
         </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.AboutUs"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.ABOUT" />
 
@@ -187,8 +205,7 @@
         </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Prefs"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.PREFS" />
 
@@ -197,8 +214,7 @@
         </activity>
         <activity
             android:name="ch.expectusafterlun.androidtutorial.FullScreen"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="ch.expectusafterlun.androidtutorial.FULLSCREEN" />
 
@@ -280,29 +296,27 @@
         <activity
             android:name="ch.expectusafterlun.androidtutorial.GLExample"
             android:exported="true"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.GLCubeEx"
             android:exported="true"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.Voice"
             android:exported="true"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.TextVoice"
             android:exported="true"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.StatusBar"
             android:exported="true"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity android:name="ch.expectusafterlun.androidtutorial.SeekBarVolume" />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.ActivityState"
+            android:theme="@style/Theme.AppCompat.Light" />
         <activity
             android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
             android:exported="true"
@@ -326,7 +340,31 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
-        </activity> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="ch.expectusafterlun.androidtutorial.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
@@ -335,7 +373,7 @@
 
         <provider
             android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:authorities="ch.expectusafterlun.myapplication.mobileadsinitprovider"
+            android:authorities="ch.expectusafterlun.androidtutorial.mobileadsinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -344,10 +382,21 @@
             android:enabled="true"
             android:exported="false" />
 
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
             android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -355,7 +404,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="ch.expectusafterlun.myapplication.androidx-startup"
+            android:authorities="ch.expectusafterlun.androidtutorial.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.work.WorkManagerInitializer"

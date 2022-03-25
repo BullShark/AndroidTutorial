@@ -1,3 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+
+    <style name="Theme.AndroidTutorial" parent="Theme.MaterialComponents.Light" />
+
+    <style name="Theme.AndroidTutorial.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AndroidTutorial.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AndroidTutorial.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

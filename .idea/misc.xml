@@ -3,25 +3,46 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.21041666666666667" />
         <entry key="app/src/main/res/drawable-hdpi/custom.xml" value="0.21041666666666667" />
         <entry key="app/src/main/res/drawable/custom.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_webpage_detail.xml" value="0.25" />
         <entry key="app/src/main/res/layout/about.xml" value="0.10643115942028986" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/layout/activity_webpage_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/allison.xml" value="0.11775362318840579" />
+        <entry key="app/src/main/res/layout/bottom_picture_fragment.xml" value="0.22" />
         <entry key="app/src/main/res/layout/count.xml" value="0.16041666666666668" />
         <entry key="app/src/main/res/layout/externaldata.xml" value="0.17046605876393112" />
         <entry key="app/src/main/res/layout/flipper.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_webpage_detail.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/grid.xml" value="0.1262135922330097" />
         <entry key="app/src/main/res/layout/http_example.xml" value="0.1539855072463768" />
         <entry key="app/src/main/res/layout/internal_data.xml" value="0.17346014492753623" />
+        <entry key="app/src/main/res/layout/meme.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/random.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/receive.xml" value="0.1286727456940223" />
+        <entry key="app/src/main/res/layout/seekbarvolume.xml" value="0.13044579533941236" />
+        <entry key="app/src/main/res/layout/send.xml" value="0.1" />
         <entry key="app/src/main/res/layout/sharedpreferences.xml" value="0.17346014492753623" />
+        <entry key="app/src/main/res/layout/signin.xml" value="0.1" />
         <entry key="app/src/main/res/layout/simplebrowser.xml" value="0.1" />
         <entry key="app/src/main/res/layout/sliding.xml" value="0.14166666666666666" />
+        <entry key="app/src/main/res/layout/smart.xml" value="0.22" />
         <entry key="app/src/main/res/layout/splash.xml" value="0.10643115942028986" />
         <entry key="app/src/main/res/layout/sqliteexample.xml" value="0.25" />
         <entry key="app/src/main/res/layout/sqlview.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/statusbar.xml" value="0.13196555217831812" />
+        <entry key="app/src/main/res/layout/swiper.xml" value="0.21" />
         <entry key="app/src/main/res/layout/tabs.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/textvoice.xml" value="0.14181818181818182" />
+        <entry key="app/src/main/res/layout/top_section_fragment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/voice.xml" value="0.25" />
         <entry key="app/src/main/res/layout/weather.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/webpage_list_content.xml" value="0.2876068376068376" />
         <entry key="app/src/main/res/layout/widget.xml" value="0.1" />
         <entry key="app/src/main/res/layout/widgetconfig.xml" value="0.1" />
+        <entry key="app/src/main/res/xml/prefs.xml" value="0.1" />
         <entry key="app/src/main/res/xml/widget_stuff.xml" value="0.19479166666666667" />
       </map>
     </option>
