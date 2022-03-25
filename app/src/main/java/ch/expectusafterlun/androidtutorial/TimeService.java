@@ -8,11 +8,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class MyService2 extends Service {
+public class TimeService extends Service {
 
     private final IBinder binder = new MyLocalBinder();
 
-    public MyService2() {
+    public TimeService() {
     }
 
     @Override
@@ -26,8 +26,8 @@ public class MyService2 extends Service {
     }
 
     public class MyLocalBinder extends Binder {
-        MyService2 getService() {
-            return MyService2.this;
+        TimeService getService() {
+            return TimeService.this;
         }
     }
 }

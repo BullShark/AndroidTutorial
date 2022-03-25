@@ -6,21 +6,23 @@
     tools:context=".BoundService">
 
     <TextView
-        android:id="@+id/buckys_text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="145dp"
-        android:layout_marginBottom="498dp"
-        android:onClick="showTime"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:id="@+id/buckys_text3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
-        android:id="@+id/buckys_button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/what_s_the_time" />
+        android:text="@string/what_s_the_time"
+        android:id="@+id/buckys_button3"
+        android:onClick="showTime"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
 </RelativeLayout>
