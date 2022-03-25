@@ -21,6 +21,9 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
         <activity
+            android:name=".StyleExample"
+            android:exported="false" />
+        <activity
             android:name=".Notification"
             android:exported="false" />
         <activity
