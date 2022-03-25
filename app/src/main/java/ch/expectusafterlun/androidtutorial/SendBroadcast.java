@@ -14,7 +14,8 @@ public class SendBroadcast extends Activity {
     }
 
     public void sendOutBroadcast(View view) {
-        Intent i = new Intent();
+        Intent i = new Intent(this, ReceiveBroadcast.class);
+        //Intent i = new Intent();
         // We only want to listen for these intents/broadcast
         i.setAction("ch.expectusafterlun.androidtutorial");
         // Make this compatible with all versions of Android

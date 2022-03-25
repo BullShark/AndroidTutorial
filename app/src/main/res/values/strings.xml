@@ -51,5 +51,7 @@
     <string name="bacon_text">Bacon</string>
     <string name="bacon_button_text">Go to Apples</string>
     <string name="broadcast_button_text">Send Broadcast</string>
+    <string name="touch_me_baby">Touch Me Baby!</string>
+    <string name="nice_work">Nice Job Hoss!</string>
 
 </resources>
