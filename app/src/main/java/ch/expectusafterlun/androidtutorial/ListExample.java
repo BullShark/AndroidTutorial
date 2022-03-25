@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 public class ListExample extends Activity {
 
+
+    // new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, foods);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +20,7 @@ public class ListExample extends Activity {
 
         String[] foods = {"Bacon", "Ham", "Tuna", "Candy", "Meatball", "Potato"};
         ListAdapter adapter =
-                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, foods);
+                new CustomAdapter(this, foods);
         ListView listView = findViewById(R.id.chrisListView);
         listView.setAdapter(adapter);
 
