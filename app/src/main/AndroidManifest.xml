@@ -16,6 +16,11 @@
         android:name="androidx.multidex.MultiDexApplication"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
             android:name=".ThreadsExample"
             android:exported="false" />

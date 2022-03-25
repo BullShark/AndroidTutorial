@@ -16,7 +16,8 @@ public class Apples extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.apples);
-        Intent intent = new Intent(this, ChrisIntentService.class);
+        //Intent intent = new Intent(this, ChrisIntentService.class);
+        Intent intent = new Intent(this, MyService.class);
         startService(intent);
     }
 
