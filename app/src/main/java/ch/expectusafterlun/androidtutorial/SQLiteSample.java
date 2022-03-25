@@ -29,8 +29,16 @@ public class SQLiteSample extends Activity {
         et.setText("");
     }
 
+    // Add a product to the database
     public void addButtonClicked(View view) {
         dbHandler.addProduct(new Products(et.getText().toString()));
+        printDatabase();
+        et.setText("");
+    }
+
+    // Delete a product to the database
+    public void deleteButtonClicked(View view) {
+        dbHandler.deleteProduct(et.getText().toString());
         printDatabase();
         et.setText("");
     }
@@ -39,11 +47,5 @@ public class SQLiteSample extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         dbHandler.close();
-    }
-
-    public void deleteButtonClicked(View view) {
-        dbHandler.deleteProduct(et.getText().toString());
-        printDatabase();
-        et.setText("");
     }
 }
