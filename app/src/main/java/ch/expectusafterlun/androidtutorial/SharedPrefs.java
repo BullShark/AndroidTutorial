@@ -26,7 +26,7 @@ public class SharedPrefs extends Activity {
         Button save = (Button) findViewById(R.id.bSave);
         Button load = (Button) findViewById(R.id.bLoad);
         sharedData = (EditText) findViewById(R.id.etSharedPrefs);
-        dataResult = (TextView) findViewById(R.id.tvLoadSharedPreferences);
+        //dataResult = (TextView) findViewById(R.id.tvLoadSharedPreferences);
         save.setOnClickListener((View.OnClickListener) this);
         load.setOnClickListener((View.OnClickListener) this);
         prefs = getSharedPreferences(FILENAME, 0);
