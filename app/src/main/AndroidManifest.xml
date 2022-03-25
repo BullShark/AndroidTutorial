@@ -15,14 +15,18 @@
     <application
         android:name="androidx.multidex.MultiDexApplication"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        >
+        android:label="@string/app_name">
+        <activity
+            android:name=".ThreadsExample"
+            android:exported="false" />
+
         <receiver
             android:name=".ReceiveBroadcast"
             android:enabled="true"
-            android:exported="true">
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
             <intent-filter>
-                <action android:name="ch.expectusafterlun.androidtutorial"></action>
+                <action android:name="ch.expectusafterlun.androidtutorial.BROADCAST" />
             </intent-filter>
         </receiver>
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreadsExample">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/touch_me_baby"
+        android:id="@+id/buckys_button2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickBuckysButton"
+        />
+
+    <TextView
+        android:id="@+id/buckys_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:layout_above="@+id/buckys_button2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        />
+</RelativeLayout>
