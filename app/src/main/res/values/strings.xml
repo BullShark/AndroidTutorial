@@ -50,5 +50,6 @@
     <string name="go_to_bacon">Go to Bacon</string>
     <string name="bacon_text">Bacon</string>
     <string name="bacon_button_text">Go to Apples</string>
+    <string name="broadcast_button_text">Send Broadcast</string>
 
 </resources>
