@@ -24,19 +24,17 @@ class CustomAdapter extends ArrayAdapter<String> {
         // not to init it each time you display it when scrolling the list for example.
         if(convertView == null) {
             LayoutInflater inflater = LayoutInflater.from(getContext());
-            View customView = inflater.inflate(R.layout.custom_row, parent, false);
+            convertView = inflater.inflate(R.layout.custom_row, parent, false);
 
             String singleFoodItem = getItem(position);
-            TextView tv = customView.findViewById(R.id.bucksText);
-            ImageView iv = customView.findViewById(R.id.bucksImage);
+            TextView tv = convertView.findViewById(R.id.bucksText);
+            ImageView iv = convertView.findViewById(R.id.bucksImage);
 
             tv.setText(singleFoodItem);
             iv.setImageResource(R.drawable.jennifer_lopez);
 
-            return customView;
-        } else {
-            // [...] some changes that must be done at refresh
-            return convertView;
         }
+        // [...] some changes that must be done at refresh
+        return convertView;
     }
 }
