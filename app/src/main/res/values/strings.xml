@@ -53,5 +53,6 @@
     <string name="broadcast_button_text">Send Broadcast</string>
     <string name="touch_me_baby">Touch Me Baby!</string>
     <string name="nice_work">Nice Job Hoss!</string>
+    <string name="hello">Hello</string>
 
 </resources>
