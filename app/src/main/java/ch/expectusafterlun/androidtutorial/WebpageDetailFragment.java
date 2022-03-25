@@ -13,7 +13,6 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
-import ch.expectusafterlun.androidtutorial.databinding.FragmentWebpageDetailBinding;
 import ch.expectusafterlun.androidtutorial.placeholder.DummyContent;
 
 /**
@@ -30,9 +29,9 @@ public class WebpageDetailFragment extends Fragment {
      */
     public static final String ARG_ITEM_ID = "item_id";
 
-    /**
-     * The placeholder content this fragment is presenting.
-     */
+//    /**
+//     * The placeholder content this fragment is presenting.
+//     */
     //private PlaceholderContent.PlaceholderItem mItem;
 
     /**
@@ -52,7 +51,6 @@ public class WebpageDetailFragment extends Fragment {
         }
         return true;
     };
-    private FragmentWebpageDetailBinding binding;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -65,7 +63,7 @@ public class WebpageDetailFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (getArguments().containsKey(ARG_ITEM_ID)) {
+        if (getArguments() != null && getArguments().containsKey(ARG_ITEM_ID)) {
             // Load the placeholder content specified by the fragment
             // arguments. In a real-world scenario, use a Loader
             // to load content from a content provider.
@@ -89,7 +87,6 @@ public class WebpageDetailFragment extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        binding = null;
     }
 
     private void updateContent() {
