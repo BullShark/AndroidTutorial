@@ -44,5 +44,7 @@
     <string name="red_string">Red</string>
     <string name="green_string">Green</string>
     <string name="yellow_string">Yellow</string>
+    <string name="tranny_button_text">Button</string>
+    <string name="btn_text">Large Text</string>
 
 </resources>
