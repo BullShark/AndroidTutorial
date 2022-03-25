@@ -17,6 +17,12 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
         <activity
+            android:name=".Bacon"
+            android:exported="false" />
+        <activity
+            android:name=".Apples"
+            android:exported="false" />
+        <activity
             android:name=".Tranny"
             android:exported="false" />
         <activity
