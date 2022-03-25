@@ -20,20 +20,38 @@ public class PhotoFilter extends Activity {
     private Drawable gentoo;
     private Bitmap bitmapImage;
 
-    @SuppressLint("UseCompatLoadingForDrawables")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.photo_filter);
 
         iv = findViewById(R.id.imageView1);
-        gentoo = getResources().getDrawable(R.drawable.gentoobig);
+        gentoo = getApplicationContext().getDrawable(R.drawable.gentoobig);
         bitmapImage = ((BitmapDrawable) gentoo).getBitmap();
         Bitmap newPhoto = invertImage(bitmapImage);
         iv.setImageBitmap(newPhoto);
     }
 
-    private Bitmap invertImage(Bitmap bitmapImage) {
-        return null;
+    public static Bitmap invertImage(Bitmap original) {
+        Bitmap finalImage = Bitmap.createBitmap(original.getWidth(), original.getHeight(), original.getConfig());
+
+        int A, R, G, B;
+        int pixelColor;
+        int height = original.getHeight();
+        int width = original.getWidth();
+
+        // Loop through image pixerls rows and columns
+        for(int y = 0; y < height; y++) {
+            for(int x = 0; x < width; x++) {
+                pixelColor = original.getPixel(x, y);
+                A = Color.alpha(pixelColor);
+                R = 255 - Color.red(pixelColor);
+                G = 255 - Color.green(pixelColor);
+                B = 255 - Color.blue(pixelColor);
+                finalImage.setPixel(x, y, Color.argb(A, R, G, B));
+            }
+        }
+
+        return finalImage;
     }
 }
