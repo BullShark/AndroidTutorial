@@ -12,7 +12,7 @@ import java.util.Random;
 public class TextVoice extends Activity implements View.OnClickListener {
 
     private static final String[] texts = {
-        "Whaaat's up Gangstas!", "You smell!", "Supersize it!"
+        "What's up Gangstas!", "You smell!", "Supersize it!"
     };
     private TextToSpeech tts;
 
