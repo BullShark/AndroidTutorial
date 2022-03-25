@@ -2912,6 +2912,7 @@ id linear_layout1
 id listMode
 id list_item
 id lv_voice_return
+id main_view
 id masked
 id match_constraint
 id match_parent
@@ -2934,6 +2935,9 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id menu_green
+id menu_red
+id menu_yellow
 id message
 id mi_about_us
 id mi_exit
@@ -3130,6 +3134,7 @@ id textStart
 id textTop
 id textView
 id textView1
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3377,6 +3382,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout overflow
 layout photo
 layout receive
 layout seekbarvolume
@@ -3421,6 +3427,7 @@ layout webpage_list_content
 layout widget
 layout widgetconfig
 menu cool_menu
+menu menu_overflow
 navigation primary_details_nav_graph
 navigation primary_details_sub_nav_graph
 plurals mtrl_badge_content_description
@@ -3509,6 +3516,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string green_string
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -3613,6 +3621,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string red_string
 string right
 string s1
 string s2
@@ -3636,6 +3645,7 @@ string top_text
 string total_display
 string tv_bucky_text
 string tv_results_text
+string yellow_string
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

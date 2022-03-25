@@ -41,5 +41,8 @@
     <string name="title_activity_webpage_detail_host">WebpageDetailHostActivity</string>
     <string name="title_webpage_list">Webpages</string>
     <string name="title_webpage_detail">Webpage Detail</string>
+    <string name="red_string">Red</string>
+    <string name="green_string">Green</string>
+    <string name="yellow_string">Yellow</string>
 
 </resources>

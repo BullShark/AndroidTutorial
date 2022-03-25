@@ -20,6 +20,7 @@
         <entry key="app/src/main/res/layout/http_example.xml" value="0.1539855072463768" />
         <entry key="app/src/main/res/layout/internal_data.xml" value="0.17346014492753623" />
         <entry key="app/src/main/res/layout/meme.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/overflow.xml" value="0.25" />
         <entry key="app/src/main/res/layout/random.xml" value="0.25" />
         <entry key="app/src/main/res/layout/receive.xml" value="0.1286727456940223" />
         <entry key="app/src/main/res/layout/seekbarvolume.xml" value="0.13044579533941236" />
@@ -42,6 +43,7 @@
         <entry key="app/src/main/res/layout/webpage_list_content.xml" value="0.2876068376068376" />
         <entry key="app/src/main/res/layout/widget.xml" value="0.1" />
         <entry key="app/src/main/res/layout/widgetconfig.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/cool_menu.xml" value="0.1" />
         <entry key="app/src/main/res/xml/prefs.xml" value="0.1" />
         <entry key="app/src/main/res/xml/widget_stuff.xml" value="0.19479166666666667" />
       </map>

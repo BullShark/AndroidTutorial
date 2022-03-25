@@ -28,6 +28,10 @@
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/drawable/standard.png"
     },
     {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/menu_menu_overflow.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/menu/menu_overflow.xml"
+    },
+    {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_simplebrowser.xml.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/simplebrowser.xml"
     },
@@ -190,6 +194,10 @@
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_sliding.xml.flat",
         "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/sliding.xml"
+    },
+    {
+        "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/layout_overflow.xml.flat",
+        "source": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/src/main/res/layout/overflow.xml"
     },
     {
         "merged": "/home/bullshark/AndroidStudioProjects/AndroidTutorial/app/build/intermediates/merged_res/debug/drawable-hdpi_greenball.png.flat",

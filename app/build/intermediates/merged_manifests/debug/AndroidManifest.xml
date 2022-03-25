@@ -45,6 +45,11 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:testOnly="true" >
+        />
+        <activity
+            android:name="ch.expectusafterlun.androidtutorial.Overflow"
+            android:exported="false"
+            android:uiOptions="splitActionBarWhenNarrow" />
         <activity
             android:name="ch.expectusafterlun.androidtutorial.WebpageDetailHostActivity"
             android:exported="false"

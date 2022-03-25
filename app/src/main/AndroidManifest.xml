@@ -16,13 +16,18 @@
         android:name="androidx.multidex.MultiDexApplication"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
+
+        <activity
+            android:name=".Overflow"
+            android:exported="false"
+            android:uiOptions="splitActionBarWhenNarrow" />
         <activity
             android:name=".WebpageDetailHostActivity"
             android:exported="false"
             android:label="@string/title_activity_webpage_detail_host"
             android:resizeableActivity="true"
-            tools:targetApi="24"
-            android:theme="@style/Theme.AppCompat.Light" />
+            android:theme="@style/Theme.AppCompat.Light"
+            tools:targetApi="24" />
         <activity
             android:name=".MemeCreator"
             android:exported="false"
