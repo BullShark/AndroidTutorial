@@ -46,6 +46,6 @@ public class ShareBear extends Activity {
         String name = sharedPref.getString("username", "");
         String password = sharedPref.getString("password", "");
 
-        buckysText.setText(name + ", " + password);
+        buckysText.setText(name + " " + password);
     }
 }
