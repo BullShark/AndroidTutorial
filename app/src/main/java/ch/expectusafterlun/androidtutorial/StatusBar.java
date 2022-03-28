@@ -48,7 +48,7 @@ public class StatusBar extends Activity implements View.OnClickListener {
         builder.setContentTitle(title);
         builder.setContentText(body);
         builder.setSmallIcon(R.drawable.gentoo);
-        builder.setLargeIcon(BitmapFactory.decodeResource(res, R.drawable.gentoobig));
+        builder.setLargeIcon(BitmapFactory.decodeResource(res, R.drawable.gentoo));
         builder.setWhen(System.currentTimeMillis());
         builder.setContentIntent(pi);
         builder.setOngoing(true);

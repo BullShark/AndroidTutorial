@@ -27,7 +27,7 @@ public class PhotoFilter extends Activity {
 
         iv = findViewById(R.id.imageView1);
 
-        gentoo = getApplicationContext().getDrawable(R.drawable.gentoobig);
+        gentoo = getApplicationContext().getDrawable(R.drawable.gentoo);
         bitmapImage = ((BitmapDrawable) gentoo).getBitmap();
         Bitmap newPhoto = invertImage(bitmapImage);
         iv.setImageBitmap(newPhoto);
