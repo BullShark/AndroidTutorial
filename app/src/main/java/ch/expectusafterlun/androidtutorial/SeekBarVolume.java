@@ -12,6 +12,7 @@ public class SeekBarVolume extends Activity implements SeekBar.OnSeekBarChangeLi
     private MediaPlayer mp;
     private AudioManager am;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.seekbarvolume);

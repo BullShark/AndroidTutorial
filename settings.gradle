@@ -1,10 +1,19 @@
+rootProject.name = "AndroidTutorial"
+include ':app'
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
+        gradlePluginPortal()
+//        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://dl.google.com/dl/android/maven2" }
+//        jcenter()
+        mavenLocal()
+        ivy { url = uri("https://github.com/ivy-rep/") }
+        flatDir {
+            dirs "libs"
+        }
     }
 }
-rootProject.name = "AndroidTutorial"
-include ':app'

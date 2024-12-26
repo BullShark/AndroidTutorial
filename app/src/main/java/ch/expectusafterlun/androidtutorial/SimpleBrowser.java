@@ -2,6 +2,7 @@ package ch.expectusafterlun.androidtutorial;
 
 import android.app.Activity;
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -22,7 +23,9 @@ public class SimpleBrowser extends Activity implements View.OnClickListener {
         browser = (WebView) findViewById(R.id.wv_browser);
         browser.getSettings().setJavaScriptEnabled(true);
         /* Load the page in overview (Zoomed out) mode */
-        browser.getSettings().setLoadWithOverviewMode(true);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ECLAIR_MR1) {
+            browser.getSettings().setLoadWithOverviewMode(true);
+        }
         /* Do not be confined to the browser's dimensions */
         browser.getSettings().setUseWideViewPort(true);
         browser.setWebViewClient(new ViewClient());
@@ -55,8 +58,13 @@ public class SimpleBrowser extends Activity implements View.OnClickListener {
                 String website = url.getText().toString();
                 browser.loadUrl(website);
                 /* Hide keyboard after using EditText */
-                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                imm.hideSoftInputFromWindow(url.getWindowToken(), 0);
+                InputMethodManager imm = null;
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.CUPCAKE) {
+                    imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                }
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.CUPCAKE) {
+                    imm.hideSoftInputFromWindow(url.getWindowToken(), 0);
+                }
                 break;
             case R.id.b_back:
                 if(browser.canGoBack()) {

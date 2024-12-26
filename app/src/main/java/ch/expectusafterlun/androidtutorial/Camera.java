@@ -33,7 +33,7 @@ public class Camera extends Activity implements View.OnClickListener {
 		 * In case the user hits the set wallpaper button
 		 * Before taking a picture with the camera
 		 */
-		InputStream is = getResources().openRawResource(R.drawable.ic_launcher);
+		InputStream is = getResources().openRawResource(R.drawable.ic_launcher2);
 		bm = BitmapFactory.decodeStream(is);
 	}
 
