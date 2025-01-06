@@ -33,7 +33,7 @@ public class Camera extends Activity implements View.OnClickListener {
 		 * In case the user hits the set wallpaper button
 		 * Before taking a picture with the camera
 		 */
-		InputStream is = getResources().openRawResource(R.drawable.ic_launcher2);
+		InputStream is = getResources().openRawResource(R.raw.ic_launcher);
 		bm = BitmapFactory.decodeStream(is);
 	}
 
@@ -69,8 +69,10 @@ public class Camera extends Activity implements View.OnClickListener {
 		super.onActivityResult(requestCode, resultCode, data);
 		if (resultCode == RESULT_OK) {
 			Bundle extras = data.getExtras();
-			bm = (Bitmap) extras.get("data");
-			iv.setImageBitmap(bm);
+            if (extras != null) {
+                bm = (Bitmap) extras.get("data");
+            }
+            iv.setImageBitmap(bm);
 		}
 	}
 }

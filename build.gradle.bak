@@ -1,0 +1,44 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.google.gms.google-services'
+
+buildscript {
+    ext {
+        GRADLE_USER_HOME = '/home/bullshark/.sdkman/candidates/gradle/8.12'
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.7.3'
+        classpath 'com.google.gms:google-services:4.4.2' // google-services plugin
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+//        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://dl.google.com/dl/android/maven2" }
+        google()
+//        jcenter()
+        mavenLocal()
+        ivy { url = uri("https://github.com/ivy-rep/") }
+        flatDir {
+            dirs "libs"
+        }
+    }
+}
+
+ext {
+    GRADLE_USER_HOME = '/home/bullshark/.sdkman/candidates/gradle/8.12'
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}
+
+tasks.register('printEnvVariables') {
+    doLast {
+        println "JAVA_HOME: ${System.getenv('JAVA_HOME')}"
+        println "GRADLE_USER_HOME: ${System.getenv('GRADLE_USER_HOME')}"
+    }
+}

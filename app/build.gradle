@@ -18,11 +18,13 @@ android {
         applicationId "ch.expectusafterlun.androidtutorial"
         minSdk 21
         targetSdk 35
-        versionCode 1
-        versionName 'DingDong'
+        versionCode 2
+        versionName 'WanTanSoup'
         multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.debug
+        applicationIdSuffix 'gravy'
         proguardFiles
     }
 
@@ -43,7 +45,7 @@ android {
         viewBinding true
     }
     namespace 'ch.expectusafterlun.androidtutorial'
-    buildToolsVersion '36.0.0 rc3'
+    buildToolsVersion '35.0.0'
 }
 
 dependencies {
@@ -55,7 +57,6 @@ dependencies {
     implementation 'androidx.test:core:1.6.1'
     implementation 'androidx.test:runner:1.6.2'
     implementation 'com.google.android.gms:play-services-ads:23.6.0'
-    //implementation 'com.google.android.gms:play-services:12.0.1'
     // Import the BoM for the Firebase platform
     implementation platform('com.google.firebase:firebase-bom:33.7.0')
     implementation 'com.google.firebase:firebase-ads:23.6.0'
