@@ -1,11 +1,11 @@
 plugins {
     id 'com.android.application'
-    id 'com.google.gms.google-services'
+//    id 'com.google.gms.google-services'
 //    id 'org.jetbrains.kotlin.android'
 }
 
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'
 
 ext {
     GRADLE_USER_HOME = '/home/bullshark/.sdkman/candidates/gradle/8.12'
@@ -24,7 +24,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.debug
-        applicationIdSuffix 'gravy'
+        applicationIdSuffix
         proguardFiles
     }
 
@@ -69,6 +69,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.8.5'
     implementation 'androidx.navigation:navigation-ui:2.8.5'
     implementation 'androidx.fragment:fragment:1.8.5'
+    implementation 'androidx.core:core:1.13.1'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'

@@ -1,16 +1,11 @@
 package ch.expectusafterlun.androidtutorial;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
-import android.content.Context;
-import android.content.ContextWrapper;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.graphics.drawable.LayerDrawable;
-import android.os.Environment;
 import android.provider.MediaStore;
 import android.widget.ImageView;
 
@@ -32,15 +27,6 @@ public class PhotoFilter extends Activity {
         Bitmap newPhoto = invertImage(bitmapImage);
         iv.setImageBitmap(newPhoto);
 
-        // Not working =(
-        /*
-        Drawable[] layers = new Drawable[2];
-        layers[0] = getApplicationContext().getDrawable(R.drawable.overlay);
-        layers[1] = getApplicationContext().getDrawable(R.drawable.gentoobig);
-        LayerDrawable layerDrawable = new LayerDrawable(layers);
-        iv.setImageDrawable(layerDrawable);
-         */
-
         // Save an image on the device to the gallery
         MediaStore.Images.Media.insertImage(getContentResolver(), newPhoto, "Missing my dog", "Looking good");
     }
@@ -53,7 +39,7 @@ public class PhotoFilter extends Activity {
         int height = original.getHeight();
         int width = original.getWidth();
 
-        // Loop through image pixerls rows and columns
+        // Loop through image pixels rows and columns
         for(int y = 0; y < height; y++) {
             for(int x = 0; x < width; x++) {
                 pixelColor = original.getPixel(x, y);
